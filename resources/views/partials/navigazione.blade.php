@@ -1,4 +1,4 @@
-<div class="mkdf-top-bar" style="background-color: #409cd2">
+{{--<div class="mkdf-top-bar" style="background-color: #409cd2">
 
 
     <div class="mkdf-vertical-align-containers">
@@ -39,37 +39,37 @@
                             class="mkdf-vsw-height-holder"></span><span class="mkdf-vsw"
                                                                         style="vertical-align:middle;height:100%;border-left-style:solid;border-color:#ffffff;margin-left:30px"></span>
                 </div>
-                {{--<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
+                --}}{{--<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
                    style="color: #ffffff;;font-size: 18px;margin: 0px 0px 0px 30px;"
                    href="https://www.instagram.com/" target="_blank">
                     <span class="mkdf-social-icon-widget   ion-social-instagram   "></span> </a>
                 <div class="widget mkdf-vertical-separator-widget mkdf-vertical-separator-full-height"><span
                             class="mkdf-vsw-height-holder"></span><span class="mkdf-vsw"
                                                                         style="vertical-align:middle;height:100%;border-left-style:solid;margin-left:30px"></span>
-                </div>--}}
-                {{--<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
+                </div>--}}{{--
+                --}}{{--<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
                    style="color: #ffffff;;font-size: 18px;margin: 0px 0px 0px 30px;"
                    href="https://www.linkedin.com/" target="_blank">
                     <span class="mkdf-social-icon-widget   ion-social-linkedin   "></span> </a>
                 <div class="widget mkdf-vertical-separator-widget mkdf-vertical-separator-full-height"><span
                             class="mkdf-vsw-height-holder"></span><span class="mkdf-vsw"
                                                                         style="vertical-align:middle;height:100%;border-left-style:solid;margin-left:30px"></span>
-                </div>--}}
-                {{--<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
+                </div>--}}{{--
+                --}}{{--<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
                    style="color: #ffffff;;font-size: 18px;margin: 0px 0px 0px 30px;"
                    href="https://www.pinterest.com/" target="_blank">
-                    <span class="mkdf-social-icon-widget   ion-social-pinterest   "></span> </a>--}}
+                    <span class="mkdf-social-icon-widget   ion-social-pinterest   "></span> </a>--}}{{--
             </div>
         </div>
     </div>
 
 
-</div>
+</div>--}}
 
-<header class="mkdf-page-header">
+<header class="mkdf-page-header" >
 
 
-    <div class="mkdf-menu-area mkdf-menu-left">
+    <div class="mkdf-menu-area mkdf-menu-left" style="height: 120px!important;">
 
 
         <div class="mkdf-vertical-align-containers">
@@ -78,16 +78,13 @@
                 <div class="mkdf-position-left-inner">
 
 
-                    <div class="mkdf-logo-wrapper">
-                        <a itemprop="url" href="{{route('index')}}" style="height: 33px;">
-                            <img itemprop="image" class="mkdf-normal-logo"
-                                 src="{{asset('img/icona.png')}}"
+                    <div class="mkdf-logo-wrapper" style="margin-top: -20px!important;">
+                        <a class=""
+                           href="{{route('index')}}">
+                            <img style="width: 300px;"
+                                 src="{{asset('img/logo.png')}}"
                                  alt="logo"/>
-                            <img itemprop="image" class="mkdf-dark-logo"
-                                 src="{{asset('img/icona.png')}}"
-                                 alt="dark logo"/> <img itemprop="image" class="mkdf-light-logo"
-                                                        src="{{asset('img/icona.png')}}"
-                                                        alt="light logo"/> </a>
+                        </a>
                     </div>
 
 
@@ -95,7 +92,7 @@
                         <ul id="menu-main-menu-navigation" class="clearfix">
                             <li id="nav-menu-item-58"
                                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkdf-active-item has_sub wide mkdf-wide-menu-centered">
-                                <a href="{{route('index')}}" class=" current "><span class="item_outer"><span class="item_text">Home</span><i
+                                <a href="{{route('index')}}" class=" current "><span class="item_outer"><span class="item_text" style="font-size: 24px!important;">Home</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                 {{--                                        <div class="second">
                                                                             <div class="inner">
@@ -160,7 +157,7 @@
                             <li id="nav-menu-item-59"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                 <a href="{{route('chisiamo')}}" class=""><span class="item_outer"><span
-                                                class="item_text">Chi siamo</span><i
+                                                class="item_text" style="font-size: 24px!important;">Chi siamo</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                 {{--<div class="second">
                                     <div class="inner">
@@ -207,25 +204,35 @@
                             <li id="nav-menu-item-61"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                 <a href="#" class=""><span class="item_outer"><span
-                                                class="item_text">Formazione</span><i
+                                                class="item_text" style="font-size: 24px!important;">Servizi</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                 <div class="second">
                                     <div class="inner">
                                         <ul>
                                             <li id="nav-menu-item-1420"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="http://anwalt.mikado-themes.com/portfolio-standard/"
-                                                   class=""><span class="item_outer"><span class="item_text">Formazione1</span></span></a>
+                                                <a href="{{route('privacy')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Privacy</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1451"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="http://anwalt.mikado-themes.com/portfolio-gallery/"
-                                                   class=""><span class="item_outer"><span class="item_text">Formazione2</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text">Formazione</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="http://anwalt.mikado-themes.com/portfolio-masonry/"
-                                                   class=""><span class="item_outer"><span class="item_text">Formazione3</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text">Termporary Office</span></span></a>
+                                            </li>
+                                            <li id="nav-menu-item-1450"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="http://anwalt.mikado-themes.com/portfolio-masonry/"
+                                                   class=""><span class="item_outer"><span class="item_text">Siti Web</span></span></a>
+                                            </li>
+                                            <li id="nav-menu-item-1450"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="http://anwalt.mikado-themes.com/portfolio-masonry/"
+                                                   class=""><span class="item_outer"><span class="item_text">Escapologia Fiscale</span></span></a>
                                             </li>
                                             {{--<li id="nav-menu-item-1331"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
@@ -320,25 +327,40 @@
                             <li id="nav-menu-item-60"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                 <a href="#" class=""><span class="item_outer"><span
-                                                class="item_text">Servizi</span><i
+                                                class="item_text" style="font-size: 24px!important;">Pacchetti</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                 <div class="second">
                                     <div class="inner">
                                         <ul>
                                             <li id="nav-menu-item-1010"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="http://anwalt.mikado-themes.com/blog/standard-right-sidebar/"
-                                                   class=""><span class="item_outer"><span class="item_text">Servizio1</span></span></a>
+                                                <a href="{{route('soluzione1')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Soluzione1</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1129"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="http://anwalt.mikado-themes.com/blog/standard-left-sidebar/"
-                                                   class=""><span class="item_outer"><span class="item_text">Servizio2</span></span></a>
+                                                <a href="{{route('soluzione2')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Soluzione2</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1128"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="http://anwalt.mikado-themes.com/blog/without-sidebar/"
-                                                   class=""><span class="item_outer"><span class="item_text">Servizio3</span></span></a>
+                                                <a href="{{route('soluzione3')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Soluzione3</span></span></a>
+                                            </li>
+                                            <li id="nav-menu-item-1128"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{route('soluzione4')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Soluzione4</span></span></a>
+                                            </li>
+                                            <li id="nav-menu-item-1128"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{route('soluzione5')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Soluzione5</span></span></a>
+                                            </li>
+                                            <li id="nav-menu-item-1128"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{route('opzione')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Opzione</span></span></a>
                                             </li>
                                             {{--<li id="nav-menu-item-1011"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
@@ -462,7 +484,7 @@
                             <li id="nav-menu-item-63"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-centered">
                                 <a href="{{route('contatti')}}" class=""><span class="item_outer"><span
-                                                class="item_text">Contatti</span><i
+                                                class="item_text" style="font-size: 24px!important;">Contatti</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                 {{--                                        <div class="second">
                                                                             <div class="inner">
@@ -683,12 +705,19 @@
                 <span class="mkdf-icon-linear-icons lnr lnr-magnifier" style="display: none"></span>	                        </span>
                     </a>
 
-                    <a class=""
-                       href="{{route('index')}}">
-                        <img style="width: 200px;"
-                             src="{{asset('img/logo.png')}}"
-                             alt="logo"/>
-                    </a>
+
+
+                    {{--<div class="mkdf-logo-wrapper">
+                        <a itemprop="url" href="{{route('index')}}" style="height: 33px;">
+                            <img itemprop="image" class="mkdf-normal-logo"
+                                 src="{{asset('img/icona.png')}}"
+                                 alt="logo"/>
+                            <img itemprop="image" class="mkdf-dark-logo"
+                                 src="{{asset('img/icona.png')}}"
+                                 alt="dark logo"/> <img itemprop="image" class="mkdf-light-logo"
+                                                        src="{{asset('img/icona.png')}}"
+                                                        alt="light logo"/> </a>
+                    </div>--}}
                 </div>
             </div>
         </div>
@@ -705,15 +734,12 @@
 
 
                         <div class="mkdf-logo-wrapper">
-                            <a itemprop="url" href="{{route('index')}}" style="height: 33px;">
-                                <img itemprop="image" class="mkdf-normal-logo"
-                                     src="{{asset('img/icona.png')}}"
+                            <a class=""
+                               href="{{route('index')}}">
+                                <img style="width: 200px;"
+                                     src="{{asset('img/logo.png')}}"
                                      alt="logo"/>
-                                <img itemprop="image" class="mkdf-dark-logo"
-                                     src="{{asset('img/icona.png')}}"
-                                     alt="dark logo"/> <img itemprop="image" class="mkdf-light-logo"
-                                                            src="{{asset('img/icona.png')}}"
-                                                            alt="light logo"/> </a>
+                            </a>
                         </div>
 
 
@@ -843,7 +869,7 @@
                                 </li>
                                 <li id="sticky-nav-menu-item-61"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-                                    <a href="#" class=""><span class="item_outer"><span class="item_text">Formazione</span><span
+                                    <a href="#" class=""><span class="item_outer"><span class="item_text">Servizi</span><span
                                                     class="plus"></span><i
                                                     class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                     <div class="second">
@@ -851,21 +877,33 @@
                                             <ul>
                                                 <li id="sticky-nav-menu-item-1420"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="http://anwalt.mikado-themes.com/portfolio-standard/"
+                                                    <a href="{{route('privacy')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Formazione1</span><span
+                                                                    class="item_text">Privacy</span><span
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1451"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="http://anwalt.mikado-themes.com/portfolio-gallery/"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Formazione2</span><span
+                                                                    class="item_text">Formazione</span><span
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="http://anwalt.mikado-themes.com/portfolio-masonry/"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Formazione3</span><span
+                                                                    class="item_text">Temporary Office</span><span
+                                                                    class="plus"></span></span></a></li>
+                                                <li id="sticky-nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="http://anwalt.mikado-themes.com/portfolio-masonry/"
+                                                       class=""><span class="item_outer"><span
+                                                                    class="item_text">Siti Web</span><span
+                                                                    class="plus"></span></span></a></li>
+                                                <li id="sticky-nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="http://anwalt.mikado-themes.com/portfolio-masonry/"
+                                                       class=""><span class="item_outer"><span
+                                                                    class="item_text">Escapologia Fiscale</span><span
                                                                     class="plus"></span></span></a></li>
                                                 {{--<li id="sticky-nav-menu-item-1331"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
@@ -962,28 +1000,46 @@
                                 <li id="sticky-nav-menu-item-60"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                     <a href="#" class=""><span class="item_outer"><span
-                                                    class="item_text">Servizi</span><span class="plus"></span><i
+                                                    class="item_text">Pacchetti</span><span class="plus"></span><i
                                                     class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                     <div class="second">
                                         <div class="inner">
                                             <ul>
                                                 <li id="sticky-nav-menu-item-1010"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="http://anwalt.mikado-themes.com/blog/standard-right-sidebar/"
+                                                    <a href="{{route('soluzione1')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Servizio1</span><span
+                                                                    class="item_text">Soluzione1</span><span
                                                                     class="plus"></span></span></a></li>
-                                                <li id="sticky-nav-menu-item-1129"
+                                                <li id="sticky-nav-menu-item-1010"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="http://anwalt.mikado-themes.com/blog/standard-left-sidebar/"
+                                                    <a href="{{route('soluzione2')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Servizio2</span><span
+                                                                    class="item_text">Soluzione2</span><span
                                                                     class="plus"></span></span></a></li>
-                                                <li id="sticky-nav-menu-item-1128"
+                                                <li id="sticky-nav-menu-item-1010"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="http://anwalt.mikado-themes.com/blog/without-sidebar/"
+                                                    <a href="{{route('soluzione3')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Servizio3</span><span
+                                                                    class="item_text">Soluzione3</span><span
+                                                                    class="plus"></span></span></a></li>
+                                                <li id="sticky-nav-menu-item-1010"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="{{route('soluzione4')}}"
+                                                       class=""><span class="item_outer"><span
+                                                                    class="item_text">Soluzione4</span><span
+                                                                    class="plus"></span></span></a></li>
+                                                <li id="sticky-nav-menu-item-1010"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="{{route('soluzione5')}}"
+                                                       class=""><span class="item_outer"><span
+                                                                    class="item_text">Soluzione5</span><span
+                                                                    class="plus"></span></span></a></li>
+                                                <li id="sticky-nav-menu-item-1010"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="{{route('opzione')}}"
+                                                       class=""><span class="item_outer"><span
+                                                                    class="item_text">Opzione</span><span
                                                                     class="plus"></span></span></a></li>
                                                 {{--<li id="sticky-nav-menu-item-1011"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
@@ -1341,12 +1397,19 @@
                 <span class="mkdf-icon-linear-icons lnr lnr-magnifier " style="display: none"></span>	                        </span>
                         </a>
 
-                        <a class=""
-                           href="{{route('index')}}">
-                            <img style="width: 200px;"
-                                 src="{{asset('img/logo.png')}}"
-                                 alt="logo"/>
-                        </a>
+
+
+                        <div class="mkdf-logo-wrapper">
+                            <a itemprop="url" href="{{route('index')}}" style="height: 33px;">
+                                <img itemprop="image" class="mkdf-normal-logo"
+                                     src="{{asset('img/icona.png')}}"
+                                     alt="logo"/>
+                                <img itemprop="image" class="mkdf-dark-logo"
+                                     src="{{asset('img/icona.png')}}"
+                                     alt="dark logo"/> <img itemprop="image" class="mkdf-light-logo"
+                                                            src="{{asset('img/icona.png')}}"
+                                                            alt="light logo"/> </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1468,22 +1531,30 @@
                     </li>
                     <li id="mobile-menu-item-3103"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                        <a href="#" class=" mkdf-mobile-no-link"><span>Formazione</span></a><span
+                        <a href="#" class=" mkdf-mobile-no-link"><span>Servizi</span></a><span
                                 class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i
                                     class="fa fa-angle-down"></i></span>
                         <ul class="sub_menu">
                             <li id="mobile-menu-item-3104"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/portfolio-standard/"
-                                        class=""><span>Formazione1</span></a></li>
+                                        href="{{route('privacy')}}"
+                                        class=""><span>Privacy</span></a></li>
                             <li id="mobile-menu-item-3105"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="http://anwalt.mikado-themes.com/portfolio-gallery/"
-                                        class=""><span>Formazione2</span></a></li>
+                                        class=""><span>Formazione</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="http://anwalt.mikado-themes.com/portfolio-masonry/"
-                                        class=""><span>Formazione3</span></a></li>
+                                        class=""><span>Temporary Office</span></a></li>
+                            <li id="mobile-menu-item-3106"
+                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                        href="http://anwalt.mikado-themes.com/portfolio-masonry/"
+                                        class=""><span>Siti Web</span></a></li>
+                            <li id="mobile-menu-item-3106"
+                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                        href="http://anwalt.mikado-themes.com/portfolio-masonry/"
+                                        class=""><span>Escapologia Fiscale</span></a></li>
                             {{--<li id="mobile-menu-item-3107"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
                                 <a href="#" class=" mkdf-mobile-no-link"><span>Layouts</span></a><span
@@ -1552,22 +1623,34 @@
                     </li>
                     <li id="mobile-menu-item-3121"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                        <a href="#" class=" mkdf-mobile-no-link"><span>Servizi</span></a><span
+                        <a href="#" class=" mkdf-mobile-no-link"><span>Pacchetti</span></a><span
                                 class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i
                                     class="fa fa-angle-down"></i></span>
                         <ul class="sub_menu">
                             <li id="mobile-menu-item-3122"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/blog/standard-right-sidebar/"
-                                        class=""><span>Servizio1</span></a></li>
+                                        href="{{route('soluzione1')}}"
+                                        class=""><span>Soluzione1</span></a></li>
                             <li id="mobile-menu-item-3123"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/blog/standard-left-sidebar/"
-                                        class=""><span>Servizio2</span></a></li>
+                                        href="{{route('soluzione2')}}"
+                                        class=""><span>Soluzione2</span></a></li>
                             <li id="mobile-menu-item-3124"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/blog/without-sidebar/"
-                                        class=""><span>Servizio3</span></a></li>
+                                        href="{{route('soluzione3')}}"
+                                        class=""><span>Soluzione3</span></a></li>
+                            <li id="mobile-menu-item-3124"
+                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                        href="{{route('soluzione4')}}"
+                                        class=""><span>Soluzione4</span></a></li>
+                            <li id="mobile-menu-item-3124"
+                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                        href="{{route('soluzione5')}}"
+                                        class=""><span>Soluzione5</span></a></li>
+                            <li id="mobile-menu-item-3124"
+                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                        href="{{route('opzione')}}"
+                                        class=""><span>Opzione</span></a></li>
                             {{--<li id="mobile-menu-item-3125"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
                                 <a href="#" class=" mkdf-mobile-no-link"><span>Post Types</span></a><span

@@ -4,7 +4,7 @@
             <div class="mkdf-grid-row mkdf-footer-top-alignment-left">
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div id="media_image-4" class="widget mkdf-footer-column-1 widget_media_image"><img
-                                width="141" height="29"
+                                width="371" height="29"
                                 src="{{asset('img/logo.png')}}"
                                 class="image wp-image-3317  attachment-full size-full" alt="i"
                                 style="max-width: 100%; height: auto;"/></div>
@@ -14,7 +14,7 @@
                             <div class="mkdf-separator" style="border-style: solid"></div>
                         </div>
                     </div>
-                    <div id="text-4" class="widget mkdf-footer-column-1 widget_text">
+                    {{--<div id="text-4" class="widget mkdf-footer-column-1 widget_text">
                         <div class="textwidget">
                             <div class="mkdf-footer-text-first">
                                 Lorem Ipsn gravida aliquet. Aenean solici, lorem quis biben auci elit ipsu sem
@@ -22,7 +22,7 @@
                                 ultrices. Aenean solici, lorem quis biben auci.
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                     <div class="widget mkdf-separator-widget">
                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal"
                              style="margin-bottom: -7px">
@@ -38,7 +38,7 @@
                                             <div class="mkdf-iwt clearfix  mkdf-iwt-icon-left-from-title mkdf-iwt-icon-medium ">
                                                 <div class="mkdf-iwt-content">
                                                     <div class="mkdf-iwt-title" style="color: #eae6e4">
-                                                        <a itemprop="url" href="tel:167712444227"
+                                                        <a itemprop="url" href="tel:+390575353609"
                                                            target="_self">
 									<span class="mkdf-iwt-icon">
 						    <span class="mkdf-icon-shortcode mkdf-normal    mkdf-icon-medium" data-hover-color="#6c5835"
@@ -46,7 +46,17 @@
         <span class="mkdf-icon-bckg-holder"></span>
                     <i class="fas fa-phone" style="color: #0077c0; font-size: 26px; margin-bottom: 12px"></i>                    </span>
 					</span>
-                                                            <p class="mkdf-iwt-title-text">1-677-124-44227</p>
+                                                            <p class="mkdf-iwt-title-text">+39 0575 353609</p>
+                                                        </a>
+                                                        <a itemprop="url" href="tel:+39057524468"
+                                                           target="_self">
+                                                            <span class="mkdf-iwt-icon">
+						    <span class="mkdf-icon-shortcode mkdf-normal    mkdf-icon-medium" data-hover-color="#6c5835"
+                                  data-color="#0077c0">
+        <span class="mkdf-icon-bckg-holder"></span>
+                    <i class="fas fa-phone" style="color: #0077c0; font-size: 26px; margin-bottom: 12px"></i>                    </span>
+					</span>
+                                                            <p class="mkdf-iwt-title-text">+39 0575 24468</p>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -217,7 +227,8 @@
                 </div>
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div id="nav_menu-2" class="widget mkdf-footer-column-3 widget_nav_menu">
-                        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title">Domande frequenti</h5>
+                        <div id="mess" style="display: none; border: 1px solid white; text-align: center"></div>
+                        {{--<div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title">Domande frequenti</h5>
                         </div>
                         <div class="menu-footer-menu-navigation-container">
                             <ul id="menu-footer-menu-navigation" class="menu">
@@ -246,49 +257,60 @@
                                     <a href="http://anwalt.mikado-themes.com/about-us/">Are you licensed in my
                                         country?</a></li>
                             </ul>
-                        </div>
+                        </div>--}}
                     </div>
                 </div>
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div class="widget mkdf-contact-form-7-widget ">
                         <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title">
-                                Scrivici
+                                Richiedi informazioni
                             </h5></div>
-                        <div role="form" class="wpcf7" id="wpcf7-f4-o1" lang="en-US" dir="ltr">
+                        <div role="form" lang="en-US" dir="ltr">
                             <div class="screen-reader-response"></div>
-                            <form action="/#wpcf7-f4-o1" method="post" class="wpcf7-form cf7_custom_style_1"
-                                  novalidate="novalidate">
-                                <div style="display: none;">
+                            <form>
+                                <input type="hidden" name="_token" id="_token"    value="{{csrf_token()}}">
+                                {{--<div style="display: none;">
                                     <input type="hidden" name="_wpcf7" value="4"/>
                                     <input type="hidden" name="_wpcf7_version" value="5.0.1"/>
                                     <input type="hidden" name="_wpcf7_locale" value="en_US"/>
                                     <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4-o1"/>
                                     <input type="hidden" name="_wpcf7_container_post" value="0"/>
-                                </div>
+                                </div>--}}
                                 <div style="padding: 10px 15px 0px;">
                                     <div class="mkdf-grid-row">
-                                                <span class="wpcf7-form-control-wrap email"><input type="email"
-                                                                                                   name="email" value=""
+                                                <span><input required type="text"
+                                                                                                   name="title" value=""
                                                                                                    size="40"
-                                                                                                   class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                                                                                   id="nomefrom"
+                                                                                                   aria-required="true"
+                                                                                                   aria-invalid="false"
+                                                                                                   placeholder="Nome"/></span>
+                                    </div>
+                                    <div class="mkdf-grid-row">
+                                                <span ><input required type="email"
+                                                                                                   name="mailfrom" value=""
+                                                                                                   size="40"
+                                                                                                   id="indirizzofrom"
                                                                                                    aria-required="true"
                                                                                                    aria-invalid="false"
                                                                                                    placeholder="E-mail"/></span>
                                     </div>
                                     <div class="mkdf-grid-row">
-                                                <span class="wpcf7-form-control-wrap textarea"><textarea name="textarea"
+                                                <span ><textarea required name="content"
                                                                                                          cols="40"
-                                                                                                         rows="10"
-                                                                                                         class="wpcf7-form-control wpcf7-textarea"
+                                                                                                         rows="5"
+                                                                                                         id="testofrom"
+                                                                 class="wpcf7-form-control wpcf7-textarea"
                                                                                                          aria-invalid="false"
                                                                                                          placeholder="Messaggio"></textarea></span>
                                     </div>
                                     <div class="mkdf-grid-row">
-                                        <input type="submit" value="INVIA" style="background-color: #0077c0"
-                                               class="wpcf7-form-control wpcf7-submit"/>
+                                        {{--<input class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" type="submit" value="INVIA" style="background-color: #0077c0"/>--}}
+                                        <a title="Invia mail" id="inviamail" href="{{route('mail')}}" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0">
+                                            invia</a>
                                     </div>
                                 </div>
-                                <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                <div ></div>
                             </form>
                         </div>
                     </div>
@@ -296,20 +318,20 @@
             </div>
         </div>
     </div>
-    {{--            <div class="mkdf-footer-bottom-holder">
+                <div class="mkdf-footer-bottom-holder" style="background-color: #6B6E70">
                     <div class="mkdf-footer-bottom-inner mkdf-full-width">
                         <div class="mkdf-grid-row ">
-                            <div class="mkdf-grid-col-6">
+                            <div class="mkdf-grid-col-12">
                                 <div class="mkdf-footer-btm-widget-holder">
                                     <div id="text-6" class="widget mkdf-footer-bottom-column-1 widget_text">
                                         <div class="textwidget"><p
                                                     style="padding-top: 4px; font-size: 11px; letter-spacing: 0.2em; font-weight: 400;">
-                                                COPYRIGHTS 2018 © YOUR BUSINESS NAME</p>
+                                                COPYRIGHTS 2018 © COUNSELINGSRL</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="mkdf-grid-col-6">
+                            {{--<div class="mkdf-grid-col-6">
                                 <div class="mkdf-footer-btm-widget-holder">
                                     <div class="widget mkdf-vertical-separator-widget "><span
                                                 class="mkdf-vsw-height-holder"></span><span class="mkdf-vsw"
@@ -348,8 +370,54 @@
                                                                                             style="vertical-align:middle;height:34px;border-left-style:solid;margin-left:30px"></span>
                                     </div>
                                 </div>
-                            </div>
+                            </div>--}}
                         </div>
                     </div>
-                </div>--}}
+                </div>
 </footer>
+
+<script>
+    jQuery('document').ready(function () {
+
+        jQuery('#inviamail').on('click', function (ele) {
+            ele.preventDefault();
+            var urlAlbum =   jQuery(this).attr('href');
+
+            jQuery.ajax(
+                urlAlbum,
+                {
+                    method: 'POST',
+                    dataType: 'json',
+                    data : {
+                        '_token' : jQuery('#_token').val(),
+                        'title' : jQuery('#nomefrom').val(),
+                        'mailfrom' : jQuery('#indirizzofrom').val(),
+                        'content' : jQuery('#testofrom').val()
+                    },
+                    complete : function (resp) {
+                        console.log(resp.responseText);
+                        if(resp.responseText == 1){
+                            jQuery('#mess').fadeIn(2000);
+                            jQuery('#mess').html("Messaggio inviato");
+                            jQuery('#mess').fadeOut(4000);
+                            jQuery('#testofrom').val("").attr("required", false);
+                            jQuery('#indirizzofrom').val("").attr("required", false);
+                            jQuery('#nomefrom').val("").attr("required", false);
+                        } else {
+                            var cc = JSON.parse(resp.responseText);
+                            if(cc.errors.content){
+                                jQuery('#mess').html(cc.errors.content + " <br> messaggio non inviato");
+                            }
+                            if(cc.errors.mailfrom){
+                                jQuery('#mess').html(cc.errors.mailfrom + " <br> messaggio non inviato");
+                            }
+                            jQuery('#mess').css("height", 80);
+                            jQuery('#mess').fadeIn(2000);
+                            jQuery('#mess').fadeOut(3000);
+                        }
+                    }
+                }
+            )
+        });
+    });
+</script>

@@ -136,7 +136,7 @@
                                 </div>
                             </div>--}}
                             <div class="mkdf-row-grid-section-wrapper mkdf-parallax-row-holder mkdf-content-aligment-left"
-                                 data-parallax-bg-image=http://anwalt.mikado-themes.com/wp-content/uploads/2018/04/p-contact-parallax-1.jpg
+                                 data-parallax-bg-image="{{asset('img/palazzi.jpg')}}"
                                  data-parallax-bg-speed=1 style="height: 300px!important;">
                                 <div class="mkdf-row-grid-section">
                                     <div class="vc_row wpb_row vc_row-fluid call-us vc_custom_1522653893992">
@@ -175,7 +175,7 @@
                                         </div>
                                         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
+                                                <div class="wpb_wrapper ombra" style=" padding-left: 10px; background-color: #0777BB">
                                                     <div class="wpb_text_column wpb_content_element ">
                                                         <div class="wpb_wrapper">
                                                             <h5><span style="color: #ffffff;">Arezzo<br/>
@@ -185,17 +185,18 @@
                                                     </div>
 
                                                     <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <p>
-                                                                <a href="https://www.google.rs/maps/place/The+Nomad+Hotel/@40.7461394,-73.9883576,14.75z/data=!4m15!1m9!2m8!1z0KXQvtGC0LXQu9C4!3m6!1z0KXQvtGC0LXQu9C4!2z0IrRg9GY0L7RgNC6LCDQodGY0LXQtNC40ZrQtdC90LUg0JTRgNC20LDQstC1!3s0x89c24fa5d33f083b:0xc80b8f06e177fe62!4m2!1d-74.0059728!2d40.7127753!3m4!1s0x89c259a60a2beaf9:0xac8f81eb5975ef53!8m2!3d40.7449648!4d-73.9885479">
+                                                        <div class="wpb_wrapper"  >
+                                                            <p style="font-size: 16px!important; font-weight: bold!important;">
+                                                                <a target="_blank" href="https://goo.gl/maps/dY77EkfXQKD2">
                                                                     Via Calamandrei, 257 - Arezzo</a><br/>
                                                                 <span style="color: #ffffff;">Telefono: </span><a
-                                                                        href="tel:0088 202 0000 001">+88 (0) 202
-                                                                    0000 001</a><br/>
+                                                                        href="tel:0575-353609">
+                                                                    0575-353609
+                                                                </a><br/>
 
                                                                 <span style="color: #ffffff;">Email: </span><a
-                                                                        href="mailto:info@example.com">info@example
-                                                                    .com</a></p>
+                                                                        href="mailto:info@counselingsrl.eu">info@counselingsrl
+                                                                    .eu</a></p>
 
                                                         </div>
                                                     </div>

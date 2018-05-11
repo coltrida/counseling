@@ -420,6 +420,14 @@
             padding-bottom: 41px !important;
         }
 
+        .mkdf-pt-content{
+            font-weight: bold;
+        }
+
+        .ombra{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
         .vc_custom_1520610634047 {
             padding-bottom: 104px !important;
         }</style>
@@ -2560,6 +2568,12 @@
         jQuery('#tit3').css('font-size',34);
     }
 
+</script>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
 </script>
 
 <script type="text/javascript" src="http://anwalt.mikado-themes.com/wp-content/cache/minify/48fcb.js"></script>

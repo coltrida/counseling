@@ -420,6 +420,10 @@
             padding-bottom: 41px !important;
         }
 
+        .ombra{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
         .vc_custom_1520610634047 {
             padding-bottom: 104px !important;
         }</style>
@@ -513,7 +517,7 @@
                 </span>
         </a>
 
-        <div class="mkdf-content" style="margin-top: -70px">
+        <div class="mkdf-content" style="margin-top: -120px">
             <div class="mkdf-content-inner">
                 <div class="mkdf-full-width">
                     <div class="mkdf-full-width-inner">
@@ -663,9 +667,9 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
-                                                                        <a itemprop="url" href="#" target="_self"
-                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="background-color: #95b9e0;">
-                                                                            <span class="mkdf-btn-text">Contattaci</span>
+                                                                        <a itemprop="url" href="{{route('gdpr')}}" target="_self"
+                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #95b9e0;">
+                                                                            <span class="mkdf-btn-text">Approfondisci</span>
                                                                         </a></div>
 
                                                                     <!-- LAYER NR. 5 -->
@@ -773,7 +777,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit2" style="font-size: 48px">COS’È il GDPR</span>
+                                                                        <span id="tit2" style="font-size: 48px">FORMAZIONE</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 8 -->
@@ -800,7 +804,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
-                                                                        Il GDPR (General Data Protection Regulation) <br>determina le “linee guida” da adottare in materia di Protezione delle Persone Fisiche con riguardo al Trattamento dei Dati.
+                                                                         Adeguata istruzione a chi dovrà trattare i dati
                                                                     </div>
 
                                                                     <!-- LAYER NR. 9 -->
@@ -825,9 +829,9 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
-                                                                        <a itemprop="url" href="#" target="_self"
+                                                                        <a itemprop="url" href="{{route('formazione')}}" target="_self"
                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="background-color: #95b9e0;">
-                                                                            <span class="mkdf-btn-text">Contattaci</span>
+                                                                            <span class="mkdf-btn-text">Approfondisci</span>
                                                                         </a></div>
 
                                                                     <!-- LAYER NR. 10 -->
@@ -935,7 +939,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit3" style="font-size: 48px">DATE da ricordare del GDPR</span>
+                                                                        <span id="tit3" style="font-size: 48px">Agenzia Entrate - Riscossione</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 13 -->
@@ -962,7 +966,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
-                                                                        Trattandosi appunto di Regolamento UE e non di Direttiva, partirà quando stabilito e cioè il 25 Maggio.
+                                                                        .............. ................... ................. ................. ................. ................
                                                                     </div>
 
                                                                     <!-- LAYER NR. 14 -->
@@ -987,9 +991,9 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
-                                                                        <a itemprop="url" href="#" target="_self"
+                                                                        <a itemprop="url" href="{{route('equitalia')}}" target="_self"
                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="background-color: #95b9e0;">
-                                                                            <span class="mkdf-btn-text">Contattaci</span>
+                                                                            <span class="mkdf-btn-text">Approfondisci</span>
                                                                         </a></div>
 
                                                                     <!-- LAYER NR. 15 -->
@@ -1073,7 +1077,7 @@
                                                                             jsFileLocation: "//anwalt.mikado-themes.com/wp-content/plugins/revslider/public/assets/js/",
                                                                             sliderLayout: "fullwidth",
                                                                             dottedOverlay: "none",
-                                                                            delay: 10500,
+                                                                            delay: 7000,
                                                                             navigation: {
                                                                                 keyboardNavigation: "on",
                                                                                 keyboard_direction: "horizontal",
@@ -1188,20 +1192,21 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
-                                                                <a itemprop="url" href="#" target="_self">
+                                                                <a itemprop="url" href="{{route('general')}}" target="_self">
 					    <span class="mkdf-icon-shortcode mkdf-normal    mkdf-icon-medium">
         <span class="mkdf-icon-bckg-holder"></span>
-                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">P</span>                    </span>
+                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">G</span>                    </span>
                                                                 </a>
                                                             </div>
                                                             <div class="mkdf-iwt-content">
                                                                 <h5 class="mkdf-iwt-title" style="margin-top: 9px">
-                                                                    <a itemprop="url" href="#" target="_self">
-                                                                        <span class="mkdf-iwt-title-text">Privacy dei dati</span>
+                                                                    <a itemprop="url" href="{{route('general')}}" target="_self">
+                                                                        <span class="mkdf-iwt-title-text">GENERAL</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">Know your your rights. We will
-                                                                    take care about the rest. </p>
+                                                                <p class="mkdf-iwt-text">
+                                                                    Le parti in gioco
+                                                                </p>
                                                             </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 58px"><span
@@ -1214,20 +1219,22 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
-                                                                <a itemprop="url" href="#" target="_self">
+                                                                <a itemprop="url" href="{{route('data')}}" target="_self">
 					    <span class="mkdf-icon-shortcode mkdf-normal    mkdf-icon-medium">
         <span class="mkdf-icon-bckg-holder"></span>
-                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">S</span>                    </span>
+                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">D</span>                    </span>
                                                                 </a>
                                                             </div>
                                                             <div class="mkdf-iwt-content">
                                                                 <h5 class="mkdf-iwt-title" style="margin-top: 9px">
-                                                                    <a itemprop="url" href="#" target="_self">
-                                                                        <span class="mkdf-iwt-title-text">Sicurezza Informatica</span>
+                                                                    <a itemprop="url" href="{{route('data')}}" target="_self">
+                                                                        <span class="mkdf-iwt-title-text">DATA</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">Don’t be scared to step out.
-                                                                    Contact our law team. </p>
+                                                                <p class="mkdf-iwt-text">
+                                                                    Cosa intendiamo per dati personali?
+
+                                                                </p>
                                                             </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 58px"><span
@@ -1240,20 +1247,21 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
-                                                                <a itemprop="url" href="#" target="_self">
+                                                                <a itemprop="url" href="{{route('protection')}}" target="_self">
 					    <span class="mkdf-icon-shortcode mkdf-normal    mkdf-icon-medium">
         <span class="mkdf-icon-bckg-holder"></span>
-                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">H</span>                   </span>
+                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">P</span>                   </span>
                                                                 </a>
                                                             </div>
                                                             <div class="mkdf-iwt-content">
                                                                 <h5 class="mkdf-iwt-title" style="margin-top: 9px">
-                                                                    <a itemprop="url" href="#" target="_self">
-                                                                        <span class="mkdf-iwt-title-text">Hardware</span>
+                                                                    <a itemprop="url" href="{{route('protection')}}" target="_self">
+                                                                        <span class="mkdf-iwt-title-text">PROTECTION</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">A security is an investment in
-                                                                    a business. Make the 1st step.</p>
+                                                                <p class="mkdf-iwt-text">
+                                                                    Cosa è il diritto alla protezione dei dati personali?
+                                                                </p>
                                                             </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 58px"><span
@@ -1266,20 +1274,21 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
-                                                                <a itemprop="url" href="#" target="_self">
+                                                                <a itemprop="url" href="{{route('regulation')}}" target="_self">
 					    <span class="mkdf-icon-shortcode mkdf-normal    mkdf-icon-medium">
         <span class="mkdf-icon-bckg-holder"></span>
-                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">C</span>                   </span>
+                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">R</span>                   </span>
                                                                 </a>
                                                             </div>
                                                             <div class="mkdf-iwt-content">
                                                                 <h5 class="mkdf-iwt-title" style="margin-top: 9px">
-                                                                    <a itemprop="url" href="#" target="_self">
-                                                                        <span class="mkdf-iwt-title-text">Consulenza</span>
+                                                                    <a itemprop="url" href="{{route('regulation')}}" target="_self">
+                                                                        <span class="mkdf-iwt-title-text">REGULATION</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">Meet the best experts in the
-                                                                    federal crimes field. </p>
+                                                                <p class="mkdf-iwt-text">
+                                                                    Trattametno dei dati
+                                                                </p>
                                                             </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 58px"><span
@@ -1297,9 +1306,9 @@
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
-                                                        <h4><span style="color: #ffffff;">Protezione dei Dati o GDPR? Chiamaci <br> </span>
-                                                            <a href="tel:+35123456789">+35 123 456 789</a></h4>
-
+                                                        <h4><span style="color: #ffffff;">Protezione dei Dati o GDPR? Contattaci <br> </span>
+                                                            <a href="tel:+390575353609">+39 0575 353609</a> <br> <a href="tel:+39057524468">+39 0575 24468</a>
+                                                        </h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1334,7 +1343,7 @@
 
                                                                         <div class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <p>Con 25 anni di esperienza in ambito di sicurezza, privacy ed ICT, il nostro team si concentra sulla fornitura di qualità e valore ai nostri clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative che aiutano i nostri clienti.</p>
+                                                                                <p style="text-align: justify">Da oltre 35 anni il nostro team  si occupa di gestione dei dati aziendali, concentrandosi sulla fornitura di serivizi di qualità dando valore ai nostri Clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative che aiutano i nostri clienti.</p>
 
                                                                             </div>
                                                                         </div>
@@ -1364,10 +1373,10 @@
                                                                         <div class="mkdf-single-image-holder   ">
                                                                             <div class="mkdf-si-inner">
                                                                                 <img width="800" height="534"
-                                                                                     src="{{asset('img/boss.jpg')}}"
-                                                                                     class="attachment-full size-full"
+                                                                                     src="{{asset('img/sede.jpeg')}}"
+                                                                                     class="attachment-full size-full ombra"
                                                                                      alt="g"
-                                                                                     srcset="{{asset('img/boss.jpg')}}"
+                                                                                     srcset="{{asset('img/sede.jpeg')}}"
                                                                                      sizes="(max-width: 800px) 100vw, 800px"/>
                                                                             </div>
                                                                         </div>
@@ -1392,7 +1401,7 @@
                                                              style="text-align: center">
                                                             <div class="mkdf-st-inner">
                                                                 <h3 class="mkdf-st-title">
-                                                                    Formazione </h3>
+                                                                    I nostri servizi </h3>
                                                                 <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
                                                                     <div class="mkdf-separator"
                                                                          style="width: 143px;border-bottom-width: 2px"></div>
@@ -1413,16 +1422,18 @@
                                      style="background-color:rgba(194,170,128,0.08)">
                                     <div class="mkdf-row-grid-section">
                                         <div class="vc_row wpb_row vc_row-fluid vc_custom_1521814924146">
-                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
+                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-1 vc_col-lg-2 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
                                                             <div class="mkdf-si-inner">
-                                                                <img width="800" height="492"
-                                                                     src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-img-2.jpg"
-                                                                     class="attachment-full size-full" alt="i"
-                                                                     srcset="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-img-2.jpg 800w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-img-2-300x185.jpg 300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-img-2-768x472.jpg 768w"
-                                                                     sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                                               <a href="{{route('privacy')}}"> <img width="800" height="492"
+                                                                     src="{{asset('img/privacy.jpg')}}"
+                                                                     class="attachment-full size-full ombra" alt="i"
+                                                                     srcset="{{asset('img/privacy.jpg')}}"
+                                                                     sizes="(max-width: 800px) 100vw, 800px"/>
+                                                               </a>
+                                                            </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 37px"><span
                                                                     class="vc_empty_space_inner"></span></div>
@@ -1430,7 +1441,7 @@
                                                              style="padding: 0 6%;text-align: center">
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
-                                                                    Best law practices </h5>
+                                                                    Privacy </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
                                                                     Lorem ipsum dolor sit amet, consectetur adi piscing
                                                                     sed do eiusmod tempor icididu </p>
@@ -1446,14 +1457,14 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
+                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-2 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
                                                             <div class="mkdf-si-inner">
                                                                 <img width="800" height="492"
                                                                      src="{{asset('img/Formazione.jpg')}}"
-                                                                     class="attachment-full size-full" alt="i"
+                                                                     class="attachment-full size-full ombra" alt="i"
                                                                      srcset="{{asset('img/Formazione.jpg')}}"
                                                                      sizes="(max-width: 800px) 100vw, 800px"/></div>
                                                         </div>
@@ -1463,7 +1474,7 @@
                                                              style="padding: 0 6%;text-align: center">
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
-                                                                    Efficiency &amp; Trust </h5>
+                                                                    Formazione </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
                                                                     Lorem ipsum dolor sit amet, consectetur adi piscing
                                                                     sed do eiusmod tempor icididu </p>
@@ -1479,14 +1490,80 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
+                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-2 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
+                                                <div class="vc_column-inner ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="mkdf-single-image-holder   ">
+                                                            <div class="mkdf-si-inner">
+                                                                <img width="800" height="492"
+                                                                     src="{{asset('img/office.jpg')}}"
+                                                                     class="attachment-full size-full ombra" alt="i"
+                                                                     srcset="{{asset('img/office.jpg')}}"
+                                                                     sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                                        </div>
+                                                        <div class="vc_empty_space" style="height: 37px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
+                                                        <div class="mkdf-section-title-holder  "
+                                                             style="padding: 0 6%;text-align: center">
+                                                            <div class="mkdf-st-inner">
+                                                                <h5 class="mkdf-st-title">
+                                                                    Temporary Office </h5>
+                                                                <p class="mkdf-st-text" style="margin-top: 9px">
+                                                                    Lorem ipsum dolor sit amet, consectetur adi piscing
+                                                                    sed do eiusmod tempor icididu </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
+                                                             style="margin-top: 23px">
+                                                            <div class="mkdf-separator"
+                                                                 style="border-color: #c2aa80;width: 100px;border-bottom-width: 2px"></div>
+                                                        </div>
+                                                        <div class="vc_empty_space" style="height: 60px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-2 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
+                                                <div class="vc_column-inner ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="mkdf-single-image-holder   ">
+                                                            <div class="mkdf-si-inner">
+                                                                <img width="800" height="492"
+                                                                     src="{{asset('img/siti.jpg')}}"
+                                                                     class="attachment-full size-full ombra" alt="i"
+                                                                     srcset="{{asset('img/siti.jpg')}}"
+                                                                     sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                                        </div>
+                                                        <div class="vc_empty_space" style="height: 37px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
+                                                        <div class="mkdf-section-title-holder  "
+                                                             style="padding: 0 6%;text-align: center">
+                                                            <div class="mkdf-st-inner">
+                                                                <h5 class="mkdf-st-title">
+                                                                    Siti Web </h5>
+                                                                <p class="mkdf-st-text" style="margin-top: 9px">
+                                                                    Lorem ipsum dolor sit amet, consectetur adi piscing
+                                                                    sed do eiusmod tempor icididu </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
+                                                             style="margin-top: 23px">
+                                                            <div class="mkdf-separator"
+                                                                 style="border-color: #c2aa80;width: 100px;border-bottom-width: 2px"></div>
+                                                        </div>
+                                                        <div class="vc_empty_space" style="height: 60px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-2 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
                                                             <div class="mkdf-si-inner">
                                                                 <img width="800" height="492"
                                                                      src="{{asset('img/consulenza.jpg')}}"
-                                                                     class="attachment-full size-full" alt="i"
+                                                                     class="attachment-full size-full ombra" alt="i"
                                                                      srcset="{{asset('img/consulenza.jpg')}}"
                                                                      sizes="(max-width: 800px) 100vw, 800px"/></div>
                                                         </div>
@@ -1496,7 +1573,7 @@
                                                              style="padding: 0 6%;text-align: center">
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
-                                                                    Results you deserve </h5>
+                                                                    Escapologia Fiscale </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
                                                                     Lorem ipsum dolor sit amet, consectetur adi piscing
                                                                     sed do eiusmod tempor icididu </p>
@@ -1518,7 +1595,7 @@
                                 <div class="mkdf-row-grid-section-wrapper ">
                                     <div class="mkdf-row-grid-section">
                                         <div class="vc_row wpb_row vc_row-fluid vc_custom_1520421283539">
-                                            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
+                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-counter-holder ">
@@ -1537,8 +1614,8 @@
                                                                     class="vc_empty_space_inner"></span></div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-5">
+                                            </div>--}}
+                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-5">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-counter-holder ">
@@ -1557,8 +1634,8 @@
                                                                     class="vc_empty_space_inner"></span></div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
+                                            </div>--}}
+                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-counter-holder ">
@@ -1575,8 +1652,8 @@
                                                                     class="vc_empty_space_inner"></span></div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-5">
+                                            </div>--}}
+                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-5">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-counter-holder ">
@@ -1586,11 +1663,48 @@
                                                                     <div class="mkdf-separator"
                                                                          style="width: 100px"></div>
                                                                 </div>
-                                                                <p class="mkdf-counter-text">UN PO' DI  NUMERI</p>
+                                                                <p class="mkdf-counter-text"><div id="conto"></div></p>
                                                             </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 50px"><span
                                                                     class="vc_empty_space_inner"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>--}}
+
+                                            <div class="mkdf-row-grid-section">
+                                                <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405848948">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_column-inner ">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="mkdf-section-title-holder  "
+                                                                     style="text-align: center">
+                                                                    {{--<div class="mkdf-st-inner">
+                                                                        <h3 class="mkdf-st-title">
+                                                                            Tabelle dei servizi Privacy</h3>
+                                                                        <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                                                                            <div class="mkdf-separator"
+                                                                                 style="width: 143px;border-bottom-width: 2px"></div>
+                                                                        </div>
+                                                                        <h6 class="mkdf-st-text">
+                                                                            Vi siete adeguati? contattateci </h6>
+                                                                    </div>--}}
+                                                                    <div style="font-weight: 900;
+                                                                        font-size: 45px;
+                                                                        color: black;
+                                                                        margin-top: -60px;
+                                                                        margin-bottom: 80px"
+                                                                         class="mkdf-st-inner" id="conto">
+                                                                    </div>
+                                                                    <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                                                                        <div class="mkdf-separator"
+                                                                             style="width: 143px;border-bottom-width: 2px"></div>
+                                                                    </div>
+                                                                    <h6 class="mkdf-st-text">
+                                                                       <span id="adeguati"> </span> <a href="{{route("contatti")}}" style="color: red">contattateci</a> </h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1598,7 +1712,7 @@
                                     </div>
                                 </div>
                                 <div class="mkdf-row-grid-section-wrapper mkdf-parallax-row-holder mkdf-content-aligment-center"
-                                     data-parallax-bg-image=http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-parallax-1.jpg
+                                     data-parallax-bg-image="{{asset('img/palazzihome.jpg')}}"
                                      data-parallax-bg-speed=1>
                                     <div class="mkdf-row-grid-section">
                                         <div class="vc_row wpb_row vc_row-fluid vc_custom_1521548298854">
@@ -1608,7 +1722,7 @@
                                                         <div class="mkdf-testimonials-holder mkdf-testimonials-standard  clearfix">
                                                             <div class="mkdf-testimonials mkdf-owl-slider"
                                                                  data-number-of-items="1" data-enable-loop="yes"
-                                                                 data-enable-autoplay="yes" data-slider-speed="5000"
+                                                                 data-enable-autoplay="yes" data-slider-speed="10000"
                                                                  data-slider-speed-animation="600"
                                                                  data-enable-navigation="no"
                                                                  data-enable-pagination="yes">
@@ -1617,18 +1731,15 @@
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
                                                                             class="mkdf-testimonial-title entry-title">
-                                                                            Recensioni dei nostri clienti</h3>
+                                                                            Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
                                                                         </div>
-                                                                        <h6 class="mkdf-testimonial-text">“bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla&#039;&#039;</h6>
+                                                                        <h6 class="mkdf-testimonial-text">
+                                                                            <a target="_blank" href="{{asset('pdf/dirittiericorsodomande.pdf')}}" style="color: blue">Esercizio dei diritti e ricorso</a>
+                                                                        </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Emanuele Lazzerini</span>
+				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1637,18 +1748,15 @@
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
                                                                             class="mkdf-testimonial-title entry-title">
-                                                                            Recensioni dei nostri clienti</h3>
+                                                                            Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
                                                                         </div>
-                                                                        <h6 class="mkdf-testimonial-text">“bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla&#039;&#039;</h6>
+                                                                        <h6 class="mkdf-testimonial-text">
+                                                                            <a target="_blank" href="{{asset('pdf/compitigarante.pdf')}}" style="color: blue">Compiti del Garante</a>
+                                                                        </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Marco Catania</span>
+				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1657,18 +1765,49 @@
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
                                                                             class="mkdf-testimonial-title entry-title">
-                                                                            Recensioni dei nostri clienti</h3>
+                                                                            Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
                                                                         </div>
-                                                                        <h6 class="mkdf-testimonial-text">“bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla bla bla bla bla bla bla bla bla
-                                                                            bla&#039;&#039;</h6>
+                                                                        <h6 class="mkdf-testimonial-text">
+                                                                            <a target="_blank" href="{{asset('pdf/modelloeserciziodiritti.pdf')}}" style="color: blue">Modello Esercizio dei diritti</a>
+                                                                        </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Paola Urbanelli</span>
+				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
+							</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mkdf-testimonial-content"
+                                                                     id="mkdf-testimonials-173">
+                                                                    <div class="mkdf-testimonial-text-holder">
+                                                                        <h3 itemprop="name"
+                                                                            class="mkdf-testimonial-title entry-title">
+                                                                            Normativa e documentazione</h3>
+                                                                        <div class="mkdf-separator-holder clearfix mkdf-separator-center">
+                                                                            <div class="mkdf-separator"></div>
+                                                                        </div>
+                                                                        <h6 class="mkdf-testimonial-text">
+                                                                            <a target="_blank" href="{{asset('pdf/ricorsoalgarante.pdf')}}" style="color: blue">Ricorso al Garante</a>
+                                                                        </h6>
+                                                                        <span class="mkdf-testimonial-author">
+				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
+							</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mkdf-testimonial-content"
+                                                                     id="mkdf-testimonials-173">
+                                                                    <div class="mkdf-testimonial-text-holder">
+                                                                        <h3 itemprop="name"
+                                                                            class="mkdf-testimonial-title entry-title">
+                                                                            Normativa e documentazione</h3>
+                                                                        <div class="mkdf-separator-holder clearfix mkdf-separator-center">
+                                                                            <div class="mkdf-separator"></div>
+                                                                        </div>
+                                                                        <h6 class="mkdf-testimonial-text">
+                                                                            <a target="_blank" href="{{asset('pdf/glossario.pdf')}}" style="color: blue">Glossario</a>
+                                                                        </h6>
+                                                                        <span class="mkdf-testimonial-author">
+				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1820,7 +1959,7 @@
                                                              style="text-align: center">
                                                             <div class="mkdf-st-inner">
                                                                 <h3 class="mkdf-st-title">
-                                                                    Tabelle dei servizi</h3>
+                                                                    Tabelle dei servizi Privacy</h3>
                                                                 <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
                                                                     <div class="mkdf-separator"
                                                                          style="width: 143px;border-bottom-width: 2px"></div>
@@ -1845,23 +1984,23 @@
                                                         <div class="mkdf-pricing-tables clearfix mkdf-three-columns mkdf-normal-space">
                                                             <div class="mkdf-pt-wrapper mkdf-outer-space">
                                                                 <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner">
+                                                                    <div class="mkdf-pt-inner ombra">
                                                                         <ul>
                                                                             <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
                                                                                 <span class="mkdf-pt-title">Soluzione nr.1</span>
                                                                             </li>
                                                                             <li class="mkdf-pt-content-bottom">
                                                                                 <ul>
-                                                                                    <li class="mkdf-pt-price-holder">
+                                                                                    {{--<li class="mkdf-pt-price-holder">
                                                                                         <span class="mkdf-pt-value">$</span>
                                                                                         <span class="mkdf-pt-price">400</span>
-                                                                                    </li>
+                                                                                    </li>--}}
                                                                                     <li class="mkdf-pt-content">
 
                                                                                         <ul>
                                                                                             <li>ADDETTI  N.1  (DITTA INDIVIDUALE SENZA DIPENDENTI)
                                                                                             </li>
-                                                                                            <li>ARCHIVIO INFORMATICO E CARTACEO A FORFAIT
+                                                                                            <li>ARCHIVIO INFORMATICO E CARTACEO
                                                                                             </li>
                                                                                             {{--<li>Lorem ipsum dolor sit
                                                                                                 amett
@@ -1872,7 +2011,7 @@
                                                                                     </li>
                                                                                     <li class="mkdf-pt-button">
                                                                                         <a itemprop="url"
-                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
+                                                                                           href="{{route('soluzione1')}}"
                                                                                            target="_self"
                                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
                                                                                             <span class="mkdf-btn-text">Approfondisci</span>
@@ -1884,23 +2023,23 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner">
+                                                                    <div class="mkdf-pt-inner ombra">
                                                                         <ul>
                                                                             <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
                                                                                 <span class="mkdf-pt-title">Soluzione nr.2</span>
                                                                             </li>
                                                                             <li class="mkdf-pt-content-bottom">
                                                                                 <ul>
-                                                                                    <li class="mkdf-pt-price-holder">
+                                                                                    {{--<li class="mkdf-pt-price-holder">
                                                                                         <span class="mkdf-pt-value">$</span>
                                                                                         <span class="mkdf-pt-price">220</span>
-                                                                                    </li>
+                                                                                    </li>--}}
                                                                                     <li class="mkdf-pt-content">
 
                                                                                         <ul>
                                                                                             <li>ADDETTI  N.1  (DITTA INDIVIDUALE SENZA DIPENDENTI)
                                                                                             </li>
-                                                                                            <li>SOLO ARCHIVIO CARTACEO <br>A FORFAIT
+                                                                                            <li>SOLO ARCHIVIO CARTACEO
                                                                                             </li>
                                                                                             {{--<li>Lorem ipsum dolor sit
                                                                                                 amett
@@ -1911,7 +2050,7 @@
                                                                                     </li>
                                                                                     <li class="mkdf-pt-button">
                                                                                         <a itemprop="url"
-                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
+                                                                                           href="{{route('soluzione2')}}"
                                                                                            target="_self"
                                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
                                                                                             <span class="mkdf-btn-text">Approfondisci</span>
@@ -1923,23 +2062,23 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner">
+                                                                    <div class="mkdf-pt-inner ombra">
                                                                         <ul>
                                                                             <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
                                                                                 <span class="mkdf-pt-title">Soluzione nr.3</span>
                                                                             </li>
                                                                             <li class="mkdf-pt-content-bottom">
                                                                                 <ul>
-                                                                                    <li class="mkdf-pt-price-holder">
+                                                                                    {{--<li class="mkdf-pt-price-holder">
                                                                                         <span class="mkdf-pt-value">$</span>
                                                                                         <span class="mkdf-pt-price">600</span>
-                                                                                    </li>
+                                                                                    </li>--}}
                                                                                     <li class="mkdf-pt-content">
 
                                                                                         <ul>
                                                                                             <li>ADDETTI  N.1  (DITTA INDIVIDUALE CON DIPENDENTI)
                                                                                             </li>
-                                                                                            <li>ARCHIVIO INFORMATICO E CARTACEO A FORFAIT
+                                                                                            <li>ARCHIVIO INFORMATICO E CARTACEO
                                                                                             </li>
                                                                                             {{--<li>Lorem ipsum dolor sit
                                                                                                 amett
@@ -1950,7 +2089,7 @@
                                                                                     </li>
                                                                                     <li class="mkdf-pt-button">
                                                                                         <a itemprop="url"
-                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
+                                                                                           href="{{route('soluzione3')}}"
                                                                                            target="_self"
                                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
                                                                                             <span class="mkdf-btn-text">Approfondisci</span>
@@ -1979,23 +2118,23 @@
                                                         <div class="mkdf-pricing-tables clearfix mkdf-three-columns mkdf-normal-space">
                                                             <div class="mkdf-pt-wrapper mkdf-outer-space">
                                                                 <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner">
+                                                                    <div class="mkdf-pt-inner ombra">
                                                                         <ul>
                                                                             <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
                                                                                 <span class="mkdf-pt-title">Soluzione nr.4</span>
                                                                             </li>
                                                                             <li class="mkdf-pt-content-bottom">
                                                                                 <ul>
-                                                                                    <li class="mkdf-pt-price-holder">
+                                                                                    {{--<li class="mkdf-pt-price-holder">
                                                                                         <span class="mkdf-pt-value">$</span>
                                                                                         <span class="mkdf-pt-price">800</span>
-                                                                                    </li>
+                                                                                    </li>--}}
                                                                                     <li class="mkdf-pt-content">
 
                                                                                         <ul>
                                                                                             <li>ADDETTI DA 2 A 5 (DITTA INDIVIDUALE E SOCIETA’ CON DIPENDENTI)
                                                                                             </li>
-                                                                                            <li>N.1 ARCHIVIO INFORMATICO E ARCHIVIO CARTACEO<br><br><br><br>
+                                                                                            <li>N.1 ARCHIVIO INFORMATICO E ARCHIVIO CARTACEO<br><br>
                                                                                             </li>
                                                                                             {{--<li>Lorem ipsum dolor sit
                                                                                                 amett
@@ -2006,7 +2145,7 @@
                                                                                     </li>
                                                                                     <li class="mkdf-pt-button">
                                                                                         <a itemprop="url"
-                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
+                                                                                           href="{{route('soluzione4')}}"
                                                                                            target="_self"
                                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
                                                                                             <span class="mkdf-btn-text">Approfondisci</span>
@@ -2018,23 +2157,23 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner">
+                                                                    <div class="mkdf-pt-inner ombra">
                                                                         <ul>
                                                                             <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
                                                                                 <span class="mkdf-pt-title">Soluzione nr.5</span>
                                                                             </li>
                                                                             <li class="mkdf-pt-content-bottom">
                                                                                 <ul>
-                                                                                    <li class="mkdf-pt-price-holder">
+                                                                                    {{--<li class="mkdf-pt-price-holder">
                                                                                         <span class="mkdf-pt-value">$</span>
                                                                                         <span class="mkdf-pt-price">1300</span>
-                                                                                    </li>
+                                                                                    </li>--}}
                                                                                     <li class="mkdf-pt-content">
 
                                                                                         <ul>
                                                                                             <li>ADDETTI DA 2 A 5 (DITTA INDIVIDUALE E SOCIETA’ CON DIPENDENTI)
                                                                                             </li>
-                                                                                            <li>DA 2 A 5 ARCHIVI INFORMATICI E ARCHIVIO CARTACEO <br><br><br><br>
+                                                                                            <li>DA 2 A 5 ARCHIVI INFORMATICI E ARCHIVIO CARTACEO <br><br>
                                                                                             </li>
                                                                                             {{--<li>Lorem ipsum dolor sit
                                                                                                 amett
@@ -2045,7 +2184,7 @@
                                                                                     </li>
                                                                                     <li class="mkdf-pt-button">
                                                                                         <a itemprop="url"
-                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
+                                                                                           href="{{route('soluzione5')}}"
                                                                                            target="_self"
                                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
                                                                                             <span class="mkdf-btn-text">Approfondisci</span>
@@ -2057,23 +2196,23 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner">
+                                                                    <div class="mkdf-pt-inner ombra">
                                                                         <ul>
                                                                             <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                                                <span class="mkdf-pt-title">Opzione</span>
+                                                                                <span class="mkdf-pt-title">Soluzione nr.5</span>
                                                                             </li>
                                                                             <li class="mkdf-pt-content-bottom">
                                                                                 <ul>
-                                                                                    <li class="mkdf-pt-price-holder">
+                                                                                    {{--<li class="mkdf-pt-price-holder">
                                                                                         <span class="mkdf-pt-value">$</span>
-                                                                                        <span class="mkdf-pt-price">280</span>
-                                                                                    </li>
+                                                                                        <span class="mkdf-pt-price">1300</span>
+                                                                                    </li>--}}
                                                                                     <li class="mkdf-pt-content">
 
                                                                                         <ul>
-                                                                                            <li>COMPILAZIONE DELLA SOLA DOCUMENTAZIONE PER LA NOMINA DELLE FIGURE INCARICATE
+                                                                                            <li>COMPILAZIONE DOCUMENTI PER LA NOMINA DELLE FIGURE INCARICATE
                                                                                             </li>
-                                                                                            <li>ELENCAZIONE DEGLI ARCHIVI CONTENENTI I DATI SIA INFORMATICI CHE CARTACEI SENZA SOPRALLUOGO E SENZA CONSULENZA
+                                                                                            <li>ELENCO ARCHIVI SIA INFORMATICI CHE CARTACEI SENZA SOPRALLUOGO E SENZA CONSULENZA
                                                                                             </li>
                                                                                             {{--<li>Lorem ipsum dolor sit
                                                                                                 amett
@@ -2084,7 +2223,7 @@
                                                                                     </li>
                                                                                     <li class="mkdf-pt-button">
                                                                                         <a itemprop="url"
-                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
+                                                                                           href="{{route('soluzione5')}}"
                                                                                            target="_self"
                                                                                            class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
                                                                                             <span class="mkdf-btn-text">Approfondisci</span>
@@ -2477,6 +2616,7 @@
 
     </div> <!-- close div.mkdf-wrapper-inner  -->
 </div> <!-- close div.mkdf-wrapper -->
+
 <script type="text/javascript">
     function revslider_showDoubleJqueryError(sliderID) {
         var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
@@ -2554,14 +2694,67 @@
     if (windowWidth < 600)
     {
         jQuery('#tit1').css('font-size',34);
-
+        jQuery('#conto').css('font-size',20);
         jQuery('#tit2').css('font-size',34);
         jQuery('#tit3').css('font-size',34);
+        jQuery('.mkdf-testimonial-title').css('font-size',24);
+        jQuery('.mkdf-testimonial-author').css('font-size',14);
     }
 
 </script>
 
+
 <script type="text/javascript" src="http://anwalt.mikado-themes.com/wp-content/cache/minify/48fcb.js"></script>
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("May 25, 2018 00:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Find the distance between count down date and now
+        var distance2 = now - countDownDate;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+        var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("conto").innerHTML = "Il GDPR scade tra <br><br>" + days + " giorni " + hours + " ore "
+            + minutes + " minuti " + seconds + " secondi ";
+
+        // If the count down is finished, write some text
+        /*if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("conto").innerHTML = "EXPIRED";
+        }*/
+        if (distance > 0) {
+            document.getElementById("conto").innerHTML = "Il GDPR scade tra <br><br>" + days + " giorni " + hours + " ore "
+                + minutes + " minuti " + seconds + " secondi ";
+            document.getElementById("adeguati").innerHTML = "Vi siete adeguati?";
+        } else {
+            document.getElementById("conto").innerHTML = "Il GDPR è scaduto da <br><br>" + days2 + " giorni " + hours2 + " ore "
+                + minutes2 + " minuti " + seconds2 + " secondi ";
+            document.getElementById("adeguati").innerHTML = "Vi siete adeguati? Per evitare le <b>pesanti</b> sanzioni, ";
+        }
+    }, 1000);
+
+</script>
 
 </body>
 </html>
