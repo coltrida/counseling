@@ -15,11 +15,12 @@
 Route::get('/', 'CounController@index')->name('index');
 Route::view('/chisiamo', 'chisiamo')->name('chisiamo');
 Route::view('/contatti', 'contatti')->name('contatti');
+Route::get('/home', 'HomeController@index')->name('home');
 
 //Carosello
 Route::view('/gdpr', 'carosello.gdpr')->name('gdpr');
 Route::view('/formazione', 'carosello.formazione')->name('formazione');
-Route::view('/equitalia', 'carosello.equitalia')->name('equitalia');
+Route::view('/sos', 'carosello.equitalia')->name('equitalia');
 
 //Soluzioni
 Route::view('/soluzione1', 'soluzioni.soluzione1')->name('soluzione1');
@@ -38,11 +39,13 @@ Route::view('/regulation', 'gdpr.regulation')->name('regulation');
 //Servizi
 Route::view('/privacy', 'servizi.privacy')->name('privacy');
 
-//Questionario
+//Privacy
 Route::view('/privacy/questionario', 'privacy.questionario')->name('questionario');
+Route::post('/privacy/questionario/send', 'EmailController@questionario')->name('sendquestionario');
+Route::view('/privacy/tabelle', 'privacy.tabelleprivacy')->name('tabelle');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-
+//mail contatti
 Route::post('/send', 'EmailController@send')->name('mail');
+

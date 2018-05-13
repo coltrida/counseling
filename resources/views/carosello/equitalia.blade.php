@@ -1,6 +1,6 @@
 @extends('layouts.template2')
 @section('titolo')
-    Equitalia
+    SOS Indebitati
 @stop
 
 @section('content')
@@ -16,7 +16,7 @@
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
                                         <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                            <span class="mkdf-pt-title">Equitalia</span>
+                                            <span class="mkdf-pt-title">SOS Indebitati</span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>

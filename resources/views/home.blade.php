@@ -939,7 +939,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit3" style="font-size: 48px">Agenzia Entrate - Riscossione</span>
+                                                                        <span id="tit3" style="font-size: 48px">SOS Indebitati</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 13 -->
@@ -966,7 +966,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
-                                                                        .............. ................... ................. ................. ................. ................
+                                                                        Pagare meno tasse legalmente
                                                                     </div>
 
                                                                     <!-- LAYER NR. 14 -->
@@ -1307,7 +1307,11 @@
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
                                                         <h4><span style="color: #ffffff;">Protezione dei Dati o GDPR? Contattaci <br> </span>
-                                                            <a href="tel:+390575353609">+39 0575 353609</a> <br> <a href="tel:+39057524468">+39 0575 24468</a>
+                                                            <div style="" class="wpb_wrapper">
+                                                            <div style="text-align: left; margin: 0 auto; width: 220px;">
+                                                                <a href="tel:+390575353609">+39 0575 353609</a> <br> <a href="tel:+39057524468">+39 0575 24468</a>
+                                                            </div>
+                                                            </div>
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -1443,8 +1447,7 @@
                                                                 <h5 class="mkdf-st-title">
                                                                     Privacy </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Lorem ipsum dolor sit amet, consectetur adi piscing
-                                                                    sed do eiusmod tempor icididu </p>
+                                                                    Adeguati alle normative privacy</p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1476,8 +1479,7 @@
                                                                 <h5 class="mkdf-st-title">
                                                                     Formazione </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Lorem ipsum dolor sit amet, consectetur adi piscing
-                                                                    sed do eiusmod tempor icididu </p>
+                                                                    Adeguata istruzione a chi dovrà trattare i dati </p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1509,8 +1511,7 @@
                                                                 <h5 class="mkdf-st-title">
                                                                     Temporary Office </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Lorem ipsum dolor sit amet, consectetur adi piscing
-                                                                    sed do eiusmod tempor icididu </p>
+                                                                    Il tuo ufficio temporaneo ad Arezzo </p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1542,8 +1543,7 @@
                                                                 <h5 class="mkdf-st-title">
                                                                     Siti Web </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Lorem ipsum dolor sit amet, consectetur adi piscing
-                                                                    sed do eiusmod tempor icididu </p>
+                                                                    La tua azienda subito online </p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1561,11 +1561,13 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
                                                             <div class="mkdf-si-inner">
-                                                                <img width="800" height="492"
-                                                                     src="{{asset('img/consulenza.jpg')}}"
-                                                                     class="attachment-full size-full ombra" alt="i"
-                                                                     srcset="{{asset('img/consulenza.jpg')}}"
-                                                                     sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                                                <a href="{{route('equitalia')}}"> <img width="800" height="492"
+                                                                          src="{{asset('img/consulenza.jpg')}}"
+                                                                          class="attachment-full size-full ombra" alt="i"
+                                                                          srcset="{{asset('img/consulenza.jpg')}}"
+                                                                          sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 37px"><span
                                                                     class="vc_empty_space_inner"></span></div>
@@ -1573,10 +1575,10 @@
                                                              style="padding: 0 6%;text-align: center">
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
-                                                                    Escapologia Fiscale </h5>
+                                                                    SOS Indebitati </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Lorem ipsum dolor sit amet, consectetur adi piscing
-                                                                    sed do eiusmod tempor icididu </p>
+                                                                    Pagare meno tasse legalmente
+                                                                </p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1595,82 +1597,7 @@
                                 <div class="mkdf-row-grid-section-wrapper ">
                                     <div class="mkdf-row-grid-section">
                                         <div class="vc_row wpb_row vc_row-fluid vc_custom_1520421283539">
-                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="mkdf-counter-holder ">
-                                                            <div class="mkdf-counter-inner">
-                                                                <span class="mkdf-counter mkdf-zero-counter">117</span>
-                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-center ">
-                                                                    <div class="mkdf-separator"
-                                                                         style="width: 100px"></div>
-                                                                </div>
-                                                                <p class="mkdf-counter-text">
-                                                                    UN PO' DI  NUMERI
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 50px"><span
-                                                                    class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>--}}
-                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-5">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="mkdf-counter-holder ">
-                                                            <div class="mkdf-counter-inner">
-                                                                <span class="mkdf-counter mkdf-zero-counter">62</span>
-                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-center ">
-                                                                    <div class="mkdf-separator"
-                                                                         style="width: 100px"></div>
-                                                                </div>
-                                                                <p class="mkdf-counter-text">
-                                                                    UN PO' DI  NUMERI
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 50px"><span
-                                                                    class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>--}}
-                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="mkdf-counter-holder ">
-                                                            <div class="mkdf-counter-inner">
-                                                                <span class="mkdf-counter mkdf-zero-counter">18</span>
-                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-center ">
-                                                                    <div class="mkdf-separator"
-                                                                         style="width: 100px"></div>
-                                                                </div>
-                                                                <p class="mkdf-counter-text">UN PO' DI  NUMERI</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 50px"><span
-                                                                    class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>--}}
-                                            {{--<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-5">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="mkdf-counter-holder ">
-                                                            <div class="mkdf-counter-inner">
-                                                                <span class="mkdf-counter mkdf-zero-counter">93</span>
-                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-center ">
-                                                                    <div class="mkdf-separator"
-                                                                         style="width: 100px"></div>
-                                                                </div>
-                                                                <p class="mkdf-counter-text"><div id="conto"></div></p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_empty_space" style="height: 50px"><span
-                                                                    class="vc_empty_space_inner"></span></div>
-                                                    </div>
-                                                </div>
-                                            </div>--}}
+
 
                                             <div class="mkdf-row-grid-section">
                                                 <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405848948">
@@ -1819,790 +1746,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{--                                <div class="mkdf-row-grid-section-wrapper ">
-                                                                    <div class="mkdf-row-grid-section">
-                                                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405836034">
-                                                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-2 vc_col-lg-8">
-                                                                                <div class="vc_column-inner ">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <div class="mkdf-section-title-holder  "
-                                                                                             style="text-align: center">
-                                                                                            <div class="mkdf-st-inner">
-                                                                                                <h3 class="mkdf-st-title">
-                                                                                                    Want to be an intern? </h3>
-                                                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
-                                                                                                    <div class="mkdf-separator"
-                                                                                                         style="width: 143px;border-bottom-width: 2px"></div>
-                                                                                                </div>
-                                                                                                <h6 class="mkdf-st-text">
-                                                                                                    Start your law career at the best place. Learn from
-                                                                                                    the experts in this field through the practical
-                                                                                                    methods. Send us your CV and Cover Letter. </h6>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-row-grid-section-wrapper ">
-                                                                    <div class="mkdf-row-grid-section">
-                                                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1520416183281">
-                                                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                                                <div class="vc_column-inner ">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <div class="mkdf-elements-holder   mkdf-two-columns  mkdf-responsive-mode-1024 ">
-                                                                                            <div class="mkdf-eh-item     mkdf-width-2-3"
-                                                                                                 style="background-image: url(http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-img-5.jpg)"
-                                                                                                 data-item-class="mkdf-eh-custom-9276"
-                                                                                                 data-680="130px 0px">
-                                                                                                <div class="mkdf-eh-item-inner">
-                                                                                                    <div class="mkdf-eh-item-content mkdf-eh-custom-9276"
-                                                                                                         style="padding: 202px 0px">
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="mkdf-eh-item     mkdf-width-1-3"
-                                                                                                 style="background-image: url(http://anwalt.mikado-themes.com/wp-content/uploads/2018/04/h1-img-6.jpg)"
-                                                                                                 data-item-class="mkdf-eh-custom-9822"
-                                                                                                 data-768-1024="262px 45px 40px"
-                                                                                                 data-680-768="262px 45px 40px"
-                                                                                                 data-680="140px 30px 25px">
-                                                                                                <div class="mkdf-eh-item-inner">
-                                                                                                    <div class="mkdf-eh-item-content mkdf-eh-custom-9822"
-                                                                                                         style="padding: 220px 45px 0px">
-                                                                                                        <div class="mkdf-section-title-holder  "
-                                                                                                             style="text-align: left">
-                                                                                                            <div class="mkdf-st-inner">
-                                                                                                                <h5 class="mkdf-st-title"
-                                                                                                                    style="color: #ffffff">
-                                                                                                                    Join our team </h5>
-                                                                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-left mkdf-separator-normal"
-                                                                                                                     style="margin-top: 20px;margin-bottom: 13px">
-                                                                                                                    <div class="mkdf-separator"
-                                                                                                                         style="border-color: #ffffff;width: 143px;border-bottom-width: 2px"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <a itemprop="url"
-                                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
-                                                                                                           target="_self" style="color: #ffffff"
-                                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-custom-hover-color mkdf-btn-icon mkdf-btn-icon-animate"
-                                                                                                           data-hover-color="#ffffff">
-                                                                                                            <span class="mkdf-btn-text">Pdf</span>
-                                                                                                            <span aria-hidden="true"
-                                                                                                                  class="mkdf-icon-linear-icons lnr lnr-arrow-right "></span></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="mkdf-elements-holder   mkdf-two-columns  mkdf-responsive-mode-1024 ">
-                                                                                            <div class="mkdf-eh-item     mkdf-width-1-3"
-                                                                                                 style="background-image: url(http://anwalt.mikado-themes.com/wp-content/uploads/2018/04/h1-img-7.jpg)"
-                                                                                                 data-item-class="mkdf-eh-custom-6842"
-                                                                                                 data-768-1024="262px 45px 40px"
-                                                                                                 data-680-768="262px 45px 40px"
-                                                                                                 data-680="140px 30px 25px">
-                                                                                                <div class="mkdf-eh-item-inner">
-                                                                                                    <div class="mkdf-eh-item-content mkdf-eh-custom-6842"
-                                                                                                         style="padding: 220px 45px 0px">
-                                                                                                        <div class="mkdf-section-title-holder  "
-                                                                                                             style="text-align: left">
-                                                                                                            <div class="mkdf-st-inner">
-                                                                                                                <h5 class="mkdf-st-title"
-                                                                                                                    style="color: #ffffff">
-                                                                                                                    The right choice </h5>
-                                                                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-left mkdf-separator-normal"
-                                                                                                                     style="margin-top: 20px;margin-bottom: 13px">
-                                                                                                                    <div class="mkdf-separator"
-                                                                                                                         style="border-color: #ffffff;width: 143px;border-bottom-width: 2px"></div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <a itemprop="url"
-                                                                                                           href="http://anwalt.mikado-themes.com/contact-us/"
-                                                                                                           target="_self" style="color: #ffffff"
-                                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-custom-hover-color mkdf-btn-icon mkdf-btn-icon-animate"
-                                                                                                           data-hover-color="#ffffff">
-                                                                                                            <span class="mkdf-btn-text">Apply</span>
-                                                                                                            <span aria-hidden="true"
-                                                                                                                  class="mkdf-icon-linear-icons lnr lnr-arrow-right "></span></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="mkdf-eh-item     mkdf-width-2-3"
-                                                                                                 style="background-image: url(http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-img-8.jpg)"
-                                                                                                 data-item-class="mkdf-eh-custom-1049"
-                                                                                                 data-680="130px 0px">
-                                                                                                <div class="mkdf-eh-item-inner">
-                                                                                                    <div class="mkdf-eh-item-content mkdf-eh-custom-1049"
-                                                                                                         style="padding: 202px 0px">
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>--}}
-                                <div class="mkdf-row-grid-section-wrapper "
-                                     style="background-color:rgba(194,170,128,0.08)">
-                                    <div class="mkdf-row-grid-section">
-                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405848948">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="mkdf-section-title-holder  "
-                                                             style="text-align: center">
-                                                            <div class="mkdf-st-inner">
-                                                                <h3 class="mkdf-st-title">
-                                                                    Tabelle dei servizi Privacy</h3>
-                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
-                                                                    <div class="mkdf-separator"
-                                                                         style="width: 143px;border-bottom-width: 2px"></div>
-                                                                </div>
-                                                                <h6 class="mkdf-st-text">
-                                                                    Scegli il servizio di cui hai bisogno e ti aiuteremo </h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mkdf-row-grid-section-wrapper "
-                                     style="background-color:rgba(194,170,128,0.08)">
-                                    <div class="mkdf-row-grid-section">
-                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1520416413881">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="mkdf-pricing-tables clearfix mkdf-three-columns mkdf-normal-space">
-                                                            <div class="mkdf-pt-wrapper mkdf-outer-space">
-                                                                <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner ombra">
-                                                                        <ul>
-                                                                            <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                                                <span class="mkdf-pt-title">Soluzione nr.1</span>
-                                                                            </li>
-                                                                            <li class="mkdf-pt-content-bottom">
-                                                                                <ul>
-                                                                                    {{--<li class="mkdf-pt-price-holder">
-                                                                                        <span class="mkdf-pt-value">$</span>
-                                                                                        <span class="mkdf-pt-price">400</span>
-                                                                                    </li>--}}
-                                                                                    <li class="mkdf-pt-content">
-
-                                                                                        <ul>
-                                                                                            <li>ADDETTI  N.1  (DITTA INDIVIDUALE SENZA DIPENDENTI)
-                                                                                            </li>
-                                                                                            <li>ARCHIVIO INFORMATICO E CARTACEO
-                                                                                            </li>
-                                                                                            {{--<li>Lorem ipsum dolor sit
-                                                                                                amett
-                                                                                            </li>
-                                                                                            <li>Dolor sit amet lorem
-                                                                                            </li>--}}
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                    <li class="mkdf-pt-button">
-                                                                                        <a itemprop="url"
-                                                                                           href="{{route('soluzione1')}}"
-                                                                                           target="_self"
-                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
-                                                                                            <span class="mkdf-btn-text">Approfondisci</span>
-                                                                                            <i class="fas fa-search"></i></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner ombra">
-                                                                        <ul>
-                                                                            <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                                                <span class="mkdf-pt-title">Soluzione nr.2</span>
-                                                                            </li>
-                                                                            <li class="mkdf-pt-content-bottom">
-                                                                                <ul>
-                                                                                    {{--<li class="mkdf-pt-price-holder">
-                                                                                        <span class="mkdf-pt-value">$</span>
-                                                                                        <span class="mkdf-pt-price">220</span>
-                                                                                    </li>--}}
-                                                                                    <li class="mkdf-pt-content">
-
-                                                                                        <ul>
-                                                                                            <li>ADDETTI  N.1  (DITTA INDIVIDUALE SENZA DIPENDENTI)
-                                                                                            </li>
-                                                                                            <li>SOLO ARCHIVIO CARTACEO
-                                                                                            </li>
-                                                                                            {{--<li>Lorem ipsum dolor sit
-                                                                                                amett
-                                                                                            </li>
-                                                                                            <li>Dolor sit amet lorem
-                                                                                            </li>--}}
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                    <li class="mkdf-pt-button">
-                                                                                        <a itemprop="url"
-                                                                                           href="{{route('soluzione2')}}"
-                                                                                           target="_self"
-                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
-                                                                                            <span class="mkdf-btn-text">Approfondisci</span>
-                                                                                            <i class="fas fa-search"></i></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner ombra">
-                                                                        <ul>
-                                                                            <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                                                <span class="mkdf-pt-title">Soluzione nr.3</span>
-                                                                            </li>
-                                                                            <li class="mkdf-pt-content-bottom">
-                                                                                <ul>
-                                                                                    {{--<li class="mkdf-pt-price-holder">
-                                                                                        <span class="mkdf-pt-value">$</span>
-                                                                                        <span class="mkdf-pt-price">600</span>
-                                                                                    </li>--}}
-                                                                                    <li class="mkdf-pt-content">
-
-                                                                                        <ul>
-                                                                                            <li>ADDETTI  N.1  (DITTA INDIVIDUALE CON DIPENDENTI)
-                                                                                            </li>
-                                                                                            <li>ARCHIVIO INFORMATICO E CARTACEO
-                                                                                            </li>
-                                                                                            {{--<li>Lorem ipsum dolor sit
-                                                                                                amett
-                                                                                            </li>
-                                                                                            <li>Dolor sit amet lorem
-                                                                                            </li>--}}
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                    <li class="mkdf-pt-button">
-                                                                                        <a itemprop="url"
-                                                                                           href="{{route('soluzione3')}}"
-                                                                                           target="_self"
-                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
-                                                                                            <span class="mkdf-btn-text">Approfondisci</span>
-                                                                                            <i class="fas fa-search"></i></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mkdf-row-grid-section-wrapper "
-                                     style="background-color:rgba(194,170,128,0.08)">
-                                    <div class="mkdf-row-grid-section">
-                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1520416413881">
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="mkdf-pricing-tables clearfix mkdf-three-columns mkdf-normal-space">
-                                                            <div class="mkdf-pt-wrapper mkdf-outer-space">
-                                                                <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner ombra">
-                                                                        <ul>
-                                                                            <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                                                <span class="mkdf-pt-title">Soluzione nr.4</span>
-                                                                            </li>
-                                                                            <li class="mkdf-pt-content-bottom">
-                                                                                <ul>
-                                                                                    {{--<li class="mkdf-pt-price-holder">
-                                                                                        <span class="mkdf-pt-value">$</span>
-                                                                                        <span class="mkdf-pt-price">800</span>
-                                                                                    </li>--}}
-                                                                                    <li class="mkdf-pt-content">
-
-                                                                                        <ul>
-                                                                                            <li>ADDETTI DA 2 A 5 (DITTA INDIVIDUALE E SOCIETA’ CON DIPENDENTI)
-                                                                                            </li>
-                                                                                            <li>N.1 ARCHIVIO INFORMATICO E ARCHIVIO CARTACEO<br><br>
-                                                                                            </li>
-                                                                                            {{--<li>Lorem ipsum dolor sit
-                                                                                                amett
-                                                                                            </li>
-                                                                                            <li>Dolor sit amet lorem
-                                                                                            </li>--}}
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                    <li class="mkdf-pt-button">
-                                                                                        <a itemprop="url"
-                                                                                           href="{{route('soluzione4')}}"
-                                                                                           target="_self"
-                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
-                                                                                            <span class="mkdf-btn-text">Approfondisci</span>
-                                                                                            <i class="fas fa-search"></i></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner ombra">
-                                                                        <ul>
-                                                                            <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                                                <span class="mkdf-pt-title">Soluzione nr.5</span>
-                                                                            </li>
-                                                                            <li class="mkdf-pt-content-bottom">
-                                                                                <ul>
-                                                                                    {{--<li class="mkdf-pt-price-holder">
-                                                                                        <span class="mkdf-pt-value">$</span>
-                                                                                        <span class="mkdf-pt-price">1300</span>
-                                                                                    </li>--}}
-                                                                                    <li class="mkdf-pt-content">
-
-                                                                                        <ul>
-                                                                                            <li>ADDETTI DA 2 A 5 (DITTA INDIVIDUALE E SOCIETA’ CON DIPENDENTI)
-                                                                                            </li>
-                                                                                            <li>DA 2 A 5 ARCHIVI INFORMATICI E ARCHIVIO CARTACEO <br><br>
-                                                                                            </li>
-                                                                                            {{--<li>Lorem ipsum dolor sit
-                                                                                                amett
-                                                                                            </li>
-                                                                                            <li>Dolor sit amet lorem
-                                                                                            </li>--}}
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                    <li class="mkdf-pt-button">
-                                                                                        <a itemprop="url"
-                                                                                           href="{{route('soluzione5')}}"
-                                                                                           target="_self"
-                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
-                                                                                            <span class="mkdf-btn-text">Approfondisci</span>
-                                                                                            <i class="fas fa-search"></i></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-price-table mkdf-item-space ">
-                                                                    <div class="mkdf-pt-inner ombra">
-                                                                        <ul>
-                                                                            <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                                                <span class="mkdf-pt-title">Soluzione nr.5</span>
-                                                                            </li>
-                                                                            <li class="mkdf-pt-content-bottom">
-                                                                                <ul>
-                                                                                    {{--<li class="mkdf-pt-price-holder">
-                                                                                        <span class="mkdf-pt-value">$</span>
-                                                                                        <span class="mkdf-pt-price">1300</span>
-                                                                                    </li>--}}
-                                                                                    <li class="mkdf-pt-content">
-
-                                                                                        <ul>
-                                                                                            <li>COMPILAZIONE DOCUMENTI PER LA NOMINA DELLE FIGURE INCARICATE
-                                                                                            </li>
-                                                                                            <li>ELENCO ARCHIVI SIA INFORMATICI CHE CARTACEI SENZA SOPRALLUOGO E SENZA CONSULENZA
-                                                                                            </li>
-                                                                                            {{--<li>Lorem ipsum dolor sit
-                                                                                                amett
-                                                                                            </li>
-                                                                                            <li>Dolor sit amet lorem
-                                                                                            </li>--}}
-                                                                                        </ul>
-                                                                                    </li>
-                                                                                    <li class="mkdf-pt-button">
-                                                                                        <a itemprop="url"
-                                                                                           href="{{route('soluzione5')}}"
-                                                                                           target="_self"
-                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-btn-icon-animate">
-                                                                                            <span class="mkdf-btn-text">Approfondisci</span>
-                                                                                            <i class="fas fa-search"></i></a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {{--                                <div class="mkdf-row-grid-section-wrapper ">
-                                                                    <div class="mkdf-row-grid-section">
-                                                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1521709462158">
-                                                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                                                <div class="vc_column-inner ">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <div class="mkdf-section-title-holder  "
-                                                                                             style="text-align: center">
-                                                                                            <div class="mkdf-st-inner">
-                                                                                                <h3 class="mkdf-st-title">
-                                                                                                    Find out about activities on our blog </h3>
-                                                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
-                                                                                                    <div class="mkdf-separator"
-                                                                                                         style="width: 143px;border-bottom-width: 2px"></div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-row-grid-section-wrapper ">
-                                                                    <div class="mkdf-row-grid-section">
-                                                                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1520610634047">
-                                                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                                                <div class="vc_column-inner ">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <div class="mkdf-blog-list-holder mkdf-bl-standard mkdf-bl-four-columns mkdf-normal-space mkdf-bl-pag-no-pagination   "
-                                                                                             data-type=standard data-number-of-posts=-1
-                                                                                             data-number-of-columns=4 data-space-between-items=normal
-                                                                                             data-category=interview data-orderby=date data-order=DESC
-                                                                                             data-image-size=full data-title-tag=h5
-                                                                                             data-excerpt-length=10 data-post-info-section=yes
-                                                                                             data-post-info-image=yes data-post-info-image-zoom=no
-                                                                                             data-post-info-image-shader=no data-post-info-author=no
-                                                                                             data-post-info-date=yes data-post-info-category=no
-                                                                                             data-post-info-comments=no data-post-info-like=no
-                                                                                             data-post-info-share=no data-pagination-type=no-pagination
-                                                                                             data-max-num-pages=0 data-next-page=2>
-                                                                                            <div class="mkdf-bl-wrapper mkdf-outer-space">
-                                                                                                <ul class="mkdf-blog-list">
-                                                                                                    <li class="mkdf-bl-item mkdf-item-space clearfix">
-                                                                                                        <div class="mkdf-bli-inner">
-                                                                                                            <div class="mkdf-bli-image-holder">
-
-                                                                                                                <div class="mkdf-post-image">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/law-and-order/"
-                                                                                                                       title="Law and order">
-                                                                                                                        <img width="1300" height="940"
-                                                                                                                             src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-9.jpg"
-                                                                                                                             class="attachment-full size-full wp-post-image"
-                                                                                                                             alt="i"
-                                                                                                                             srcset="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-9.jpg 1300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-9-300x217.jpg 300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-9-768x555.jpg 768w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-9-1024x740.jpg 1024w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-9-800x578.jpg 800w"
-                                                                                                                             sizes="(max-width: 1300px) 100vw, 1300px"/>
-                                                                                                                    </a>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="mkdf-bli-content">
-                                                                                                                <div class="mkdf-bli-info">
-                                                                                                                    <div itemprop="dateCreated"
-                                                                                                                         class="mkdf-post-info-date entry-date published updated">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/2018/03/">
-
-                                                                                                                            March 9, 2018 </a>
-                                                                                                                        <meta itemprop="interactionCount"
-                                                                                                                              content="UserComments: 0"/>
-                                                                                                                    </div>
-                                                                                                                </div>
-
-
-                                                                                                                <h5 itemprop="name"
-                                                                                                                    class="entry-title mkdf-post-title">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/law-and-order/"
-                                                                                                                       title="Law and order">
-                                                                                                                        Law and order </a>
-                                                                                                                </h5>
-                                                                                                                <div class="mkdf-bli-excerpt">
-                                                                                                                    <div class="mkdf-post-excerpt-holder">
-                                                                                                                        <p itemprop="description"
-                                                                                                                           class="mkdf-post-excerpt">
-                                                                                                                            Lorem ipsum dolor sit amet,
-                                                                                                                            consectetur adicing elit ut
-                                                                                                                            ullam. </p>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-separator-holder clearfix   ">
-                                                                                                                        <div class="mkdf-separator"
-                                                                                                                             style="width: 100px"></div>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-post-read-more-button">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/law-and-order/"
-                                                                                                                           target="_self"
-                                                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-blog-list-button mkdf-btn-icon-animate">
-                                                                                                                            <span class="mkdf-btn-text">Read More</span>
-                                                                                                                            <span aria-hidden="true"
-                                                                                                                                  class="mkdf-icon-linear-icons lnr lnr-arrow-right "></span></a>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="mkdf-bl-item mkdf-item-space clearfix">
-                                                                                                        <div class="mkdf-bli-inner">
-                                                                                                            <div class="mkdf-bli-image-holder">
-
-                                                                                                                <div class="mkdf-post-image">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/time-for-action/"
-                                                                                                                       title="Time for action">
-                                                                                                                        <img width="1300" height="940"
-                                                                                                                             src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-10.jpg"
-                                                                                                                             class="attachment-full size-full wp-post-image"
-                                                                                                                             alt="i"
-                                                                                                                             srcset="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-10.jpg 1300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-10-300x217.jpg 300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-10-768x555.jpg 768w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-10-1024x740.jpg 1024w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-10-800x578.jpg 800w"
-                                                                                                                             sizes="(max-width: 1300px) 100vw, 1300px"/>
-                                                                                                                    </a>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="mkdf-bli-content">
-                                                                                                                <div class="mkdf-bli-info">
-                                                                                                                    <div itemprop="dateCreated"
-                                                                                                                         class="mkdf-post-info-date entry-date published updated">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/2018/03/">
-
-                                                                                                                            March 9, 2018 </a>
-                                                                                                                        <meta itemprop="interactionCount"
-                                                                                                                              content="UserComments: 0"/>
-                                                                                                                    </div>
-                                                                                                                </div>
-
-
-                                                                                                                <h5 itemprop="name"
-                                                                                                                    class="entry-title mkdf-post-title">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/time-for-action/"
-                                                                                                                       title="Time for action">
-                                                                                                                        Time for action </a>
-                                                                                                                </h5>
-                                                                                                                <div class="mkdf-bli-excerpt">
-                                                                                                                    <div class="mkdf-post-excerpt-holder">
-                                                                                                                        <p itemprop="description"
-                                                                                                                           class="mkdf-post-excerpt">
-                                                                                                                            Lorem ipsum dolor sit amet,
-                                                                                                                            consectetur adicing elit ut
-                                                                                                                            ullam. </p>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-separator-holder clearfix   ">
-                                                                                                                        <div class="mkdf-separator"
-                                                                                                                             style="width: 100px"></div>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-post-read-more-button">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/time-for-action/"
-                                                                                                                           target="_self"
-                                                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-blog-list-button mkdf-btn-icon-animate">
-                                                                                                                            <span class="mkdf-btn-text">Read More</span>
-                                                                                                                            <span aria-hidden="true"
-                                                                                                                                  class="mkdf-icon-linear-icons lnr lnr-arrow-right "></span></a>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="mkdf-bl-item mkdf-item-space clearfix">
-                                                                                                        <div class="mkdf-bli-inner">
-                                                                                                            <div class="mkdf-bli-image-holder">
-
-                                                                                                                <div class="mkdf-post-image">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/dream-big/"
-                                                                                                                       title="Dream big">
-                                                                                                                        <img width="1300" height="940"
-                                                                                                                             src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-11.jpg"
-                                                                                                                             class="attachment-full size-full wp-post-image"
-                                                                                                                             alt="i"
-                                                                                                                             srcset="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-11.jpg 1300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-11-300x217.jpg 300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-11-768x555.jpg 768w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-11-1024x740.jpg 1024w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-11-800x578.jpg 800w"
-                                                                                                                             sizes="(max-width: 1300px) 100vw, 1300px"/>
-                                                                                                                    </a>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="mkdf-bli-content">
-                                                                                                                <div class="mkdf-bli-info">
-                                                                                                                    <div itemprop="dateCreated"
-                                                                                                                         class="mkdf-post-info-date entry-date published updated">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/2018/03/">
-
-                                                                                                                            March 9, 2018 </a>
-                                                                                                                        <meta itemprop="interactionCount"
-                                                                                                                              content="UserComments: 0"/>
-                                                                                                                    </div>
-                                                                                                                </div>
-
-
-                                                                                                                <h5 itemprop="name"
-                                                                                                                    class="entry-title mkdf-post-title">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/dream-big/"
-                                                                                                                       title="Dream big">
-                                                                                                                        Dream big </a>
-                                                                                                                </h5>
-                                                                                                                <div class="mkdf-bli-excerpt">
-                                                                                                                    <div class="mkdf-post-excerpt-holder">
-                                                                                                                        <p itemprop="description"
-                                                                                                                           class="mkdf-post-excerpt">
-                                                                                                                            Lorem ipsum dolor sit amet,
-                                                                                                                            consectetur adicing elit ut
-                                                                                                                            ullam. </p>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-separator-holder clearfix   ">
-                                                                                                                        <div class="mkdf-separator"
-                                                                                                                             style="width: 100px"></div>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-post-read-more-button">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/dream-big/"
-                                                                                                                           target="_self"
-                                                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-blog-list-button mkdf-btn-icon-animate">
-                                                                                                                            <span class="mkdf-btn-text">Read More</span>
-                                                                                                                            <span aria-hidden="true"
-                                                                                                                                  class="mkdf-icon-linear-icons lnr lnr-arrow-right "></span></a>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="mkdf-bl-item mkdf-item-space clearfix">
-                                                                                                        <div class="mkdf-bli-inner">
-                                                                                                            <div class="mkdf-bli-image-holder">
-
-                                                                                                                <div class="mkdf-post-image">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/lawyer-lifestyle/"
-                                                                                                                       title="Lawyer lifestyle">
-                                                                                                                        <img width="1300" height="940"
-                                                                                                                             src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-12.jpg"
-                                                                                                                             class="attachment-full size-full wp-post-image"
-                                                                                                                             alt="i"
-                                                                                                                             srcset="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-12.jpg 1300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-12-300x217.jpg 300w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-12-768x555.jpg 768w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-12-1024x740.jpg 1024w, http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/blog-img-12-800x578.jpg 800w"
-                                                                                                                             sizes="(max-width: 1300px) 100vw, 1300px"/>
-                                                                                                                    </a>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="mkdf-bli-content">
-                                                                                                                <div class="mkdf-bli-info">
-                                                                                                                    <div itemprop="dateCreated"
-                                                                                                                         class="mkdf-post-info-date entry-date published updated">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/2018/03/">
-
-                                                                                                                            March 9, 2018 </a>
-                                                                                                                        <meta itemprop="interactionCount"
-                                                                                                                              content="UserComments: 0"/>
-                                                                                                                    </div>
-                                                                                                                </div>
-
-
-                                                                                                                <h5 itemprop="name"
-                                                                                                                    class="entry-title mkdf-post-title">
-                                                                                                                    <a itemprop="url"
-                                                                                                                       href="http://anwalt.mikado-themes.com/lawyer-lifestyle/"
-                                                                                                                       title="Lawyer lifestyle">
-                                                                                                                        Lawyer lifestyle </a>
-                                                                                                                </h5>
-                                                                                                                <div class="mkdf-bli-excerpt">
-                                                                                                                    <div class="mkdf-post-excerpt-holder">
-                                                                                                                        <p itemprop="description"
-                                                                                                                           class="mkdf-post-excerpt">
-                                                                                                                            Lorem ipsum dolor sit amet,
-                                                                                                                            consectetur adicing elit ut
-                                                                                                                            ullam. </p>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-separator-holder clearfix   ">
-                                                                                                                        <div class="mkdf-separator"
-                                                                                                                             style="width: 100px"></div>
-                                                                                                                    </div>
-                                                                                                                    <div class="mkdf-post-read-more-button">
-                                                                                                                        <a itemprop="url"
-                                                                                                                           href="http://anwalt.mikado-themes.com/lawyer-lifestyle/"
-                                                                                                                           target="_self"
-                                                                                                                           class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-icon mkdf-blog-list-button mkdf-btn-icon-animate">
-                                                                                                                            <span class="mkdf-btn-text">Read More</span>
-                                                                                                                            <span aria-hidden="true"
-                                                                                                                                  class="mkdf-icon-linear-icons lnr lnr-arrow-right "></span></a>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>--}}
-                                {{--                                <div class="vc_row wpb_row vc_row-fluid">
-                                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                                        <div class="vc_column-inner ">
-                                                                            <div class="wpb_wrapper">
-                                                                                <div class="mkdf-elements-holder   mkdf-two-columns  mkdf-responsive-mode-768 ">
-                                                                                    <div class="mkdf-eh-item   mkdf-horizontal-alignment-right  "
-                                                                                         style="background-image: url(http://anwalt.mikado-themes.com/wp-content/uploads/2018/04/h1-img-9.jpg)"
-                                                                                         data-item-class="mkdf-eh-custom-3286"
-                                                                                         data-680="72px 10px 90px">
-                                                                                        <div class="mkdf-eh-item-inner">
-                                                                                            <div class="mkdf-eh-item-content mkdf-eh-custom-3286"
-                                                                                                 style="padding: 64px 60px 89px">
-                                                                                                <h2 class="mkdf-custom-font-holder  mkdf-cf-7172  "
-                                                                                                    style="font-size: 125px;line-height: 155px;color: #0077c0;margin: 0px"
-                                                                                                    data-item-class="mkdf-cf-7172">
-                                                                                                    20%</h2>
-                                                                                                <div class="mkdf-separator-holder clearfix  mkdf-separator-right "
-                                                                                                     style="margin-top: 12px">
-                                                                                                    <div class="mkdf-separator"
-                                                                                                         style="border-color: #0077c0;width: 150px;border-bottom-width: 2px"></div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="mkdf-eh-item     "
-                                                                                         style="background-image: url(http://anwalt.mikado-themes.com/wp-content/uploads/2018/04/h1-img-10.jpg)"
-                                                                                         data-item-class="mkdf-eh-custom-6808"
-                                                                                         data-768-1024="0px 80px 39px 74px"
-                                                                                         data-680-768="55px 0px 100px 74px"
-                                                                                         data-680="55px 0px 100px 15px">
-                                                                                        <div class="mkdf-eh-item-inner">
-                                                                                            <div class="mkdf-eh-item-content mkdf-eh-custom-6808"
-                                                                                                 style="padding: 0px 0px 39px 74px">
-
-                                                                                                <div class="wpb_text_column wpb_content_element ">
-                                                                                                    <div class="wpb_wrapper">
-                                                                                                        <h3><span style="color: #ffffff;">Special offer this month</span>
-                                                                                                        </h3>
-
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="vc_empty_space" style="height: 40px"><span
-                                                                                                            class="vc_empty_space_inner"></span></div>
-                                                                                                <a itemprop="url"
-                                                                                                   href="http://anwalt.mikado-themes.com/product-list/"
-                                                                                                   target="_self"
-                                                                                                   style="color: #c2aa80;background-color: #ffffff"
-                                                                                                   class="mkdf-btn mkdf-btn-large mkdf-btn-solid">
-                                                                                                    <span class="mkdf-btn-text">More</span>
-                                                                                                </a></div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>--}}
                             </div>
                         </div>
                     </div>

@@ -27,13 +27,9 @@
                                                 <li class="mkdf-pt-content" >
 
                                                     <ul>
-                                                        <li style="text-align: justify!important;">
 
-                                                        </li>
-
-                                                        <li style="text-align: justify!important;">
-
-
+                                                        <li style="text-align: center!important;">
+                                                            <a href="{{route('tabelle')}}">Tabelle dei servizi Privacy</a>
                                                         </li>
 
                                                         <li style="text-align: center!important;">

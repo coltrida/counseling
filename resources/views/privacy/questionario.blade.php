@@ -21,7 +21,9 @@
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
                                                 <div style="font-weight: bold;">
+
                                                     <form class="wpcf7-form cf7_custom_style_1">
+
                                                         <div class="mkdf-grid-row mkdf-grid-normal-gutter">
                                                             <div style="text-align: left!important; color: blue"></div>
                                                             <div class="mkdf-grid-col-8" style="text-align: left!important;"><span
@@ -34,7 +36,7 @@
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
                                                                         class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" required name="azienda" value="" size="28"
+                                                                            type="tel" required name="azienda" id="azienda" value="" size="28"
                                                                             class=""
                                                                             aria-invalid="false"
                                                                     /></span></div>
@@ -53,7 +55,7 @@
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
                                                                         class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" required name="Titolare" value="" size="28"
+                                                                            type="tel" required name="Titolare" id="titolare" value="" size="28"
                                                                             class=""
                                                                             aria-invalid="false"
                                                                     /></span></div>
@@ -72,7 +74,7 @@
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
                                                                         class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" required name="mail" value="" size="28"
+                                                                            type="tel" required name="mail" id="mail" value="" size="28"
                                                                             class=""
                                                                             aria-invalid="false"
                                                                     /></span></div>
@@ -100,7 +102,7 @@
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
                                                                         class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" name="primanumero" value="" size="4"
+                                                                            type="tel" name="primanumero" id="primanumero" value="" size="4"
                                                                             class=""
                                                                             aria-invalid="false"
                                                                             /></span></div>
@@ -129,7 +131,7 @@
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
                                                                         class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" name="secondanumero" value="" size="4"
+                                                                            type="tel" name="secondanumero" id="secondanumero" value="" size="4"
                                                                             class=""
                                                                             aria-invalid="false"
                                                                     /></span></div>
@@ -258,7 +260,7 @@ degli interessi personali su larga scala?
                                                         <br>
 
                                                         <div class="mkdf-grid-row mkdf-grid-normal-gutter">
-                                                            <div style="text-align: left!important; color: blue">Responsabile Protezione Dati (RPD)</div>
+                                                            <div style="text-align: left!important; color: blue">Trattamento effettuato in qualità di responsabile esterno</div>
                                                             <div class="mkdf-grid-col-8" style="text-align: left!important;"><span
                                                                         class="wpcf7-form-control-wrap text">
                                                                     Si svolge il trattamento dati per c/terzi in qualità di responsabile esterno?
@@ -293,14 +295,19 @@ degli interessi personali su larga scala?
 
                                                         </div>
 
+                                                        <div id="messquest" style="text-align:center!important; height: 50px; padding-top: 8px; margin-top: 60px; border: 1px solid black; display: none">
+
+                                                        </div>
+
 
                                                         <p style="text-align:center; margin-top: 60px">
-                                                            <a title="Invia mail" id="inviamail" href="" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0">
+                                                            <a title="Invia questionario" id="inviaquestionario" href="{{route('sendquestionario')}}" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0">
                                                                 invia</a>
                                                         </p>
-                                                    </form>
-                                                </div>
 
+                                                    </form>
+
+                                                </div>
                                             </ul>
                                         </li>
                                     </ul>
@@ -308,10 +315,74 @@ degli interessi personali su larga scala?
                             </div>
 
                         </div>
+
                     </div>
+
+                </div>
+
+            </div>
+                <div style="text-align: right; margin-top: 30px">
+                    <button style="background-color: #95b9e0;" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
                 </div>
             </div>
-            </div>
+
         </div>
     </div>
+@stop
+
+@section('fondo')
+<script>
+    jQuery('document').ready(function () {
+
+        jQuery('#inviaquestionario').on('click', function (ele) {
+            ele.preventDefault();
+            var urlmail =   jQuery(this).attr('href');
+
+            jQuery.ajax(
+                urlmail,
+                {
+                    method: 'POST',
+                    dataType: 'json',
+                    data : {
+                        '_token' : jQuery('#_token').val(),
+                        'azienda' : jQuery('#azienda').val(),
+                        'titolare' : jQuery('#titolare').val(),
+                        'mail' : jQuery('#mail').val(),
+                        'primanumero' : jQuery('#primanumero').val(),
+                        'secondanumero' : jQuery('#secondanumero').val(),
+                        'prima' : jQuery('input[name=prima]:checked').val(),
+                        'seconda' : jQuery('input[name=seconda]:checked').val(),
+                        'terza' : jQuery('input[name=terza]:checked').val(),
+                        'quarta' : jQuery('input[name=quarta]:checked').val(),
+                        'quinta' : jQuery('input[name=quinta]:checked').val(),
+                        'sesta' : jQuery('input[name=sesta]:checked').val(),
+                        'settima' : jQuery('input[name=settima]:checked').val(),
+                        'ottava' : jQuery('input[name=ottava]:checked').val(),
+                        'nona' : jQuery('input[name=nona]:checked').val(),
+                    },
+                    complete : function (resp) {
+                        console.log(resp.responseText);
+                        if(resp.responseText == 1){
+                            jQuery('#messquest').fadeIn(2000);
+                            jQuery('#messquest').html("Questionario inviato");
+                            jQuery('#messquest').fadeOut(4000);
+
+                        } else {
+                            var cc = JSON.parse(resp.responseText);
+                            if(cc.errors.content){
+                                jQuery('#mess').html(cc.errors.content + " <br> messaggio non inviato");
+                            }
+                            if(cc.errors.mailfrom){
+                                jQuery('#mess').html(cc.errors.mailfrom + " <br> messaggio non inviato");
+                            }
+                            jQuery('#messquest').css("height", 80);
+                            jQuery('#messquest').fadeIn(2000);
+                            jQuery('#messquest').fadeOut(3000);
+                        }
+                    }
+                }
+            )
+        });
+    });
+</script>
 @stop

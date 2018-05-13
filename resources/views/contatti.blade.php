@@ -49,92 +49,7 @@
                                 </div>
                             </div>
 
-                            {{--<div class="mkdf-row-grid-section-wrapper ">
-                                <div class="mkdf-row-grid-section">
-                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1522075183756">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-1 vc_col-lg-10">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                    <div role="form" class="wpcf7" id="wpcf7-f1608-p399-o1"
-                                                         lang="en-US" dir="ltr">
-                                                        <div class="screen-reader-response"></div>
-                                                        <form action="/contact-us/#wpcf7-f1608-p399-o1"
-                                                              method="post" class="wpcf7-form cf7_custom_style_1"
-                                                              novalidate="novalidate">
-                                                            <div style="display: none;">
-                                                                <input type="hidden" name="_wpcf7" value="1608"/>
-                                                                <input type="hidden" name="_wpcf7_version"
-                                                                       value="5.0.1"/>
-                                                                <input type="hidden" name="_wpcf7_locale"
-                                                                       value="en_US"/>
-                                                                <input type="hidden" name="_wpcf7_unit_tag"
-                                                                       value="wpcf7-f1608-p399-o1"/>
-                                                                <input type="hidden" name="_wpcf7_container_post"
-                                                                       value="399"/>
-                                                            </div>
-                                                            <div>
-                                                                <div class="mkdf-grid-row mkdf-grid-normal-gutter">
-                                                                    <div class="mkdf-grid-col-6"><span
-                                                                                class="wpcf7-form-control-wrap text"><input
-                                                                                    type="text" name="text" value=""
-                                                                                    size="40"
-                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                    aria-required="true"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="First Name"/></span>
-                                                                    </div>
-                                                                    <div class="mkdf-grid-col-6"><span
-                                                                                class="wpcf7-form-control-wrap text"><input
-                                                                                    type="text" name="text" value=""
-                                                                                    size="40"
-                                                                                    class="wpcf7-form-control wpcf7-text"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="Last Name"/></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-grid-row mkdf-grid-normal-gutter">
-                                                                    <div class="mkdf-grid-col-6"><span
-                                                                                class="wpcf7-form-control-wrap email"><input
-                                                                                    type="email" name="email"
-                                                                                    value="" size="40"
-                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                                                    aria-required="true"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="E-mail"/></span>
-                                                                    </div>
-                                                                    <div class="mkdf-grid-col-6"><span
-                                                                                class="wpcf7-form-control-wrap tel"><input
-                                                                                    type="tel" name="tel" value=""
-                                                                                    size="40"
-                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="Telephone"/></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="mkdf-grid-row mkdf-grid-normal-gutter">
-                                                                    <div class="mkdf-grid-col-12"><span
-                                                                                class="wpcf7-form-control-wrap textarea"><textarea
-                                                                                    name="textarea" cols="40"
-                                                                                    rows="10"
-                                                                                    class="wpcf7-form-control wpcf7-textarea"
-                                                                                    aria-invalid="false"
-                                                                                    placeholder="Message"></textarea></span>
-                                                                    </div>
-                                                                </div>
-                                                                <p style="text-align:center;">
-                                                                    <input type="submit" value="Contact Us"
-                                                                           class="wpcf7-form-control wpcf7-submit"/>
-                                                                </p>
-                                                            </div>
-                                                            <div class="wpcf7-response-output wpcf7-display-none"></div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>--}}
+
                             <div class="mkdf-row-grid-section-wrapper mkdf-parallax-row-holder mkdf-content-aligment-left"
                                  data-parallax-bg-image="{{asset('img/palazzi.jpg')}}"
                                  data-parallax-bg-speed=1 style="height: 300px!important;">
@@ -143,37 +58,11 @@
                                         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
                                             <div class="vc_column-inner ">
                                                 <div class="wpb_wrapper">
-                                                    {{--<div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <h5><span style="color: #ffffff;">London Office</span>
-                                                            </h5>
 
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <p>
-                                                                <a href="https://www.google.rs/maps/place/Belgrave+Hostel,+9-13+Clapham+Rd,+London+SW9+0JD,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0+%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%98%D0%B0/@51.4803652,-0.1158271,17z/data=!3m1!4b1!4m5!3m4!1s0x4876048c5981fa95:0x53c97e68fe940d1c!8m2!3d51.4803619!4d-0.1136384">9
-                                                                    Clapham Road, London SW9</a><br/>
-                                                                <span style="color: #ffffff;">Phone: </span><a
-                                                                        href="tel:0088 202 0000 001">+88 (0) 101
-                                                                    0000 001</a><br/>
-                                                                <span style="color: #ffffff;">Fax: </span><a
-                                                                        href="tel:0088 202 0000 001">+88 (0) 101
-                                                                    0000 001</a><br/>
-                                                                <span style="color: #ffffff;">Email: </span><a
-                                                                        href="mailto:info@example.com">info@example
-                                                                    .com</a></p>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_empty_space" style="height: 32px"><span
-                                                                class="vc_empty_space_inner"></span></div>--}}
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
+                                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
                                             <div class="vc_column-inner ">
                                                 <div class="wpb_wrapper ombra" style=" padding-left: 10px; background-color: #0777BB">
                                                     <div class="wpb_text_column wpb_content_element ">
@@ -190,8 +79,11 @@
                                                                 <a target="_blank" href="https://goo.gl/maps/dY77EkfXQKD2">
                                                                     Via Calamandrei, 257 - Arezzo</a><br/>
                                                                 <span style="color: #ffffff;">Telefono: </span><a
-                                                                        href="tel:0575-353609">
-                                                                    0575-353609
+                                                                        href="tel:+390575353609">
+                                                                    +39 0575 353609
+                                                                </a> - <a
+                                                                        href="tel:+39057524468">
+                                                                    +39 0575 24468
                                                                 </a><br/>
 
                                                                 <span style="color: #ffffff;">Email: </span><a
@@ -208,66 +100,14 @@
                                         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
                                             <div class="vc_column-inner ">
                                                 <div class="wpb_wrapper">
-                                                    {{--<div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <h5><span style="color: #ffffff;">Oslo Office</span>
-                                                            </h5>
 
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <p>
-                                                                <a href="https://www.google.rs/maps/place/Sonja+Henies+plass+2,+0185+Oslo,+%D0%9D%D0%BE%D1%80%D0%B2%D0%B5%D1%88%D0%BA%D0%B0/@59.9126053,10.7526039,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e61cf400a5d:0x9c5484b2a3ecbfdd!8m2!3d59.9126026!4d10.7547925">Sonja
-                                                                    Henies plass 2, 0185</a><br/>
-                                                                <span style="color: #ffffff;">Phone: </span><a
-                                                                        href="tel:0088 202 0000 001">+88 (0) 303
-                                                                    0000 001</a><br/>
-                                                                <span style="color: #ffffff;">Fax: </span><a
-                                                                        href="tel:0088 202 0000 001">+88 (0) 303
-                                                                    0000 001</a><br/>
-                                                                <span style="color: #ffffff;">Email: </span><a
-                                                                        href="mailto:info@example.com">info@example
-                                                                    .com</a></p>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_empty_space" style="height: 32px"><span
-                                                                class="vc_empty_space_inner"></span></div>--}}
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
                                             <div class="vc_column-inner ">
                                                 <div class="wpb_wrapper">
-                                                    {{--<div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <h5><span style="color: #ffffff;">Zurich Office</span>
-                                                            </h5>
 
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <p>
-                                                                <a href="https://www.google.rs/maps/place/Bahnhofpl.+15,+8001+Z%C3%BCrich,+Switzerland/@47.3783769,8.5384623,16.75z/data=!4m5!3m4!1s0x47900a088e98dadd:0xac7de6de7cfa2970!8m2!3d47.3774848!4d8.5401509?hl=en">Bahnhofpl.
-                                                                    15, 8021</a><br/>
-                                                                <span style="color: #ffffff;"> Phone: </span><a
-                                                                        href="tel:0088 202 0000 001">+88 (0) 404
-                                                                    0000 001</a><br/>
-                                                                <span style="color: #ffffff;"> Fax: </span><a
-                                                                        href="tel:0088 202 0000 001">+88 (0) 404
-                                                                    0000 001</a><br/>
-                                                                <span style="color: #ffffff;">Email: </span><a
-                                                                        href="mailto:info@example.com">info@example
-                                                                    .com</a></p>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_empty_space" style="height: 32px"><span
-                                                                class="vc_empty_space_inner"></span></div>--}}
                                                 </div>
                                             </div>
                                         </div>
