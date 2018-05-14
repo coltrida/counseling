@@ -10,7 +10,7 @@
 
 <div>
     <h2>Email inviata dalla ditta: {{$azienda}}</h2>
-    <h3>Titolare: {{$titolare}}</h3>
+    <h3>P.IVA: {{$titolare}}</h3>
     <h3>mail: {{$mail}}</h3>
     <br>
     <h3 style="color: blue">Trattamento effettuato da più soggetti</h3>

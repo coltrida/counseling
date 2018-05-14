@@ -1,6 +1,6 @@
 @extends('layouts.template2')
 @section('titolo')
-    SOS Indebitati
+    Temporary Office
 @stop
 
 @section('content')
@@ -16,7 +16,7 @@
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
                                         <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                            <span class="mkdf-pt-title">SOS Indebitati</span>
+                                            <span class="mkdf-pt-title">Temporary Office</span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
@@ -27,19 +27,23 @@
                                                 <li class="mkdf-pt-content" >
 
                                                     <ul>
+
                                                         <li style="text-align: justify!important;">
-                                                            Siamo un gruppo di professionisti esperti nella gestione del debito, ma prima di tutto siamo delle persone, che vogliono mettere la propria esperienza e professionalità al servizio di coloro che intendono uscire da un momento economicamente difficile nel quale si sono imbattuti.
+
 
                                                         </li>
 
                                                         <li style="text-align: justify!important;">
-                                                            Una analisi preventiva e <span style="color: black">gratuita</span> sulle cartelle dell’Agenzia delle Entrate-Riscossione (ex Equitalia), sui tassi d’usura bancari applicati sui vostri mutui, sui finanziamenti e sui conti correnti e leasing, può trasformare il vostro debito nella vostra fortuna. Attraverso il  modulo dei contatti , puoi sottoporci la tua situazione, alla quale, senza nessun impegno da parte tua, cercheremo in maniera concreta, di prospettarti le soluzioni possibili .
+
+
                                                         </li>
 
-                                                        <li style="text-align: right">
+
+
+
+                                                        <li style="text-align: justify!important;">
                                                             <button style="background-color: #95b9e0;" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
                                                         </li>
-
 
                                                     </ul>
                                                 </li>

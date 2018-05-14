@@ -35,10 +35,10 @@
                                                                     Azienda
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
-                                                                        class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" required name="azienda" id="azienda" value="" size="28"
+                                                                        class=""><input style="background-color: white; padding: 0; border: 1px solid black; width: 200px; color: black; font-weight: 400; font-family: Arial"
+                                                                            type="text" required name="azienda" id="azienda" value=""
                                                                             class=""
-                                                                            aria-invalid="false"
+                                                                            aria-invalid=""
                                                                     /></span></div>
 
                                                         </div>
@@ -51,11 +51,11 @@
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1" style="text-align: left!important;"><span
                                                                         class="wpcf7-form-control-wrap email">
-                                                                    Titolare
+                                                                    P.IVA
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
                                                                         class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" required name="Titolare" id="titolare" value="" size="28"
+                                                                            type="tel" required name="Titolare" id="titolare" value=""  style="background-color: white; padding: 0; border: 1px solid black; width: 198px; color: black; font-weight: 400; font-family: Arial"
                                                                             class=""
                                                                             aria-invalid="false"
                                                                     /></span></div>
@@ -74,7 +74,7 @@
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
                                                                         class="wpcf7-form-control-wrap tel"><input
-                                                                            type="tel" required name="mail" id="mail" value="" size="28"
+                                                                            type="text" required name="mail" id="mail" value="" size="28" style="background-color: white; padding: 0; border: 1px solid black; width: 200px; color: black; font-weight: 400; font-family: Arial"
                                                                             class=""
                                                                             aria-invalid="false"
                                                                     /></span></div>

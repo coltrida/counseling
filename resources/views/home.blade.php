@@ -642,7 +642,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
-                                                                        Il GDPR scatterà il 25 Maggio 2018, termine entro il quale tutte <br> le aziende europee devono adottare le misure adeguate in base <br> al nuovo Regolamento Europeo EU-GDPR 2016/679
+                                                                        Il GDPR sarà pienamente operativo dal 25 Maggio 2018, termine entro il quale tutte <br> le aziende europee devono adottare le misure adeguate in base <br> al nuovo Regolamento Europeo EU-GDPR 2016/679
                                                                     </div>
 
                                                                     <!-- LAYER NR. 4 -->
@@ -651,7 +651,7 @@
                                                                          data-x="['left','left','left','left']"
                                                                          data-hoffset="['1','0','0','14']"
                                                                          data-y="['middle','middle','middle','middle']"
-                                                                         data-voffset="['142','128','122','122']"
+                                                                         data-voffset="['182','128','122','122']"
                                                                          data-width="none"
                                                                          data-height="none"
                                                                          data-whitespace="nowrap"
@@ -966,7 +966,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
-                                                                        Pagare meno tasse legalmente
+                                                                        Anatocismo, usura e cartelle ex Equitalia
                                                                     </div>
 
                                                                     <!-- LAYER NR. 14 -->
@@ -1347,7 +1347,7 @@
 
                                                                         <div class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <p style="text-align: justify">Da oltre 35 anni il nostro team  si occupa di gestione dei dati aziendali, concentrandosi sulla fornitura di serivizi di qualità dando valore ai nostri Clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative che aiutano i nostri clienti.</p>
+                                                                                <p style="text-align: justify">Da oltre 35 anni il nostro team  si occupa di gestione dei dati aziendali, concentrandosi sulla fornitura di servizi di qualità dando valore ai nostri Clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative che aiutano i nostri clienti.</p>
 
                                                                             </div>
                                                                         </div>
@@ -1463,13 +1463,13 @@
                                             <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-2 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
-                                                        <div class="mkdf-single-image-holder   ">
-                                                            <div class="mkdf-si-inner">
-                                                                <img width="800" height="492"
-                                                                     src="{{asset('img/Formazione.jpg')}}"
-                                                                     class="attachment-full size-full ombra" alt="i"
-                                                                     srcset="{{asset('img/Formazione.jpg')}}"
-                                                                     sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                                        <div class="mkdf-si-inner">
+                                                            <a href="{{route('formazione')}}"> <img width="800" height="492"
+                                                                                                 src="{{asset('img/Formazione.jpg')}}"
+                                                                                                 class="attachment-full size-full ombra" alt="i"
+                                                                                                 srcset="{{asset('img/Formazione.jpg')}}"
+                                                                                                 sizes="(max-width: 800px) 100vw, 800px"/>
+                                                            </a>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 37px"><span
                                                                     class="vc_empty_space_inner"></span></div>
@@ -1497,11 +1497,13 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
                                                             <div class="mkdf-si-inner">
-                                                                <img width="800" height="492"
-                                                                     src="{{asset('img/office.jpg')}}"
-                                                                     class="attachment-full size-full ombra" alt="i"
-                                                                     srcset="{{asset('img/office.jpg')}}"
-                                                                     sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                                                <a href="{{route('temporary')}}"> <img width="800" height="492"
+                                                                                                        src="{{asset('img/office.jpg')}}"
+                                                                                                        class="attachment-full size-full ombra" alt="i"
+                                                                                                        srcset="{{asset('img/office.jpg')}}"
+                                                                                                        sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 37px"><span
                                                                     class="vc_empty_space_inner"></span></div>
@@ -1511,7 +1513,7 @@
                                                                 <h5 class="mkdf-st-title">
                                                                     Temporary Office </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Il tuo ufficio temporaneo ad Arezzo </p>
+                                                                    Un ufficio senza i costi dell’Ufficio </p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1616,12 +1618,17 @@
                                                                         <h6 class="mkdf-st-text">
                                                                             Vi siete adeguati? contattateci </h6>
                                                                     </div>--}}
-                                                                    <div style="font-weight: 900;
-                                                                        font-size: 45px;
-                                                                        color: black;
-                                                                        margin-top: -60px;
-                                                                        margin-bottom: 80px"
-                                                                         class="mkdf-st-inner" id="conto">
+                                                                    <div style="margin-top: -60px;
+                                                                                margin-bottom: 80px;
+                                                                                border: 2px solid black;
+                                                                                border-radius: 45%;
+                                                                                background: linear-gradient(red, yellow);
+                                                                                padding: 90px 0" class="ombra">
+                                                                        <div style="font-weight: 900;
+                                                                            font-size: 45px;
+                                                                            color: black;"
+                                                                             class="mkdf-st-inner" id="conto">
+                                                                        </div>
                                                                     </div>
                                                                     <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
                                                                         <div class="mkdf-separator"
@@ -1877,15 +1884,6 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        // Display the result in the element with id="demo"
-        document.getElementById("conto").innerHTML = "Il GDPR scade tra <br><br>" + days + " giorni " + hours + " ore "
-            + minutes + " minuti " + seconds + " secondi ";
-
-        // If the count down is finished, write some text
-        /*if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("conto").innerHTML = "EXPIRED";
-        }*/
         if (distance > 0) {
             document.getElementById("conto").innerHTML = "Il GDPR scade tra <br><br>" + days + " giorni " + hours + " ore "
                 + minutes + " minuti " + seconds + " secondi ";

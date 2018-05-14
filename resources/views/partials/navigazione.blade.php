@@ -51,13 +51,13 @@
                                             </li>
                                             <li id="nav-menu-item-1451"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="#"
+                                                <a href="{{route('formazione')}}"
                                                    class=""><span class="item_outer"><span class="item_text">Formazione</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="#"
-                                                   class=""><span class="item_outer"><span class="item_text">Termporary Office</span></span></a>
+                                                <a href="{{route('temporary')}}"
+                                                   class=""><span class="item_outer"><span class="item_text">Temporary Office</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
@@ -201,13 +201,13 @@
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1451"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="#"
+                                                    <a href="{{route('formazione')}}"
                                                        class=""><span class="item_outer"><span
                                                                     class="item_text">Formazione</span><span
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="#"
+                                                    <a href="{{route('temporary')}}"
                                                        class=""><span class="item_outer"><span
                                                                     class="item_text">Temporary Office</span><span
                                                                     class="plus"></span></span></a></li>
@@ -449,11 +449,11 @@
                                         class=""><span>Privacy</span></a></li>
                             <li id="mobile-menu-item-3105"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="#"
+                                        href="{{route('formazione')}}"
                                         class=""><span>Formazione</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="#"
+                                        href="{{route('temporary')}}"
                                         class=""><span>Temporary Office</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
