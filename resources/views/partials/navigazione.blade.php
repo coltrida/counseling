@@ -66,7 +66,7 @@
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="#"
+                                                <a href="{{route('equitalia')}}"
                                                    class=""><span class="item_outer"><span class="item_text">Escapologia Fiscale</span></span></a>
                                             </li>
 
@@ -219,7 +219,7 @@
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="#"
+                                                    <a href="{{route('equitalia')}}"
                                                        class=""><span class="item_outer"><span
                                                                     class="item_text">Escapologia Fiscale</span><span
                                                                     class="plus"></span></span></a></li>
@@ -461,7 +461,7 @@
                                         class=""><span>Siti Web</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="#"
+                                        href="{{route('equitalia')}}"
                                         class=""><span>Escapologia Fiscale</span></a></li>
 
                         </ul>

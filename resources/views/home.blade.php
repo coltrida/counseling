@@ -1579,7 +1579,7 @@
                                                                 <h5 class="mkdf-st-title">
                                                                     SOS Indebitati </h5>
                                                                 <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Pagare meno tasse legalmente
+                                                                    Anatocismo, usura e cartelle ex Equitalia
                                                                 </p>
                                                             </div>
                                                         </div>

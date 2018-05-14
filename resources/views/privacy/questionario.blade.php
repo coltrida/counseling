@@ -73,10 +73,10 @@
                                                                     e-mail
                                                                 </span></div>
                                                             <div class="mkdf-grid-col-1"><span
-                                                                        class="wpcf7-form-control-wrap tel"><input
+                                                                        class=""><input
                                                                             type="text" required name="mail" id="mail" value="" size="28" style="background-color: white; padding: 0; border: 1px solid black; width: 200px; color: black; font-weight: 400; font-family: Arial"
                                                                             class=""
-                                                                            aria-invalid="false"
+                                                                            aria-invalid=""
                                                                     /></span></div>
 
                                                         </div>

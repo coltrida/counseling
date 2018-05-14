@@ -40,6 +40,7 @@ Route::view('/regulation', 'gdpr.regulation')->name('regulation');
 Route::view('/privacy', 'servizi.privacy')->name('privacy');
 Route::view('/formazione', 'servizi.formazione')->name('formazione');
 Route::view('/temporary', 'servizi.temporary')->name('temporary');
+Route::post('/sos/send', 'EmailController@sos')->name('sendsos');
 
 //Privacy
 Route::view('/privacy/questionario', 'privacy.questionario')->name('questionario');

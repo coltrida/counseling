@@ -10,7 +10,7 @@ use URL;
 class EmailController extends Controller
 {
     public function send(Request $req){
-       // dd($req);
+       //dd($req);
         $title = $req->input('title');
         $content = $req->input('content');
         $mailfrom = $req->input('mailfrom');
@@ -69,6 +69,35 @@ class EmailController extends Controller
             ], function ($message)
             {
                 $subject = "Questionario inviato dal sito";
+                $message->from('info@counselingsrl.eu', "Counselingsrl");
+                $message->to('info@counselingsrl.eu');
+                $message->subject($subject);
+            });
+
+        //return response()->json(['message' => 'Request completed']);
+        return 1;
+        //return Redirect::to(URL::previous() . "#cont");
+    }
+
+    public function sos(Request $req){
+        //dd($req);
+        $nomesos = $req->input('nomesos');
+        $cognomesos = $req->input('cognomesos');
+        $telefonosos = $req->input('telefonosos');
+        $mailsos = $req->input('mailsos');
+        $scelta = $req->input('scelta');
+
+
+        Mail::send('mails.sosmail',
+            [
+                'nomesos' => $nomesos,
+                'cognomesos' => $cognomesos,
+                'telefonosos' => $telefonosos,
+                'mailsos' => $mailsos,
+                'scelta' => $scelta
+            ], function ($message)
+            {
+                $subject = "Modulo SOS inviato dal sito";
                 $message->from('info@counselingsrl.eu', "Counselingsrl");
                 $message->to('info@counselingsrl.eu');
                 $message->subject($subject);
