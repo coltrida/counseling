@@ -642,7 +642,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
-                                                                        Il GDPR sarà pienamente operativo dal 25 Maggio 2018, termine entro il quale tutte <br> le aziende europee devono adottare le misure adeguate in base <br> al nuovo Regolamento Europeo EU-GDPR 2016/679
+                                                                        Il GDPR sarà pienamente operativo dal 25 Maggio 2018, termine entro il quale tutte le aziende europee devono adottare le misure adeguate in base al nuovo Regolamento Europeo EU-GDPR 2016/679
                                                                     </div>
 
                                                                     <!-- LAYER NR. 4 -->
@@ -1531,11 +1531,14 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
                                                             <div class="mkdf-si-inner">
-                                                                <img width="800" height="492"
-                                                                     src="{{asset('img/siti.jpg')}}"
-                                                                     class="attachment-full size-full ombra" alt="i"
-                                                                     srcset="{{asset('img/siti.jpg')}}"
-                                                                     sizes="(max-width: 800px) 100vw, 800px"/></div>
+                                                                <a href="{{route('web')}}">
+                                                                    <img width="800" height="492"
+                                                                               src="{{asset('img/siti.jpg')}}"
+                                                                               class="attachment-full size-full ombra" alt="i"
+                                                                               srcset="{{asset('img/siti.jpg')}}"
+                                                                               sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 37px"><span
                                                                     class="vc_empty_space_inner"></span></div>
@@ -1622,7 +1625,7 @@
                                                                                 margin-bottom: 80px;
                                                                                 border: 2px solid black;
                                                                                 border-radius: 45%;
-                                                                                background: linear-gradient(red, yellow);
+                                                                                background: linear-gradient(#0777BB, #95B9E0);
                                                                                 padding: 90px 0" class="ombra">
                                                                         <div style="font-weight: 900;
                                                                             font-size: 45px;

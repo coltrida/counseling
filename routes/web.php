@@ -41,6 +41,7 @@ Route::view('/privacy', 'servizi.privacy')->name('privacy');
 Route::view('/formazione', 'servizi.formazione')->name('formazione');
 Route::view('/temporary', 'servizi.temporary')->name('temporary');
 Route::post('/sos/send', 'EmailController@sos')->name('sendsos');
+Route::view('/web', 'servizi.siti')->name('web');
 
 //Privacy
 Route::view('/privacy/questionario', 'privacy.questionario')->name('questionario');

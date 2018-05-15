@@ -61,13 +61,13 @@
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="#"
+                                                <a href="{{route('web')}}"
                                                    class=""><span class="item_outer"><span class="item_text">Siti Web</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="{{route('equitalia')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Escapologia Fiscale</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text">SOS Indebitati</span></span></a>
                                             </li>
 
                                         </ul>
@@ -213,7 +213,7 @@
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="#"
+                                                    <a href="{{route('web')}}"
                                                        class=""><span class="item_outer"><span
                                                                     class="item_text">Siti Web</span><span
                                                                     class="plus"></span></span></a></li>
@@ -221,7 +221,7 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="{{route('equitalia')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Escapologia Fiscale</span><span
+                                                                    class="item_text">SOS Indebitati</span><span
                                                                     class="plus"></span></span></a></li>
 
                                             </ul>
@@ -457,12 +457,12 @@
                                         class=""><span>Temporary Office</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="#"
+                                        href="{{route('web')}}"
                                         class=""><span>Siti Web</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="{{route('equitalia')}}"
-                                        class=""><span>Escapologia Fiscale</span></a></li>
+                                        class=""><span>SOS Indebitati</span></a></li>
 
                         </ul>
                     </li>

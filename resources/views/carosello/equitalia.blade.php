@@ -20,10 +20,7 @@
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
-                                                {{--<li class="mkdf-pt-price-holder">
-                                                    <span class="mkdf-pt-value">$</span>
-                                                    <span class="mkdf-pt-price">400</span>
-                                                </li>--}}
+
                                                 <li class="mkdf-pt-content" >
 
                                                     <ul>
@@ -261,7 +258,6 @@
                 var scelta;
                 scelta = chkArray.join(', ') ;
 
-
                 jQuery.ajax(
                     urlsos,
                     {
@@ -280,7 +276,7 @@
                             console.log(resp2.responseText);
                             if(resp2.responseText == 1){
                                 jQuery('#messsos').fadeIn(2000);
-                                jQuery('#messsos').html("Messaggio inviato inviato");
+                                jQuery('#messsos').html("Messaggio inviato");
                                 jQuery('#messsos').fadeOut(4000);
                                 jQuery('#nomesos').val("").attr("required", false);
                                 jQuery('#cognomesos').val("").attr("required", false);
