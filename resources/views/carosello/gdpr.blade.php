@@ -16,7 +16,7 @@
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
                                         <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                            <span class="mkdf-pt-title">GDPR</span>
+                                            <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">GDPR</span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
@@ -26,7 +26,7 @@
                                                 </li>--}}
                                                 <li class="mkdf-pt-content" >
 
-                                                    <ul>
+                                                    <ul style="font-size: 20px">
                                                         <li style="text-align: justify!important;">
                                                             Il GDPR sarà obbligatorio dal 25 Maggio 2018, termine entro il quale tutte le aziende europee devono adottare le misure adeguate in base al nuovo Regolamento Europeo per la Protezione Dati EU-GDPR 2016/679.
                                                             GDPR …questo sconosciuto!

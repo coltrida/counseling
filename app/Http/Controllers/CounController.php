@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+
+use function dd;
 use function geoip;
 use Illuminate\Http\Request;
 use App\utenti;
@@ -18,7 +20,6 @@ class CounController extends Controller
         $bo = geoip($ipo2);
         $utente->city = $bo->city;
         //dd($bo);
-
         $utente->save();
         return view('home');
     }

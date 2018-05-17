@@ -16,7 +16,9 @@
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
                                         <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                            <span class="mkdf-pt-title">Formazione</span>
+                                            <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">
+                                                Formazione
+                                            </span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
@@ -24,7 +26,7 @@
                                                     <span class="mkdf-pt-value">$</span>
                                                     <span class="mkdf-pt-price">400</span>
                                                 </li>--}}
-                                                <li class="mkdf-pt-content" >
+                                                <li class="mkdf-pt-content" style="font-size: 20px">
 
                                                     <ul>
 

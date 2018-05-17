@@ -14,14 +14,14 @@
                             <div class="mkdf-section-title-holder  "
                                  style="text-align: center">
                                 <div class="mkdf-st-inner">
-                                    <h3 class="mkdf-st-title">
-                                        Tabelle dei servizi Privacy</h3>
+                                    <h2 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                        Tabelle dei servizi Privacy</h2>
                                     <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
                                         <div class="mkdf-separator"
                                              style="width: 143px;border-bottom-width: 2px"></div>
                                     </div>
-                                    <h6 class="mkdf-st-text">
-                                        Scegli il servizio di cui hai bisogno e ti aiuteremo </h6>
+                                    <h5 class="mkdf-st-text" >
+                                        Scegli il servizio di cui hai bisogno e ti aiuteremo </h5>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                                         <div class="mkdf-pt-inner ombra">
                                             <ul>
                                                 <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title">Soluzione nr.1</span>
+                                                    <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Soluzione nr.1</span>
                                                 </li>
                                                 <li class="mkdf-pt-content-bottom">
                                                     <ul>
@@ -83,7 +83,7 @@
                                         <div class="mkdf-pt-inner ombra">
                                             <ul>
                                                 <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title">Soluzione nr.2</span>
+                                                    <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Soluzione nr.2</span>
                                                 </li>
                                                 <li class="mkdf-pt-content-bottom">
                                                     <ul>
@@ -122,7 +122,7 @@
                                         <div class="mkdf-pt-inner ombra">
                                             <ul>
                                                 <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title">Soluzione nr.3</span>
+                                                    <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Soluzione nr.3</span>
                                                 </li>
                                                 <li class="mkdf-pt-content-bottom">
                                                     <ul>
@@ -179,7 +179,7 @@
                                         <div class="mkdf-pt-inner ombra">
                                             <ul>
                                                 <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title">Soluzione nr.4</span>
+                                                    <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Soluzione nr.4</span>
                                                 </li>
                                                 <li class="mkdf-pt-content-bottom">
                                                     <ul>
@@ -192,7 +192,7 @@
                                                             <ul>
                                                                 <li>ADDETTI DA 2 A 5 (DITTA INDIVIDUALE E SOCIETA’ CON DIPENDENTI)
                                                                 </li>
-                                                                <li>N.1 ARCHIVIO INFORMATICO E ARCHIVIO CARTACEO<br><br>
+                                                                <li>N.1 ARCHIVIO INFORMATICO E ARCHIVIO CARTACEO<br>
                                                                 </li>
                                                                 {{--<li>Lorem ipsum dolor sit
                                                                     amett
@@ -218,7 +218,7 @@
                                         <div class="mkdf-pt-inner ombra">
                                             <ul>
                                                 <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title">Soluzione nr.5</span>
+                                                    <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Soluzione nr.5</span>
                                                 </li>
                                                 <li class="mkdf-pt-content-bottom">
                                                     <ul>
@@ -231,7 +231,7 @@
                                                             <ul>
                                                                 <li>ADDETTI DA 2 A 5 (DITTA INDIVIDUALE E SOCIETA’ CON DIPENDENTI)
                                                                 </li>
-                                                                <li>DA 2 A 5 ARCHIVI INFORMATICI E ARCHIVIO CARTACEO <br><br>
+                                                                <li>DA 2 A 5 ARCHIVI INFORMATICI E ARCHIVIO CARTACEO <br>
                                                                 </li>
                                                                 {{--<li>Lorem ipsum dolor sit
                                                                     amett
@@ -257,7 +257,7 @@
                                         <div class="mkdf-pt-inner ombra">
                                             <ul>
                                                 <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title">Soluzione nr.5</span>
+                                                    <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Opzione</span>
                                                 </li>
                                                 <li class="mkdf-pt-content-bottom">
                                                     <ul>
@@ -270,7 +270,7 @@
                                                             <ul>
                                                                 <li>COMPILAZIONE DOCUMENTI PER LA NOMINA DELLE FIGURE INCARICATE
                                                                 </li>
-                                                                <li>ELENCO ARCHIVI SIA INFORMATICI CHE CARTACEI SENZA SOPRALLUOGO E SENZA CONSULENZA
+                                                                <li>ELENCO ARCHIVI INFORMATICI E CARTACEI SENZA SOPRALLUOGO
                                                                 </li>
                                                                 {{--<li>Lorem ipsum dolor sit
                                                                     amett

@@ -11,7 +11,7 @@
                  data-height="430">
                 <div class="mkdf-title-image">
                     <img itemprop="image"
-                         src="{{asset('img/01.jpg')}}"
+                         src="{{asset('img/06.jpg')}}"
                          alt="k"/>
                 </div>
                 {{--<div class="mkdf-title-wrapper" style="height: 430px">
@@ -38,8 +38,8 @@
                                                 <div class="mkdf-separator"
                                                      style="width: 143px;border-bottom-width: 2px"></div>
                                             </div>
-                                            <h3 class="mkdf-st-title">
-                                                Non c'è evoluzione senza informazione </h3>
+                                            <h2 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                                Non c'è evoluzione senza informazione </h2>
                                         </div>
                                     </div>
                                     <div class="vc_empty_space" style="height: 52px"><span
@@ -65,13 +65,13 @@
                                                     <div class="mkdf-section-title-holder  "
                                                          style="text-align: center">
                                                         <div class="mkdf-st-inner">
-                                                            <h5 class="mkdf-st-title">
+                                                            <h4 class="mkdf-st-title" style="text-align:justify; font-family: 'Microsoft Yi Baiti'!important;">
                                                                 Il sito web è oramai uno strumento di comunicazione fondamentale per ogni azienda: è infatti sempre più importante utilizzare le opportunità offerte dalla rete in modo ottimale per avere successo.
                                                                 <br><br>
                                                                 Internet consente di promuovere in modo efficace ed efficiente la propria attività e i propri prodotti.
                                                                 <br>
                                                                 Vantaggi:
-                                                            </h5>
+                                                            </h4>
 
                                                         </div>
                                                     </div>
@@ -144,9 +144,9 @@
                                                                 <div class="mkdf-separator"
                                                                      style="width: 143px;border-bottom-width: 2px"></div>
                                                             </div>
-                                                            <h3 class="mkdf-st-title">
+                                                            <h2 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important;">
                                                                 Servizi Web
-                                                            </h3>
+                                                            </h2>
                                                             <div class="mkdf-row-grid-section-wrapper mkdf-content-aligment-center">
                                                                 <div class="mkdf-row-grid-section">
                                                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1522075243296">
@@ -178,7 +178,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="mkdf-row-grid-section-wrapper " style="margin-top: -50px">
+                                                    <div class="mkdf-row-grid-section-wrapper " style="margin-top: -80px">
                                                         <div class="mkdf-row-grid-section">
                                                             <div class="vc_row wpb_row vc_row-fluid vc_custom_1520428609185">
                                                                 <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
@@ -193,7 +193,7 @@
 
                                                                                 </div>
                                                                                 <div class="mkdf-iwt-content">
-                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px">
+                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px;font-family: 'Microsoft Yi Baiti'!important; font-size: 22px">
 
                                                                                             <span class="mkdf-iwt-title-text">Sito Web con layout "responsive"</span>
 
@@ -220,7 +220,7 @@
 
                                                                                 </div>
                                                                                 <div class="mkdf-iwt-content">
-                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px">
+                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px;font-family: 'Microsoft Yi Baiti'!important; font-size: 22px">
 
                                                                                             <span class="mkdf-iwt-title-text">Dominio + Hosting + Mail Aziendali</span>
 
@@ -248,7 +248,7 @@
 
                                                                                 </div>
                                                                                 <div class="mkdf-iwt-content">
-                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px">
+                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px;font-family: 'Microsoft Yi Baiti'!important; font-size: 22px">
 
                                                                                             <span class="mkdf-iwt-title-text">Gestione del tuo DataBase - Prodotti, Clienti, Fornitori</span>
 
@@ -275,7 +275,7 @@
 
                                                                                 </div>
                                                                                 <div class="mkdf-iwt-content">
-                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px">
+                                                                                    <h5 class="mkdf-iwt-title" style="margin-top: 9px;font-family: 'Microsoft Yi Baiti'!important; font-size: 22px">
 
                                                                                         <span class="mkdf-iwt-title-text">Creazione della tua app professionale Android o IOS</span>
 

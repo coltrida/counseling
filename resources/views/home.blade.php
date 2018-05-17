@@ -330,14 +330,14 @@
           media="screen"><![endif]-->
    {{-- <meta name="generator"
           content="Powered by Slider Revolution 5.4.7.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>--}}
-    <link rel="icon" href="{{asset('img/icona.png')}}"
+    <link rel="icon" href="{{asset('img/icona2.png')}}"
           sizes="32x32"/>
-    <link rel="icon" href="{{asset('img/icona.png')}}"
+    <link rel="icon" href="{{asset('img/icona2.png')}}"
           sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed"
-          href="{{asset('img/icona.png')}}"/>
+          href="{{asset('img/icona2.png')}}"/>
     <meta name="msapplication-TileImage"
-          content="{{asset('img/icona.png')}}"/>
+          content="{{asset('img/icona2.png')}}"/>
     <script type="text/javascript">function setREVStartSize(e) {
             try {
                 e.c = jQuery(e.c);
@@ -424,6 +424,21 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
+        #info {
+            height: 35px;
+            position: fixed!important;
+            bottom:0%!important;
+            width:60%!important;
+            background-color: #393838!important;
+            opacity: 0.7!important;
+            z-index: 999999;
+        }
+
+        body {
+            font-family: 'Microsoft Yi Baiti'!important;
+        }
+
+
         .vc_custom_1520610634047 {
             padding-bottom: 104px !important;
         }</style>
@@ -436,72 +451,19 @@
 
 <body class="home page-template page-template-full-width page-template-full-width-php page page-id-13 anwalt-core-1.0 anwalt-ver-1.0 mkdf-smooth-page-transitions mkdf-smooth-page-transitions-preloader mkdf-grid-1300 mkdf-empty-google-api mkdf-sticky-header-on-scroll-down-up mkdf-dropdown-animate-height mkdf-header-standard mkdf-menu-area-shadow-disable mkdf-menu-area-in-grid-shadow-disable mkdf-menu-area-in-grid-border-disable mkdf-logo-area-border-disable mkdf-side-menu-slide-from-right mkdf-woocommerce-columns-3 mkdf-woo-normal-space mkdf-woo-pl-info-below-image mkdf-woo-single-thumb-below-image mkdf-woo-single-has-pretty-photo mkdf-default-mobile-header mkdf-sticky-up-mobile-header mkdf-header-top-enabled wpb-js-composer js-comp-ver-5.4.5 vc_responsive mkdf-search-covers-header"
       itemscope itemtype="http://schema.org/WebPage">
+
 <div class="mkdf-smooth-transition-loader mkdf-mimic-ajax">
     <div class="mkdf-st-loader">
         <div class="mkdf-st-loader1">
             <div class="mkdf-reveal-image"><img
-                        src="{{asset('img/logo.png')}}"
+                        src="{{asset('img/logo2.png')}}"
                         alt="spinner"/>
                 <div class="mkdf-spinner-revealer"></div>
             </div>
         </div>
     </div>
 </div>
-{{--<section class="mkdf-side-menu">
-    <div class="mkdf-close-side-menu-holder">
-        <a class="mkdf-close-side-menu mkdf-close-side-menu-icon-pack" href="#">
-            <span class="mkdf-icon-linear-icons lnr lnr-cross "></span> </a>
-    </div>
-    <div id="media_image-5" class="widget mkdf-sidearea widget_media_image"><a href="#"><img width="289" height="25"
-                                                                                             src="{{asset('img/logo.png')}}"
-                                                                                             class="image wp-image-1107  attachment-full size-full"
-                                                                                             alt="h"
-                                                                                             style="max-width: 100%; height: auto;"/></a>
-    </div>
-    <div class="widget mkdf-separator-widget">
-        <div class="mkdf-separator-holder clearfix  mkdf-separator-left mkdf-separator-normal"
-             style="margin-top: -18px;margin-bottom: 26px">
-            <div class="mkdf-separator"
-                 style="border-color: #ffffff;border-style: solid;width: 145px;border-bottom-width: 2px"></div>
-        </div>
-    </div>
-    <div class="widget mkdf-social-icons-group-widget text-align-left"><a
-                class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
-                style="color: #ffffff;;font-size: 18px;margin: 0px 20px 0px 0px;" href="https://www.facebook.com/"
-                target="_blank">
-            <span class="mkdf-social-icon-widget ion-social-facebook"></span> </a>
-        <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
-           style="color: #ffffff;;font-size: 18px;margin: 0px 20px 0px 0px;" href="https://www.instagram.com/"
-           target="_blank">
-            <span class="mkdf-social-icon-widget ion-social-instagram"></span> </a>
-        <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
-           style="color: #ffffff;;font-size: 18px;margin: 0px 20px 0px 0px;" href="https://www.linkedin.com/"
-           target="_blank">
-            <span class="mkdf-social-icon-widget ion-social-linkedin"></span> </a>
-        <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#6c5835"
-           style="color: #ffffff;;font-size: 18px;margin: 0px 20px 0px 0px;" href="https://www.pinterest.com/"
-           target="_blank">
-            <span class="mkdf-social-icon-widget ion-social-pinterest"></span> </a>
-    </div>
-    <div id="text-10" class="widget mkdf-sidearea widget_text">
-        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title">London Office</h5></div>
-        <div class="textwidget"><p><a
-                        href="https://www.google.rs/maps/place/The+Nomad+Hotel/@40.7461394,-73.9883576,14.75z/data=!4m15!1m9!2m8!1z0KXQvtGC0LXQu9C4!3m6!1z0KXQvtGC0LXQu9C4!2z0IrRg9GY0L7RgNC6LCDQodGY0LXQtNC40ZrQtdC90LUg0JTRgNC20LDQstC1!3s0x89c24fa5d33f083b:0xc80b8f06e177fe62!4m2!1d-74.0059728!2d40.7127753!3m4!1s0x89c259a60a2beaf9:0xac8f81eb5975ef53!8m2!3d40.7449648!4d-73.9885479">1170
-                    Broadway, New York, NY 10001</a><br/>
-                Phone: <a href="tel:00882020000001">+88 (0) 202 0000 001</a><br/>
-                Fax: <a href="tel:00882020000001">+88 (0) 202 0000 001</a><br/>
-                Email: <a href="mailto:anwalt@mikado-themes.com">anwalt@mikado-themes.com</a></p>
-        </div>
-    </div>
-    <div id="text-11" class="widget mkdf-sidearea widget_text">
-        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title">Quick Contact</h5></div>
-        <div class="textwidget"><p><a
-                        href="https://www.google.rs/maps/place/The+Nomad+Hotel/@40.7461394,-73.9883576,14.75z/data=!4m15!1m9!2m8!1z0KXQvtGC0LXQu9C4!3m6!1z0KXQvtGC0LXQu9C4!2z0IrRg9GY0L7RgNC6LCDQodGY0LXQtNC40ZrQtdC90LUg0JTRgNC20LDQstC1!3s0x89c24fa5d33f083b:0xc80b8f06e177fe62!4m2!1d-74.0059728!2d40.7127753!3m4!1s0x89c259a60a2beaf9:0xac8f81eb5975ef53!8m2!3d40.7449648!4d-73.9885479">1170
-                    Broadway, New York, NY 10001</a><br/>
-                Phone: <a href="tel:00882020000001">+88 (0) 202 0000 001</a></p>
-        </div>
-    </div>
-</section>--}}
+
 <div class="mkdf-wrapper">
     <div class="mkdf-wrapper-inner">
 
@@ -516,6 +478,8 @@
                     </span>
                 </span>
         </a>
+
+
 
         <div class="mkdf-content" style="margin-top: -120px">
             <div class="mkdf-content-inner">
@@ -583,12 +547,12 @@
                                                                          data-paddingbottom="[0,0,0,0]"
                                                                          data-paddingleft="[0,0,0,0]"
 
-                                                                         style="z-index: 5;"><img
+                                                                         style="z-index: 5;">{{--<img
                                                                                 src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-slider1-img-1.png"
                                                                                 alt="i"
                                                                                 data-ww="['216px','191px','191px','216px']"
                                                                                 data-hh="['51px','45px','45px','51px']"
-                                                                                width="216" height="51" data-no-retina>
+                                                                                width="216" height="51" data-no-retina>--}}
                                                                     </div>
 
                                                                     <!-- LAYER NR. 2 -->
@@ -615,7 +579,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit1" style="font-size: 48px">GDPR</span>
+                                                                        <span id="tit1" style="font-size: 48px; font-family: 'Microsoft Yi Baiti'!important;">GDPR</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 3 -->
@@ -641,7 +605,7 @@
                                                                          data-paddingbottom="[0,0,0,0]"
                                                                          data-paddingleft="[0,0,0,0]"
 
-                                                                         style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
+                                                                         style="margin-bottom:20px;z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
                                                                         Il GDPR sarà pienamente operativo dal 25 Maggio 2018, termine entro il quale tutte le aziende europee devono adottare le misure adeguate in base al nuovo Regolamento Europeo EU-GDPR 2016/679
                                                                     </div>
 
@@ -745,12 +709,12 @@
                                                                          data-paddingbottom="[0,0,0,0]"
                                                                          data-paddingleft="[0,0,0,0]"
 
-                                                                         style="z-index: 5;"><img
+                                                                         style="z-index: 5;">{{--<img
                                                                                 src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-slider1-img-1.png"
                                                                                 alt="i"
                                                                                 data-ww="['216px','191','191px','216px']"
                                                                                 data-hh="['51px','45px','45px','51px']"
-                                                                                width="216" height="51" data-no-retina>
+                                                                                width="216" height="51" data-no-retina>--}}
                                                                     </div>
 
                                                                     <!-- LAYER NR. 7 -->
@@ -777,7 +741,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit2" style="font-size: 48px">FORMAZIONE</span>
+                                                                        <span id="tit2" style="font-family: 'Microsoft Yi Baiti'!important; font-size: 48px">FORMAZIONE</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 8 -->
@@ -907,12 +871,12 @@
                                                                          data-paddingbottom="[0,0,0,0]"
                                                                          data-paddingleft="[0,0,0,0]"
 
-                                                                         style="z-index: 5;"><img
+                                                                         style="z-index: 5;">{{--<img
                                                                                 src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-slider1-img-1.png"
                                                                                 alt="i"
                                                                                 data-ww="['216px','191px','191','216px']"
                                                                                 data-hh="['51px','45px','45px','51px']"
-                                                                                width="216" height="51" data-no-retina>
+                                                                                width="216" height="51" data-no-retina>--}}
                                                                     </div>
 
                                                                     <!-- LAYER NR. 12 -->
@@ -939,7 +903,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit3" style="font-size: 48px">SOS Indebitati</span>
+                                                                        <span id="tit3" style="font-family: 'Microsoft Yi Baiti'!important; font-size: 48px">SOS Indebitati</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 13 -->
@@ -1201,10 +1165,10 @@
                                                             <div class="mkdf-iwt-content">
                                                                 <h5 class="mkdf-iwt-title" style="margin-top: 9px">
                                                                     <a itemprop="url" href="{{route('general')}}" target="_self">
-                                                                        <span class="mkdf-iwt-title-text">GENERAL</span>
+                                                                        <span class="mkdf-iwt-title-text" style="">GENERAL</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">
+                                                                <p class="mkdf-iwt-text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                                                     Le parti in gioco
                                                                 </p>
                                                             </div>
@@ -1231,7 +1195,7 @@
                                                                         <span class="mkdf-iwt-title-text">DATA</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">
+                                                                <p class="mkdf-iwt-text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                                                     Cosa intendiamo per dati personali?
 
                                                                 </p>
@@ -1259,7 +1223,7 @@
                                                                         <span class="mkdf-iwt-title-text">PROTECTION</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">
+                                                                <p class="mkdf-iwt-text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                                                     Cosa è il diritto alla protezione dei dati personali?
                                                                 </p>
                                                             </div>
@@ -1286,7 +1250,7 @@
                                                                         <span class="mkdf-iwt-title-text">REGULATION</span>
                                                                     </a>
                                                                 </h5>
-                                                                <p class="mkdf-iwt-text">
+                                                                <p class="mkdf-iwt-text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                                                     Trattametno dei dati
                                                                 </p>
                                                             </div>
@@ -1306,9 +1270,14 @@
                                             <div class="wpb_wrapper">
                                                 <div class="wpb_text_column wpb_content_element ">
                                                     <div class="wpb_wrapper">
-                                                        <h4><span style="color: #ffffff;">Protezione dei Dati o GDPR? Contattaci <br> </span>
+
+                                                        {{--<div id="info">
+                                                            @include('cookieConsent::index')
+                                                        </div>--}}
+
+                                                        <h4><span style="font-size:50px; font-family: 'Microsoft Yi Baiti'!important;color: #ffffff;">Protezione dei Dati o GDPR? Contattaci <br> </span>
                                                             <div style="" class="wpb_wrapper">
-                                                            <div style="text-align: left; margin: 0 auto; width: 220px;">
+                                                            <div style="font-size:50px; font-family: 'Microsoft Yi Baiti'!important; text-align: left; margin: 0 auto; width: 400px;">
                                                                 <a href="tel:+390575353609">+39 0575 353609</a> <br> <a href="tel:+39057524468">+39 0575 24468</a>
                                                             </div>
                                                             </div>
@@ -1337,7 +1306,7 @@
 
                                                                         <div class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <h4>Siamo qui per voi</h4>
+                                                                                <h4 style="font-size: 40px; font-family: 'Microsoft Yi Baiti'!important;">Siamo qui per voi</h4>
 
                                                                             </div>
                                                                         </div>
@@ -1347,7 +1316,7 @@
 
                                                                         <div class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <p style="text-align: justify">Da oltre 35 anni il nostro team  si occupa di gestione dei dati aziendali, concentrandosi sulla fornitura di servizi di qualità dando valore ai nostri Clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative che aiutano i nostri clienti.</p>
+                                                                                <p style="text-align: justify; font-size: 26px">Da oltre 35 anni il nostro team  si occupa di gestione dei dati aziendali, concentrandosi sulla fornitura di servizi di qualità dando valore ai nostri Clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative che aiutano i nostri clienti.</p>
 
                                                                             </div>
                                                                         </div>
@@ -1404,16 +1373,16 @@
                                                         <div class="mkdf-section-title-holder  "
                                                              style="text-align: center">
                                                             <div class="mkdf-st-inner">
-                                                                <h3 class="mkdf-st-title">
+                                                                <h3 class="mkdf-st-title" style="font-size:62px; font-family: 'Microsoft Yi Baiti'!important;">
                                                                     I nostri servizi </h3>
                                                                 <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
                                                                     <div class="mkdf-separator"
                                                                          style="width: 143px;border-bottom-width: 2px"></div>
                                                                 </div>
-                                                                <h6 class="mkdf-st-text">
-                                                                    "Chi continua ad imparare, giorno dopo giorno, resta giovane.
+                                                                <h5 class="mkdf-st-text" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                                                   <i> "Chi continua ad imparare, giorno dopo giorno, resta giovane.
                                                                     La cosa migliore da fare nella vita è mantenere la propria mente giovane ed aperta."
-                                                                    <br>Henry Ford (Industriale) </h6>
+                                                                    <br>Henry Ford (Industriale)</i> </h5>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1446,7 +1415,7 @@
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
                                                                     Privacy </h5>
-                                                                <p class="mkdf-st-text" style="margin-top: 9px">
+                                                                <p class="mkdf-st-text" style="margin-top: 9px;font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                                                     Adeguati alle normative privacy</p>
                                                             </div>
                                                         </div>
@@ -1460,16 +1429,19 @@
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-offset-0 vc_col-lg-2 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-1">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
-                                                        <div class="mkdf-si-inner">
-                                                            <a href="{{route('formazione')}}"> <img width="800" height="492"
-                                                                                                 src="{{asset('img/Formazione.jpg')}}"
-                                                                                                 class="attachment-full size-full ombra" alt="i"
-                                                                                                 srcset="{{asset('img/Formazione.jpg')}}"
-                                                                                                 sizes="(max-width: 800px) 100vw, 800px"/>
-                                                            </a>
+                                                        <div class="mkdf-single-image-holder   ">
+                                                            <div class="mkdf-si-inner">
+                                                                <a href="{{route('formazione')}}"> <img width="800" height="492"
+                                                                                                       src="{{asset('img/Formazione.jpg')}}"
+                                                                                                       class="attachment-full size-full ombra" alt="i"
+                                                                                                       srcset="{{asset('img/Formazione.jpg')}}"
+                                                                                                       sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                         <div class="vc_empty_space" style="height: 37px"><span
                                                                     class="vc_empty_space_inner"></span></div>
@@ -1478,8 +1450,8 @@
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
                                                                     Formazione </h5>
-                                                                <p class="mkdf-st-text" style="margin-top: 9px">
-                                                                    Adeguata istruzione a chi dovrà trattare i dati </p>
+                                                                <p class="mkdf-st-text" style="font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important; margin-top: 9px">
+                                                                    Adeguata istruzione a chi dovrà trattare i dati  </p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1512,7 +1484,7 @@
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
                                                                     Temporary Office </h5>
-                                                                <p class="mkdf-st-text" style="margin-top: 9px">
+                                                                <p class="mkdf-st-text" style="font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important; margin-top: 9px">
                                                                     Un ufficio senza i costi dell’Ufficio </p>
                                                             </div>
                                                         </div>
@@ -1547,7 +1519,7 @@
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
                                                                     Siti Web </h5>
-                                                                <p class="mkdf-st-text" style="margin-top: 9px">
+                                                                <p class="mkdf-st-text" style="font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important; margin-top: 9px">
                                                                     La tua azienda subito online </p>
                                                             </div>
                                                         </div>
@@ -1581,7 +1553,7 @@
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
                                                                     SOS Indebitati </h5>
-                                                                <p class="mkdf-st-text" style="margin-top: 9px">
+                                                                <p class="mkdf-st-text" style="font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important; margin-top: 9px">
                                                                     Anatocismo, usura e cartelle ex Equitalia
                                                                 </p>
                                                             </div>
@@ -1621,14 +1593,10 @@
                                                                         <h6 class="mkdf-st-text">
                                                                             Vi siete adeguati? contattateci </h6>
                                                                     </div>--}}
-                                                                    <div style="margin-top: -60px;
-                                                                                margin-bottom: 80px;
-                                                                                border: 2px solid black;
-                                                                                border-radius: 45%;
-                                                                                background: linear-gradient(#0777BB, #95B9E0);
-                                                                                padding: 90px 0" class="ombra">
+                                                                    <div >
                                                                         <div style="font-weight: 900;
-                                                                            font-size: 45px;
+                                                                            font-size: 55px;
+
                                                                             color: black;"
                                                                              class="mkdf-st-inner" id="conto">
                                                                         </div>
@@ -1638,7 +1606,7 @@
                                                                              style="width: 143px;border-bottom-width: 2px"></div>
                                                                     </div>
                                                                     <h6 class="mkdf-st-text">
-                                                                       <span id="adeguati"> </span> <a href="{{route("contatti")}}" style="color: red">contattateci</a> </h6>
+                                                                       <span id="adeguati" style="font-size: 26px"> </span> <a href="{{route("contatti")}}" style="color: red; font-size: 26px">contattateci</a> </h6>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1667,7 +1635,7 @@
                                                                      id="mkdf-testimonials-485">
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
-                                                                            class="mkdf-testimonial-title entry-title">
+                                                                            class="mkdf-testimonial-title entry-title" style="font-family: 'Microsoft Yi Baiti'!important;">
                                                                             Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
@@ -1676,7 +1644,7 @@
                                                                             <a target="_blank" href="{{asset('pdf/dirittiericorsodomande.pdf')}}" style="color: blue">Esercizio dei diritti e ricorso</a>
                                                                         </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
+				<span class="mkdf-testimonials-author-name" style="font-family: 'Microsoft Yi Baiti'!important;">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1684,7 +1652,7 @@
                                                                      id="mkdf-testimonials-174">
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
-                                                                            class="mkdf-testimonial-title entry-title">
+                                                                            class="mkdf-testimonial-title entry-title" style="font-family: 'Microsoft Yi Baiti'!important;">
                                                                             Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
@@ -1693,7 +1661,7 @@
                                                                             <a target="_blank" href="{{asset('pdf/compitigarante.pdf')}}" style="color: blue">Compiti del Garante</a>
                                                                         </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
+				<span class="mkdf-testimonials-author-name" style="font-family: 'Microsoft Yi Baiti'!important;">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1701,7 +1669,7 @@
                                                                      id="mkdf-testimonials-173">
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
-                                                                            class="mkdf-testimonial-title entry-title">
+                                                                            class="mkdf-testimonial-title entry-title" style="font-family: 'Microsoft Yi Baiti'!important;">
                                                                             Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
@@ -1710,7 +1678,7 @@
                                                                             <a target="_blank" href="{{asset('pdf/modelloeserciziodiritti.pdf')}}" style="color: blue">Modello Esercizio dei diritti</a>
                                                                         </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
+				<span class="mkdf-testimonials-author-name" style="font-family: 'Microsoft Yi Baiti'!important;">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1718,7 +1686,7 @@
                                                                      id="mkdf-testimonials-173">
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
-                                                                            class="mkdf-testimonial-title entry-title">
+                                                                            class="mkdf-testimonial-title entry-title" style="font-family: 'Microsoft Yi Baiti'!important;">
                                                                             Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
@@ -1727,7 +1695,7 @@
                                                                             <a target="_blank" href="{{asset('pdf/ricorsoalgarante.pdf')}}" style="color: blue">Ricorso al Garante</a>
                                                                         </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
+				<span class="mkdf-testimonials-author-name" style="font-family: 'Microsoft Yi Baiti'!important;">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1735,7 +1703,7 @@
                                                                      id="mkdf-testimonials-173">
                                                                     <div class="mkdf-testimonial-text-holder">
                                                                         <h3 itemprop="name"
-                                                                            class="mkdf-testimonial-title entry-title">
+                                                                            class="mkdf-testimonial-title entry-title" style="font-family: 'Microsoft Yi Baiti'!important;">
                                                                             Normativa e documentazione</h3>
                                                                         <div class="mkdf-separator-holder clearfix mkdf-separator-center">
                                                                             <div class="mkdf-separator"></div>
@@ -1744,7 +1712,7 @@
                                                                             <a target="_blank" href="{{asset('pdf/glossario.pdf')}}" style="color: blue">Glossario</a>
                                                                         </h6>
                                                                         <span class="mkdf-testimonial-author">
-				<span class="mkdf-testimonials-author-name">Fonte: http://www.garanteprivacy.it</span>
+				<span class="mkdf-testimonials-author-name" style="font-family: 'Microsoft Yi Baiti'!important;">Fonte: http://www.garanteprivacy.it</span>
 							</span>
                                                                     </div>
                                                                 </div>
@@ -1847,11 +1815,14 @@
     if (windowWidth < 600)
     {
         jQuery('#tit1').css('font-size',34);
-        jQuery('#conto').css('font-size',20);
+        jQuery('#conto').css('font-size',30);
         jQuery('#tit2').css('font-size',34);
         jQuery('#tit3').css('font-size',34);
         jQuery('.mkdf-testimonial-title').css('font-size',24);
         jQuery('.mkdf-testimonial-author').css('font-size',14);
+
+        /*jQuery('#info').css('height',120);*/
+
     }
 
 </script>

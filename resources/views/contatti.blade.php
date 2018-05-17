@@ -67,15 +67,19 @@
                                                 <div class="wpb_wrapper ombra" style=" padding-left: 10px; background-color: #0777BB">
                                                     <div class="wpb_text_column wpb_content_element ">
                                                         <div class="wpb_wrapper">
-                                                            <h5><span style="color: #ffffff;">Arezzo<br/>
-</span></h5>
+                                                            <h5>
+                                                                <span style="font-size:28px; font-family: 'Microsoft Yi Baiti'!important;color: #ffffff;">
+                                                                        Arezzo
+                                                                    <br/>
+                                                                </span>
+                                                            </h5>
 
                                                         </div>
                                                     </div>
 
                                                     <div class="wpb_text_column wpb_content_element ">
                                                         <div class="wpb_wrapper"  >
-                                                            <p style="font-size: 16px!important; font-weight: bold!important;">
+                                                            <p style=" font-size: 18px!important; font-weight: bold!important;">
                                                                 <a target="_blank" href="https://goo.gl/maps/dY77EkfXQKD2">
                                                                     Via Calamandrei, 257 - Arezzo</a><br/>
                                                                 <span style="color: #ffffff;">Telefono: </span><a
@@ -87,8 +91,7 @@
                                                                 </a><br/>
 
                                                                 <span style="color: #ffffff;">Email: </span><a
-                                                                        href="mailto:info@counselingsrl.eu">info@counselingsrl
-                                                                    .eu</a></p>
+                                                                        href="mailto:info@counselingsrl.eu">info@counselingsrl.eu</a></p>
 
                                                         </div>
                                                     </div>

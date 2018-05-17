@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Mail;
 use Redirect;
 use URL;
+use function view;
 
 class EmailController extends Controller
 {

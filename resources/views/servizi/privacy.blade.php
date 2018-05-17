@@ -16,7 +16,9 @@
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
                                         <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                            <span class="mkdf-pt-title">Privacy</span>
+                                            <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">
+                                                Privacy
+                                            </span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
@@ -28,11 +30,11 @@
 
                                                     <ul>
 
-                                                        <li style="text-align: center!important;">
+                                                        <li style="text-align: center!important; font-size: 28px">
                                                             <a href="{{route('tabelle')}}">Tabelle dei servizi Privacy</a>
                                                         </li>
 
-                                                        <li style="text-align: center!important;">
+                                                        <li style="text-align: center!important; font-size: 28px">
                                                             <a href="{{route('questionario')}}">Questionario Policy di Gestione</a>
                                                         </li>
 

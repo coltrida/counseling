@@ -16,11 +16,13 @@
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
                                         <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                            <span class="mkdf-pt-title">Questionario Policy di Gestione</span>
+                                            <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">
+                                                Questionario Policy di Gestione
+                                            </span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
-                                                <div style="font-weight: bold;">
+                                                <div style="font-weight: bold; font-size: 20px">
 
                                                     <form class="wpcf7-form cf7_custom_style_1">
 
@@ -202,7 +204,7 @@ ledano i dritti e le libertà dell'interessato?
                                                             </div>
 
                                                             <br>
-                                                            <div class="mkdf-grid-col-12" style="margin-top: 10px; font-size: 14px; text-align: justify!important;">
+                                                            <div class="mkdf-grid-col-12" style="margin-top: 10px; font-size: 16px; text-align: justify!important;">
                                                             Secondo l'art. 9 del Regolamento UE 2016/679 (RGPD) si definiscono categorie particolari di dati personali:
                                                             <br>•	quelli che rivelino l'origine razziale o etnica, le opinioni politiche, le convinzioni religiose o filosofiche, o l'appartenenza sindacale
                                                             <br>•	dati genetici, dati biometrici intesi a identificare in modo univoco una persona fisica
@@ -229,7 +231,7 @@ particolari di dati personali o di dati relativi a condanne penali o reati?
                                                             </div>
 
                                                             <br>
-                                                            <div class="mkdf-grid-col-12" style="margin: 10px 0; font-size: 14px; text-align: justify!important;">
+                                                            <div class="mkdf-grid-col-12" style="margin: 10px 0; font-size: 16px; text-align: justify!important;">
                                                                 Per determinare se il trattamento è eseguito su larga scala vanno considerati:
                                                                 <br>•	il numero di persone interessate, come numero specifico o come percentuale della popolazione di riferimento;
                                                                 <br>•	il volume dei dati e / o la gamma di diversi elementi di dati in corso di elaborazione;
@@ -275,7 +277,7 @@ degli interessi personali su larga scala?
                                                             </div>
 
                                                             <br>
-                                                            <div class="mkdf-grid-col-12" style="margin: 10px 0; font-size: 14px; text-align: justify!important;">
+                                                            <div class="mkdf-grid-col-12" style="margin: 10px 0; font-size: 16px; text-align: justify!important;">
                                                                 Questa situazione è per quanto riguarda il conto terzi, il servizio fiscale e / o contabile, l'assistenza (anche remota) su computer di terzi, ecc. titolare del trattamento che ne ha previsto le finalità.
                                                                 Ad esempio, è un responsabile esterno il commercialista che tratta i dati per conto delle aziende.
 

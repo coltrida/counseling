@@ -4,10 +4,10 @@
             <div class="mkdf-grid-row mkdf-footer-top-alignment-left">
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div id="media_image-4" class="widget mkdf-footer-column-1 widget_media_image"><img
-                                width="371" height="29"
-                                src="{{asset('img/logo.png')}}"
+                                width="371" height="59"
+                                src="{{asset('img/logo4.png')}}"
                                 class="image wp-image-3317  attachment-full size-full" alt="i"
-                                style="max-width: 100%; height: auto;"/></div>
+                                style="max-width: 100%; height: auto; margin-left: -40px"/></div>
                     <div class="widget mkdf-separator-widget">
                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal"
                              style="margin-bottom: -7px">
@@ -46,7 +46,7 @@
         <span class="mkdf-icon-bckg-holder"></span>
                     <i class="fas fa-phone" style="color: #0077c0; font-size: 26px; margin-bottom: 12px"></i>                    </span>
 					</span>
-                                                            <p class="mkdf-iwt-title-text">+39 0575 353609</p>
+                                                            <p class="mkdf-iwt-title-text" style="font-size: 22px">+39 0575 353609</p>
                                                         </a>
                                                    <br>     <a itemprop="url" href="tel:+39057524468"
                                                            target="_self">
@@ -56,7 +56,7 @@
         <span class="mkdf-icon-bckg-holder"></span>
                     <i class="fas fa-phone" style="color: #0077c0; font-size: 26px; margin-bottom: 12px"></i>                    </span>
 					</span>
-                                                            <p class="mkdf-iwt-title-text">+39 0575 24468</p>
+                                                            <p class="mkdf-iwt-title-text" style="font-size: 22px">+39 0575 24468</p>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -91,7 +91,7 @@
         <span class="mkdf-icon-bckg-holder"></span>
                     <i class="fas fa-map-marker" style="color: #0077c0; font-size: 26px; margin-bottom: 12px"></i>                   </span>
 					</span>
-                                                            <p class="mkdf-iwt-title-text">
+                                                            <p class="mkdf-iwt-title-text" style="font-size: 22px">
                                                                 Via Calamandrei, 257 - Arezzo
                                                             </p>
                                                         </a>
@@ -110,7 +110,7 @@
                             <div class="mkdf-separator" style="border-style: solid"></div>
                         </div>
                     </div>
-                    <div id="text-16" class="widget mkdf-footer-column-1 widget_text">
+                    {{--<div id="text-16" class="widget mkdf-footer-column-1 widget_text">
                         <div class="textwidget">
                             <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -126,7 +126,8 @@
         <span class="mkdf-icon-bckg-holder"></span>
                     <i class="fas fa-clock" style="color: #0077c0; font-size: 26px; margin-bottom: 12px"></i>                    </span>
 					</span>
-                                                            <p class="mkdf-iwt-title-text">Lunedì - Venerdì 9.00 -
+                                                            <p class="mkdf-iwt-title-text">
+                                                                Lunedì - Venerdì 9.00 -
                                                                 18.00</p>
                                                         </a>
                                                     </div>
@@ -137,7 +138,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
                 <div class="mkdf-column-content mkdf-grid-col-3">
 
@@ -150,7 +151,7 @@
                 </div>
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div class="widget mkdf-contact-form-7-widget ">
-                        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title">
+                        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title" style="font-size: 26px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                 Richiedi informazioni
                             </h5></div>
                         <div role="form" lang="en-US" dir="ltr">
@@ -160,7 +161,7 @@
 
                                 <div style="padding: 10px 15px 0px;">
                                     <div class="mkdf-grid-row">
-                                                <span><input required type="text"
+                                                <span><input style="font-size: 18px" required type="text"
                                                                                                    name="title" value=""
                                                                                                    size="40"
                                                                                                    id="nomefrom"
@@ -169,7 +170,7 @@
                                                                                                    placeholder="Nome"/></span>
                                     </div>
                                     <div class="mkdf-grid-row">
-                                                <span ><input required type="email"
+                                                <span ><input style="font-size: 18px" required type="email"
                                                                                                    name="mailfrom" value=""
                                                                                                    size="40"
                                                                                                    id="indirizzofrom"
@@ -178,7 +179,7 @@
                                                                                                    placeholder="E-mail"/></span>
                                     </div>
                                     <div class="mkdf-grid-row">
-                                                <span ><textarea required name="content"
+                                                <span ><textarea style="font-size: 18px" required name="content"
                                                                                                          cols="40"
                                                                                                          rows="5"
                                                                                                          id="testofrom"
@@ -188,7 +189,7 @@
                                     </div>
                                     <div class="mkdf-grid-row">
                                         {{--<input class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" type="submit" value="INVIA" style="background-color: #0077c0"/>--}}
-                                        <a title="Invia mail" id="inviamail" href="{{route('mail')}}" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0">
+                                        <a title="Invia mail" id="inviamail" href="{{route('mail')}}" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0; font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                             invia</a>
                                     </div>
                                 </div>
@@ -207,8 +208,8 @@
                                 <div class="mkdf-footer-btm-widget-holder">
                                     <div id="text-6" class="widget mkdf-footer-bottom-column-1 widget_text">
                                         <div class="textwidget"><p
-                                                    style="padding-top: 4px; font-size: 11px; letter-spacing: 0.2em; font-weight: 400;">
-                                                COPYRIGHTS 2018 © COUNSELINGSRL</p>
+                                                    style="padding-top: 4px; font-size: 18px; letter-spacing: 0.2em; font-weight: 400;">
+                                                @include('cookieConsent::index') COPYRIGHTS 2018 © COUNSELINGSRL - <a target="_blank" href="https://protezionedatipersonali.it/informativa-privacy-e-cookie">Informativa privacy</a></p>
                                         </div>
                                     </div>
                                 </div>

@@ -15,7 +15,7 @@
                         <a class=""
                            href="{{route('index')}}">
                             <img style="width: 300px;"
-                                 src="{{asset('img/logo.png')}}"
+                                 src="{{asset('img/logo4.png')}}"
                                  alt="logo"/>
                         </a>
                     </div>
@@ -25,21 +25,21 @@
                         <ul id="menu-main-menu-navigation" class="clearfix">
                             <li id="nav-menu-item-58"
                                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkdf-active-item has_sub wide mkdf-wide-menu-centered">
-                                <a href="{{route('index')}}" class=" current "><span class="item_outer"><span class="item_text" style="font-size: 24px!important;">Home</span><i
+                                <a href="{{route('index')}}" class=" current "><span class="item_outer"><span class="" style="font-size: 40px!important; font-family: 'Microsoft Yi Baiti'!important; ">Home</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
 
                             </li>
                             <li id="nav-menu-item-59"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                 <a href="{{route('chisiamo')}}" class=""><span class="item_outer"><span
-                                                class="item_text" style="font-size: 24px!important;">Chi siamo</span><i
+                                                class="" style="font-size: 40px!important; font-family: 'Microsoft Yi Baiti'!important;">Chi siamo</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
 
                             </li>
                             <li id="nav-menu-item-61"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                 <a href="#" class=""><span class="item_outer"><span
-                                                class="item_text" style="font-size: 24px!important;">Servizi</span><i
+                                                class="" style="font-size: 40px!important; font-family: 'Microsoft Yi Baiti'!important;">Servizi</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                 <div class="second">
                                     <div class="inner">
@@ -47,27 +47,27 @@
                                             <li id="nav-menu-item-1420"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="{{route('privacy')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Privacy</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Privacy</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1451"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="{{route('formazione')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Formazione</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Formazione</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="{{route('temporary')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Temporary Office</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Temporary Office</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="{{route('web')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Siti Web</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Siti Web</span></span></a>
                                             </li>
                                             <li id="nav-menu-item-1450"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="{{route('equitalia')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">SOS Indebitati</span></span></a>
+                                                   class=""><span class="item_outer"><span class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">SOS Indebitati</span></span></a>
                                             </li>
 
                                         </ul>
@@ -121,7 +121,7 @@
                             <li id="nav-menu-item-63"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-centered">
                                 <a href="{{route('contatti')}}" class=""><span class="item_outer"><span
-                                                class="item_text" style="font-size: 24px!important;">Contatti</span><i
+                                                class="" style="font-size: 40px!important; font-family: 'Microsoft Yi Baiti'!important;">Contatti</span><i
                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
 
                             </li>
@@ -163,7 +163,7 @@
                             <a class=""
                                href="{{route('index')}}">
                                 <img style="width: 200px;"
-                                     src="{{asset('img/logo.png')}}"
+                                     src="{{asset('img/logo2.png')}}"
                                      alt="logo"/>
                             </a>
                         </div>
@@ -174,20 +174,20 @@
                                 <li id="sticky-nav-menu-item-58"
                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children mkdf-active-item has_sub wide mkdf-wide-menu-centered">
                                     <a href="{{route('index')}}" class=" current "><span class="item_outer"><span
-                                                    class="item_text">Home</span><span class="plus"></span><i
+                                                    class="" style="font-size: 28px!important; font-family: 'Microsoft Yi Baiti'!important; ">Home</span><span class="plus"></span><i
                                                     class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
 
                                 </li>
                                 <li id="sticky-nav-menu-item-59"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                     <a href="{{route('chisiamo')}}" class=""><span class="item_outer"><span
-                                                    class="item_text">Chi siamo</span><span class="plus"></span><i
+                                                    class="" style="font-size: 28px!important; font-family: 'Microsoft Yi Baiti'!important; ">Chi siamo</span><span class="plus"></span><i
                                                     class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
 
                                 </li>
                                 <li id="sticky-nav-menu-item-61"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-                                    <a href="#" class=""><span class="item_outer"><span class="item_text">Servizi</span><span
+                                    <a href="#" class=""><span class="item_outer"><span class="" style="font-size: 28px!important; font-family: 'Microsoft Yi Baiti'!important; ">Servizi</span><span
                                                     class="plus"></span><i
                                                     class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
                                     <div class="second">
@@ -197,31 +197,31 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="{{route('privacy')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Privacy</span><span
+                                                                    class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Privacy</span><span
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1451"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="{{route('formazione')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Formazione</span><span
+                                                                    class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Formazione</span><span
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="{{route('temporary')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Temporary Office</span><span
+                                                                    class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Temporary Office</span><span
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="{{route('web')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">Siti Web</span><span
+                                                                    class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Siti Web</span><span
                                                                     class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="{{route('equitalia')}}"
                                                        class=""><span class="item_outer"><span
-                                                                    class="item_text">SOS Indebitati</span><span
+                                                                    class="item_text" style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">SOS Indebitati</span><span
                                                                     class="plus"></span></span></a></li>
 
                                             </ul>
@@ -280,7 +280,7 @@
 
                                 <li id="sticky-nav-menu-item-63"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-centered">
-                                    <a href="{{route('contatti')}}" class=""><span class="item_outer"><span class="item_text">Contatti</span><span
+                                    <a href="{{route('contatti')}}" class=""><span class="item_outer"><span class="" style="font-size: 28px!important; font-family: 'Microsoft Yi Baiti'!important; ">Contatti</span><span
                                                     class="plus"></span><i
                                                     class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
 
@@ -310,12 +310,12 @@
                         <div class="mkdf-logo-wrapper">
                             <a itemprop="url" href="{{route('index')}}" style="height: 33px;">
                                 <img itemprop="image" class="mkdf-normal-logo"
-                                     src="{{asset('img/icona.png')}}"
+                                     src="{{asset('img/icona2.png')}}"
                                      alt="logo"/>
                                 <img itemprop="image" class="mkdf-dark-logo"
-                                     src="{{asset('img/icona.png')}}"
+                                     src="{{asset('img/icona2.png')}}"
                                      alt="dark logo"/> <img itemprop="image" class="mkdf-light-logo"
-                                                            src="{{asset('img/icona.png')}}"
+                                                            src="{{asset('img/icona2.png')}}"
                                                             alt="light logo"/> </a>
                         </div>
                     </div>
@@ -363,9 +363,9 @@
 
                                 <div class="mkdf-mobile-logo-wrapper">
                                     <a itemprop="url" href="{{route('index')}}"
-                                       style="height: 33px">
+                                       style="height: 50px">
                                         <img itemprop="image"
-                                             src="{{asset('img/logo.png')}}"
+                                             src="{{asset('img/logo2.png')}}"
                                              alt="Mobile Logo"/>
                                     </a>
                                 </div>
@@ -387,7 +387,7 @@
                 <ul id="menu-mobile-menu" class="">
                     <li id="mobile-menu-item-3088"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub">
-                        <a href="{{route('index')}}" class=" current  mkdf-mobile-no-link"><span>Home</span></a><span
+                        <a href="{{route('index')}}" class=" current  mkdf-mobile-no-link"><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Home</span></a><span
                                 class="mobile_arrow">{{--<i class="mkdf-sub-arrow fa fa-angle-right"></i>--}}{{--<i
                                             class="fa fa-angle-down"></i>--}}</span>
                         {{--                                <ul class="sub_menu">
@@ -407,7 +407,7 @@
                     </li>
                     <li id="mobile-menu-item-3096"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                        <a href="{{route('chisiamo')}}" class=" mkdf-mobile-no-link"><span>Chi siamo</span></a><span
+                        <a href="{{route('chisiamo')}}" class=" mkdf-mobile-no-link"><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Chi siamo</span></a><span
                                 class="mobile_arrow">{{--<i class="mkdf-sub-arrow fa fa-angle-right"></i><i
                                             class="fa fa-angle-down"></i>--}}</span>
                         {{--<ul class="sub_menu">
@@ -439,30 +439,30 @@
                     </li>
                     <li id="mobile-menu-item-3103"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                        <a href="#" class=" mkdf-mobile-no-link"><span>Servizi</span></a><span
+                        <a href="#" class=" mkdf-mobile-no-link"><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Servizi</span></a><span
                                 class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i
                                     class="fa fa-angle-down"></i></span>
                         <ul class="sub_menu">
                             <li id="mobile-menu-item-3104"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="{{route('privacy')}}"
-                                        class=""><span>Privacy</span></a></li>
+                                        class=""><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Privacy</span></a></li>
                             <li id="mobile-menu-item-3105"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="{{route('formazione')}}"
-                                        class=""><span>Formazione</span></a></li>
+                                        class=""><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Formazione</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="{{route('temporary')}}"
-                                        class=""><span>Temporary Office</span></a></li>
+                                        class=""><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Temporary Office</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="{{route('web')}}"
-                                        class=""><span>Siti Web</span></a></li>
+                                        class=""><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Siti Web</span></a></li>
                             <li id="mobile-menu-item-3106"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="{{route('equitalia')}}"
-                                        class=""><span>SOS Indebitati</span></a></li>
+                                        class=""><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">SOS Indebitati</span></a></li>
 
                         </ul>
                     </li>
@@ -502,7 +502,7 @@
 
                     <li id="mobile-menu-item-3143"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                        <a href="{{route('contatti')}}" class=" mkdf-mobile-no-link"><span>Contatti</span></a><span
+                        <a href="{{route('contatti')}}" class=" mkdf-mobile-no-link"><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Contatti</span></a><span
                                 class="mobile_arrow">{{--<i class="mkdf-sub-arrow fa fa-angle-right"></i>--}}{{--<i
                                             class="fa fa-angle-down"></i>--}}</span>
 

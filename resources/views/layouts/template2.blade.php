@@ -330,14 +330,14 @@
           media="screen"><![endif]-->
     {{-- <meta name="generator"
            content="Powered by Slider Revolution 5.4.7.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>--}}
-    <link rel="icon" href="{{asset('img/icona.png')}}"
+    <link rel="icon" href="{{asset('img/icona2.png')}}"
           sizes="32x32"/>
-    <link rel="icon" href="{{asset('img/icona.png')}}"
+    <link rel="icon" href="{{asset('img/icona2.png')}}"
           sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed"
-          href="{{asset('img/icona.png')}}"/>
+          href="{{asset('img/icona2.png')}}"/>
     <meta name="msapplication-TileImage"
-          content="{{asset('img/icona.png')}}"/>
+          content="{{asset('img/icona2.png')}}"/>
     <script type="text/javascript">function setREVStartSize(e) {
             try {
                 e.c = jQuery(e.c);
@@ -428,6 +428,10 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
+        body {
+            font-family: 'Microsoft Yi Baiti'!important;
+        }
+
         .vc_custom_1520610634047 {
             padding-bottom: 104px !important;
         }</style>
@@ -444,7 +448,7 @@
     <div class="mkdf-st-loader">
         <div class="mkdf-st-loader1">
             <div class="mkdf-reveal-image"><img
-                        src="{{asset('img/logo.png')}}"
+                        src="{{asset('img/logo2.png')}}"
                         alt="spinner"/>
                 <div class="mkdf-spinner-revealer"></div>
             </div>

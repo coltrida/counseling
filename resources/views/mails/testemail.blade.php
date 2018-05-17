@@ -3,7 +3,7 @@
 <body style="background-color: whitesmoke">
 <div style="background-color: gray">
     <a class="navbar-brand" href="#" style="border:0;padding:0">
-        <img src="{{asset('img/logo.png')}}" alt="logo" height="60">
+        <img src="{{asset('img/logo2.png')}}" alt="logo" height="60">
     </a>
 
 </div>

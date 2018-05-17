@@ -17,7 +17,7 @@
                 <div class="mkdf-title-wrapper" style="height: 430px">
                     <div class="mkdf-title-inner">
                         <div class="mkdf-grid">
-                            <h2 class="mkdf-page-title entry-title">Chi Siamo</h2>
+                            <h1 class="mkdf-page-title entry-title" style=" font-family: 'Microsoft Yi Baiti'!important;">Chi Siamo</h1>
                         </div>
                     </div>
                 </div>
@@ -65,8 +65,8 @@
                                                     <div class="mkdf-section-title-holder  "
                                                          style="text-align: center">
                                                         <div class="mkdf-st-inner">
-                                                            <h5 class="mkdf-st-title">
-                                                                Siamo un team dinamico che si occupa da oltre 35 anni della  gestione dei dati aziendali, concentrandosi sulla fornitura di consulenza e servizi di qualità dando valore ai nostri Clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative. I nostri partner sono importanti studi di professionisti (avvocati, commercialisti, informatici) specializzati nelle materie che trattiamo. Il costante aggiornamento ci consente di rispondere sempre efficacemente alle problematiche dei nostri Clienti. </h5>
+                                                            <h4 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important; text-align: justify">
+                                                                Siamo un team dinamico che si occupa da oltre 35 anni della  gestione dei dati aziendali, concentrandosi sulla fornitura di consulenza e servizi di qualità dando valore ai nostri Clienti. Raggiungiamo questo obiettivo attraverso soluzioni pratiche e innovative. I nostri partner sono importanti studi di professionisti (avvocati, commercialisti, informatici) specializzati nelle materie che trattiamo. Il costante aggiornamento ci consente di rispondere sempre efficacemente alle problematiche dei nostri Clienti. </h4>
                                                             <div class="mkdf-row-grid-section-wrapper mkdf-content-aligment-center">
                                                                 <div class="mkdf-row-grid-section">
                                                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1522075243296">
@@ -100,8 +100,8 @@
                                                     <div class="mkdf-section-title-holder  "
                                                          style="text-align: center">
                                                         <div class="mkdf-st-inner">
-                                                            <h3 class="mkdf-st-title">
-                                                                Cosa facciamo per voi </h3>
+                                                            <h2 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                                                Cosa facciamo per voi </h2>
                                                             <div class="mkdf-row-grid-section-wrapper mkdf-content-aligment-center">
                                                                 <div class="mkdf-row-grid-section">
                                                                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1522075243296">
@@ -145,7 +145,7 @@
 
                                                                             <div class="wpb_text_column wpb_content_element ">
                                                                                 <div class="wpb_wrapper">
-                                                                                    <h4>Risolviamo tutti i vostri problemi.</h4>
+                                                                                    <h3 style=" font-family: 'Microsoft Yi Baiti'!important;">Risolviamo tutti i vostri problemi.</h3>
 
                                                                                 </div>
                                                                             </div>

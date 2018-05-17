@@ -16,7 +16,9 @@
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
                                         <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                            <span class="mkdf-pt-title">SOS Indebitati</span>
+                                            <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">
+                                                SOS Indebitati
+                                            </span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
                                             <ul>
@@ -24,24 +26,24 @@
                                                 <li class="mkdf-pt-content" >
 
                                                     <ul>
-                                                        <li style="text-align: justify!important;">
+                                                        <li style="text-align: justify!important; font-size: 20px">
                                                             Siamo un gruppo di professionisti esperti nella gestione del debito, ma prima di tutto siamo delle persone, che vogliono mettere la propria esperienza e professionalità al servizio di coloro che intendono uscire da un momento economicamente difficile nel quale si sono imbattuti.
 
                                                         </li>
 
-                                                        <li style="text-align: justify!important;">
+                                                        <li style="text-align: justify!important; font-size: 20px">
                                                             Una analisi preventiva e <span style="color: black">gratuita</span> sulle cartelle dell’Agenzia delle Entrate-Riscossione (ex Equitalia), sui tassi d’usura bancari applicati sui vostri mutui, sui finanziamenti e sui conti correnti e leasing, può trasformare il vostro debito nella vostra fortuna. Attraverso il  modulo dei contatti , puoi sottoporci la tua situazione, alla quale, senza nessun impegno da parte tua, cercheremo in maniera concreta, di prospettarti le soluzioni possibili .
                                                         </li>
 
                                                         <li>
                                                             <ul>
-                                                                <div style="font-weight: bold; margin-top: 30px">
+                                                                <div style="font-weight: bold; margin-top: 30px; font-size: 20px">
                                                                     <div style="text-align: left!important; color: blue; font-size: 30px; margin-bottom: 20px">Modulo Contatti</div>
                                                                     <form class="wpcf7-form cf7_custom_style_1">
 
                                                                         <div class="mkdf-grid-row mkdf-grid-normal-gutter">
                                                                             <div class="mkdf-grid-col-1" style="text-align: left!important;">
-                                                                                <span class="wpcf7-form-control-wrap email">
+                                                                                <span class="wpcf7-form-control-wrap email" >
                                                                                     Nome
                                                                                 </span>
                                                                             </div>
