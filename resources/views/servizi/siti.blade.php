@@ -313,4 +313,304 @@
 
         </div> <!-- close div.content_inner -->
     </div>  <!-- close div.content -->
+
+    <div class="mkdf-row-grid-section-wrapper "
+         >
+        <div class="mkdf-row-grid-section">
+            <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405848948">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="mkdf-section-title-holder  "
+                                 style="text-align: center">
+                                <div class="mkdf-st-inner">
+                                    <h2 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                        Tabelle dei servizi Web</h2>
+                                    <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                                        <div class="mkdf-separator"
+                                             style="width: 143px;border-bottom-width: 2px"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mkdf-row-grid-section-wrapper "
+         style="margin-top: -140px">
+        <div class="mkdf-row-grid-section">
+            <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405848948">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="mkdf-section-title-holder  "
+                                 style="text-align: center">
+                                <div class="mkdf-st-inner" style="">
+                                    <h3 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                        Creazione Sito Web</h3>
+                                    <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                                        <div class="mkdf-separator"
+                                             style="width: 143px;border-bottom-width: 2px"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mkdf-row-grid-section-wrapper " style="margin-top: -60px">
+        <div class="mkdf-row-grid-section">
+            <div class="vc_row wpb_row vc_row-fluid vc_custom_1520416413881">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="mkdf-pricing-tables clearfix mkdf-three-columns mkdf-normal-space">
+                                <div class="mkdf-pt-wrapper mkdf-outer-space">
+
+                                    <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
+                                        <div class="mkdf-pt-inner ombra" style="background-color: #f3f2fc">
+                                            <ul>
+                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                    <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">&nbsp;</span>
+                                                </p>
+
+                                                <ul style="font-size: 24px; text-align: center">
+                                                    <p>
+                                                        1 pagina = a partire da €200
+                                                    </p>
+                                                    <p>
+                                                        2 - 5 pagine = a partire da €500
+                                                    </p>
+                                                    <p>
+                                                        più di 5 pagine = a partire da €800
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p>
+                                                        + Creazione DataBase = a partire da €500*
+                                                    </p>
+                                                    <p>
+                                                        * = la creazione del Database può servire per prenotazioni, messaggistica, ecc
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mkdf-row-grid-section-wrapper " style="margin-bottom: -50px; margin-top: -160px">
+        <div class="mkdf-row-grid-section">
+            <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405848948">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="mkdf-section-title-holder  "
+                                 style="text-align: center">
+                                <div class="mkdf-st-inner" >
+                                    <h3 class="mkdf-st-title" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                        Manutenzione Sito Web</h3>
+                                    <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                                        <div class="mkdf-separator"
+                                             style="width: 143px;border-bottom-width: 2px"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mkdf-row-grid-section-wrapper ">
+        <div class="mkdf-row-grid-section">
+            <div class="vc_row wpb_row vc_row-fluid vc_custom_1520416413881">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="mkdf-pricing-tables clearfix mkdf-three-columns mkdf-normal-space">
+                                <div class="mkdf-pt-wrapper mkdf-outer-space">
+
+                                    <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
+                                        <div class="mkdf-pt-inner ombra" style="background-color: #bbbbbb">
+                                            <ul>
+                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Minimo</span>
+                                                </p>
+
+                                                <ul style="font-size: 24px">
+                                                    <p>
+                                                        Dominio + hosting
+                                                    </p>
+                                                    <p>
+                                                        Backup giornaliero
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p style="font-size: 34px; margin: 34px 0; padding-bottom: 30px">
+                                                        €15 mese
+                                                    </p>
+
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
+                                        <div class="mkdf-pt-inner ombra" style="background-color: #fed3fc">
+                                            <ul>
+                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Base</span>
+                                                </p>
+
+                                                <ul style="font-size: 24px">
+                                                    <p>
+                                                        Dominio + hosting
+                                                    </p>
+                                                    <p>
+                                                        Backup giornaliero
+                                                    </p>
+                                                    <p>
+                                                        Gestione DB Clienti
+                                                    </p>
+                                                    <p>
+                                                        1 mail aziendale
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p style="font-size: 34px; margin: 34px 0; padding-bottom: 30px">
+                                                        €39 mese
+                                                    </p>
+
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
+                                        <div class="mkdf-pt-inner ombra" style="background-color: #d7f1f1">
+                                            <ul>
+                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Avanzato</span>
+                                                </p>
+
+                                                <ul style="font-size: 24px">
+                                                    <p>
+                                                        Dominio + hosting
+                                                    </p>
+                                                    <p>
+                                                        Backup giornaliero
+                                                    </p>
+                                                    <p>
+                                                        Gestione DB Clienti
+                                                    </p>
+                                                    <p>
+                                                        3 mail aziendale
+                                                    </p>
+                                                    <p>
+                                                        Versione Mobile
+                                                    </p>
+                                                    <p>
+                                                        2 modifiche annue
+                                                    </p>
+                                                    <p>
+                                                        &nbsp;
+                                                    </p>
+                                                    <p style="font-size: 34px; margin: 34px 0; padding-bottom: 30px">
+                                                        €49 mese
+                                                    </p>
+
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
+                                        <div class="mkdf-pt-inner ombra" style="background: #f3ff90;">
+                                            <ul>
+                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Completo</span>
+                                                </p>
+
+                                                    <ul style="font-size: 24px">
+                                                        <p>
+                                                            Dominio + hosting
+                                                        </p>
+                                                        <p>
+                                                            Backup giornaliero
+                                                        </p>
+                                                        <p>
+                                                            Gestione DB Clienti
+                                                        </p>
+                                                        <p>
+                                                            5 mail aziendale
+                                                        </p>
+                                                        <p>
+                                                            Versione Mobile
+                                                        </p>
+                                                        <p>
+                                                            5 modifiche annue
+                                                        </p>
+                                                        <p>
+                                                            App IOS e Android
+                                                        </p>
+                                                        <p style="font-size: 34px; margin: 34px 0; padding-bottom: 30px">
+                                                            €79 mese
+                                                        </p>
+
+                                                    </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @stop

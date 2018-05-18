@@ -207,9 +207,11 @@
                             <div class="mkdf-grid-col-12">
                                 <div class="mkdf-footer-btm-widget-holder">
                                     <div id="text-6" class="widget mkdf-footer-bottom-column-1 widget_text">
-                                        <div class="textwidget"><p
-                                                    style="padding-top: 4px; font-size: 18px; letter-spacing: 0.2em; font-weight: 400;">
-                                                @include('cookieConsent::index') COPYRIGHTS 2018 © COUNSELINGSRL - <a target="_blank" href="https://protezionedatipersonali.it/informativa-privacy-e-cookie">Informativa privacy</a></p>
+                                        <div class="textwidget">
+                                            <p style="padding-top: 4px; letter-spacing: 0.2em; font-weight: 400;">
+                                                @include('cookieConsent::index') COPYRIGHTS 2018 © COUNSELINGSRL - <a target="_blank" href="https://protezionedatipersonali.it/informativa-privacy-e-cookie" style="font-size: 18px">Informativa privacy</a>
+                                                <a target="_blank" href="{{route('sitemap')}}" style="font-size: 18px"> - sitemap</a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

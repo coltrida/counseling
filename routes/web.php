@@ -53,3 +53,6 @@ Auth::routes();
 //mail contatti
 Route::post('/send', 'EmailController@send')->name('mail');
 
+//Sitemap
+Route::get('/sitemap.xml', 'SitemapController@sitemap')->name('sitemap');
+
