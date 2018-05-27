@@ -20,8 +20,8 @@
                                         <div class="mkdf-separator"
                                              style="width: 143px;border-bottom-width: 2px"></div>
                                     </div>
-                                    <h5 class="mkdf-st-text" >
-                                        Scegli il servizio di cui hai bisogno e ti aiuteremo </h5>
+                                    <h4 class="mkdf-st-text" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                        Scegli il servizio di cui hai bisogno e ti aiuteremo </h4>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                                                         <li class="mkdf-pt-content">
 
                                                             <ul>
-                                                                <li>ADDETTI  N.1  (DITTA INDIVIDUALE CON DIPENDENTI)
+                                                                <li>ADDETTI  N.1  (DITTA INDIVIDUALE CON DIPENDENTI)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 </li>
                                                                 <li>ARCHIVIO INFORMATICO E CARTACEO
                                                                 </li>
@@ -192,7 +192,7 @@
                                                             <ul>
                                                                 <li>ADDETTI DA 2 A 5 (DITTA INDIVIDUALE E SOCIETA’ CON DIPENDENTI)
                                                                 </li>
-                                                                <li>N.1 ARCHIVIO INFORMATICO E ARCHIVIO CARTACEO<br>
+                                                                <li>N.1 ARCHIVIO INFORMATICO E ARCHIVIO CARTACEO&nbsp;
                                                                 </li>
                                                                 {{--<li>Lorem ipsum dolor sit
                                                                     amett
@@ -293,7 +293,7 @@
                                         </div>
                                     </div>
                                     <div style="text-align: right">
-                                        <button style="background-color: #95b9e0;" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
+                                        <button style="background-color: #95b9e0;" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
                                     </div>
                                 </div>
                             </div>

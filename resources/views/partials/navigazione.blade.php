@@ -74,49 +74,7 @@
                                     </div>
                                 </div>
                             </li>
-                            {{--<li id="nav-menu-item-60"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-                                <a href="#" class=""><span class="item_outer"><span
-                                                class="item_text" style="font-size: 24px!important;">Pacchetti</span><i
-                                                class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-                                <div class="second">
-                                    <div class="inner">
-                                        <ul>
-                                            <li id="nav-menu-item-1010"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{route('soluzione1')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Soluzione1</span></span></a>
-                                            </li>
-                                            <li id="nav-menu-item-1129"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{route('soluzione2')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Soluzione2</span></span></a>
-                                            </li>
-                                            <li id="nav-menu-item-1128"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{route('soluzione3')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Soluzione3</span></span></a>
-                                            </li>
-                                            <li id="nav-menu-item-1128"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{route('soluzione4')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Soluzione4</span></span></a>
-                                            </li>
-                                            <li id="nav-menu-item-1128"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{route('soluzione5')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Soluzione5</span></span></a>
-                                            </li>
-                                            <li id="nav-menu-item-1128"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                <a href="{{route('opzione')}}"
-                                                   class=""><span class="item_outer"><span class="item_text">Opzione</span></span></a>
-                                            </li>
 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>--}}
 
                             <li id="nav-menu-item-63"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-centered">
@@ -228,55 +186,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                {{--<li id="sticky-nav-menu-item-60"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-                                    <a href="#" class=""><span class="item_outer"><span
-                                                    class="item_text">Pacchetti</span><span class="plus"></span><i
-                                                    class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
-                                    <div class="second">
-                                        <div class="inner">
-                                            <ul>
-                                                <li id="sticky-nav-menu-item-1010"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="{{route('soluzione1')}}"
-                                                       class=""><span class="item_outer"><span
-                                                                    class="item_text">Soluzione1</span><span
-                                                                    class="plus"></span></span></a></li>
-                                                <li id="sticky-nav-menu-item-1010"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="{{route('soluzione2')}}"
-                                                       class=""><span class="item_outer"><span
-                                                                    class="item_text">Soluzione2</span><span
-                                                                    class="plus"></span></span></a></li>
-                                                <li id="sticky-nav-menu-item-1010"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="{{route('soluzione3')}}"
-                                                       class=""><span class="item_outer"><span
-                                                                    class="item_text">Soluzione3</span><span
-                                                                    class="plus"></span></span></a></li>
-                                                <li id="sticky-nav-menu-item-1010"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="{{route('soluzione4')}}"
-                                                       class=""><span class="item_outer"><span
-                                                                    class="item_text">Soluzione4</span><span
-                                                                    class="plus"></span></span></a></li>
-                                                <li id="sticky-nav-menu-item-1010"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="{{route('soluzione5')}}"
-                                                       class=""><span class="item_outer"><span
-                                                                    class="item_text">Soluzione5</span><span
-                                                                    class="plus"></span></span></a></li>
-                                                <li id="sticky-nav-menu-item-1010"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a href="{{route('opzione')}}"
-                                                       class=""><span class="item_outer"><span
-                                                                    class="item_text">Opzione</span><span
-                                                                    class="plus"></span></span></a></li>
 
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>--}}
 
                                 <li id="sticky-nav-menu-item-63"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub wide mkdf-wide-menu-centered">
@@ -308,7 +218,7 @@
 
 
                         <div class="mkdf-logo-wrapper">
-                            <a itemprop="url" href="{{route('index')}}" style="height: 33px;">
+                            <a itemprop="url" href="{{route('index')}}" style="height: 40px;">
                                 <img itemprop="image" class="mkdf-normal-logo"
                                      src="{{asset('img/icona2.png')}}"
                                      alt="logo"/>
@@ -325,7 +235,7 @@
     </div>
 
 
-    <form action="http://anwalt.mikado-themes.com/" class="mkdf-search-cover" method="get">
+    <form action="" class="mkdf-search-cover" method="get">
         <div class="mkdf-container">
             <div class="mkdf-container-inner clearfix">
                 <div class="mkdf-form-holder-outer">
@@ -363,9 +273,9 @@
 
                                 <div class="mkdf-mobile-logo-wrapper">
                                     <a itemprop="url" href="{{route('index')}}"
-                                       style="height: 50px">
+                                       style="height: 54px">
                                         <img itemprop="image"
-                                             src="{{asset('img/logo2.png')}}"
+                                             src="{{asset('img/logo4.png')}}"
                                              alt="Mobile Logo"/>
                                     </a>
                                 </div>
@@ -388,54 +298,12 @@
                     <li id="mobile-menu-item-3088"
                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub">
                         <a href="{{route('index')}}" class=" current  mkdf-mobile-no-link"><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Home</span></a><span
-                                class="mobile_arrow">{{--<i class="mkdf-sub-arrow fa fa-angle-right"></i>--}}{{--<i
-                                            class="fa fa-angle-down"></i>--}}</span>
-                        {{--                                <ul class="sub_menu">
-                                                            <li id="mobile-menu-item-3090"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item ">
-                                                                <a href="http://anwalt.mikado-themes.com/" class=""><span>Main Home</span></a>
-                                                            </li>
-                                                            <li id="mobile-menu-item-3091"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                                        href="http://anwalt.mikado-themes.com/law-office/" class=""><span>Law Office</span></a>
-                                                            </li>
-                                                            <li id="mobile-menu-item-3092"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                                        href="http://anwalt.mikado-themes.com/attorney-home/" class=""><span>Attorney Home</span></a>
-                                                            </li>
-                                                        </ul>--}}
+                                class="mobile_arrow">
                     </li>
                     <li id="mobile-menu-item-3096"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
                         <a href="{{route('chisiamo')}}" class=" mkdf-mobile-no-link"><span style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Chi siamo</span></a><span
-                                class="mobile_arrow">{{--<i class="mkdf-sub-arrow fa fa-angle-right"></i><i
-                                            class="fa fa-angle-down"></i>--}}</span>
-                        {{--<ul class="sub_menu">
-                            <li id="mobile-menu-item-3097"
-                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/about-us/"
-                                        class=""><span>About Us</span></a></li>
-                            <li id="mobile-menu-item-3098"
-                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/about-me/"
-                                        class=""><span>About Me</span></a></li>
-                            <li id="mobile-menu-item-3099"
-                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/law-services/" class=""><span>Law Services</span></a>
-                            </li>
-                            <li id="mobile-menu-item-3100"
-                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/our-clients/" class=""><span>Our Clients</span></a>
-                            </li>
-                            <li id="mobile-menu-item-3101"
-                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/contact-us/" class=""><span>Contact Us</span></a>
-                            </li>
-                            <li id="mobile-menu-item-3102"
-                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="http://anwalt.mikado-themes.com/faq-page/"
-                                        class=""><span>FAQ Page</span></a></li>
-                        </ul>--}}
+                                class="mobile_arrow">
                     </li>
                     <li id="mobile-menu-item-3103"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">

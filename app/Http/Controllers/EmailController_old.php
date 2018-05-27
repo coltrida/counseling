@@ -53,25 +53,6 @@ class EmailController extends Controller
         $ottava = $req->input('ottava');
         $nona = $req->input('nona');
 
-        $pdf = App::make('dompdf.wrapper');
-        $pdf->loadView('mails.allegato',
-            [
-                'azienda' => $azienda,
-                'titolare' => $titolare,
-                'mail' => $mail,
-                'primanumero' => $primanumero,
-                'secondanumero' => $secondanumero,
-                'prima' => $prima,
-                'seconda' => $seconda,
-                'terza' => $terza,
-                'quarta' => $quarta,
-                'quinta' => $quinta,
-                'sesta' => $sesta,
-                'settima' => $settima,
-                'ottava' => $ottava,
-                'nona' => $nona
-            ])->save("questionari/$azienda.pdf");
-
         Mail::send('mails.questmail',
             [
                 'azienda' => $azienda,
@@ -88,14 +69,12 @@ class EmailController extends Controller
                 'settima' => $settima,
                 'ottava' => $ottava,
                 'nona' => $nona
-            ], function ($message) use ($azienda)
+            ], function ($message)
             {
                 $subject = "Questionario inviato dal sito";
                 $message->from('info@counselingsrl.eu', "Counselingsrl");
-                /*$message->to('info@counselingsrl.eu');*/
                 $message->to('info@counselingsrl.eu');
                 $message->subject($subject);
-                $message->attach("questionari/$azienda.pdf");
             });
 
         //return response()->json(['message' => 'Request completed']);

@@ -76,13 +76,20 @@
                                                         </div>
                                                     </div>
 
+                                                    {{--<div class="item-hover circle effect16 left_to_right"><a href="#">
+                                                            <div class="img"><img src="./img/f7.jpg" alt="img"></div>
+                                                            <div class="info">
+                                                                <h3>Heading here</h3>
+                                                                <p>Description goes here</p>
+                                                            </div></a></div>--}}
+
                                                     <div class="mkdf-row-grid-section-wrapper ">
                                                         <div class="mkdf-row-grid-section">
                                                             <div class="vc_row wpb_row vc_row-fluid">
                                                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                                                     <div class="vc_column-inner ">
                                                                         <div class="wpb_wrapper">
-                                                                            <div class="mkdf-elements-holder   mkdf-two-columns  mkdf-responsive-mode-1024 ">
+                                                                            <div id="sfere" style="margin-left: 90px" class="mkdf-elements-holder   mkdf-two-columns  mkdf-responsive-mode-1024 ">
                                                                                 <div class="mkdf-eh-item     "
                                                                                      data-item-class="mkdf-eh-custom-7043"
                                                                                      data-1024-1366="140px 8%"
@@ -93,14 +100,25 @@
                                                                                         <div class="mkdf-eh-item-content mkdf-eh-custom-7043"
                                                                                              style="padding: 140px 12%">
                                                                                             <div class="mkdf-single-image-holder   ">
-                                                                                                <div class="mkdf-si-inner">
-                                                                                                    <img width="800" height="534"
+                                                                                                <div class="mkdf-si-inner item-hover circle effect3 right_to_left">
+                                                                                                    {{--<img width="800" height="534"
                                                                                                          src="{{asset('img/visibilita.jpeg')}}"
                                                                                                          style="border: 1px solid #0777BB"
                                                                                                          class="attachment-full size-full ombra"
                                                                                                          alt="g"
                                                                                                          srcset="{{asset('img/visibilita.jpeg')}}"
-                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>--}}
+
+                                                                                                    <a href="#sfere">
+                                                                                                        <div class="img" style="width: 300px!important; height: 300px"><img  src="{{asset('img/visibilita.png')}}" alt="img"></div>
+                                                                                                        <div class="info2" style="width: 300px!important; height: 300px">
+                                                                                                            <h5 style="color: white">Visibilità</h5>
+                                                                                                            <p style="font-size: 20px; margin-left: 80px; font-weight: 600!important; color: white">
+                                                                                                                Essere visibili significa <br> poter far conoscere la propria azienda e i propri prodotti <br> al mercato nazionale ed internazionale
+                                                                                                            </p>
+                                                                                                        </div>
+                                                                                                    </a>
+
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -116,14 +134,23 @@
                                                                                         <div class="mkdf-eh-item-content mkdf-eh-custom-7043"
                                                                                              style="padding: 140px 12%">
                                                                                             <div class="mkdf-single-image-holder   ">
-                                                                                                <div class="mkdf-si-inner">
-                                                                                                    <img width="800" height="534"
+                                                                                                <div class="mkdf-si-inner item-hover circle effect3 left_to_right">
+                                                                                                    {{--<img width="800" height="534"
                                                                                                          src="{{asset('img/comunicazione.jpeg')}}"
                                                                                                          style="border: 1px solid #0777BB"
                                                                                                          class="attachment-full size-full ombra"
                                                                                                          alt="g"
                                                                                                          srcset="{{asset('img/comunicazione.jpeg')}}"
-                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>
+                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>--}}
+                                                                                                    <a href="#sfere">
+                                                                                                        <div class="img" style="width: 300px!important; height: 300px"><img  src="{{asset('img/comunicazione.png')}}" alt="img"></div>
+                                                                                                        <div class="info2" style="width: 300px!important; height: 300px">
+                                                                                                            <h5 style="color: white">Comunicazione</h5>
+                                                                                                            <p style="font-size: 20px; padding-right: 35px;  font-weight: 600!important; color: white">
+                                                                                                                Tutti i prodotti trattati dall'azienda, possono essere pubblicati su Internet a qualsiasi<br> ora, in qualsiasi <br>momento e sottoforma <br>di qualsiasi formato.
+                                                                                                            </p>
+                                                                                                        </div>
+                                                                                                    </a>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -376,13 +403,13 @@
                                 <div class="mkdf-pt-wrapper mkdf-outer-space">
 
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
-                                        <div class="mkdf-pt-inner ombra" style="background-color: #f3f2fc">
+                                        <div class="mkdf-pt-inner prova" style="background-color: #f3f2fc; border-radius: 25px;">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0; border-radius: 25px 25px 0 0;">
                                                     <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">&nbsp;</span>
                                                 </p>
 
-                                                <ul style="font-size: 24px; text-align: center">
+                                                <ul style="color: black; font-size: 24px; text-align: center">
                                                     <p>
                                                         1 pagina = a partire da €200
                                                     </p>
@@ -454,13 +481,13 @@
                                 <div class="mkdf-pt-wrapper mkdf-outer-space">
 
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
-                                        <div class="mkdf-pt-inner ombra" style="background-color: #bbbbbb">
+                                        <div class="mkdf-pt-inner prova" style="border-radius: 25px; background: linear-gradient(#bbbbbb, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Minimo</span>
+                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <span class="mkdf-pt-title" style="color: black; margin-left:100px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Minimo</span>
                                                 </p>
 
-                                                <ul style="font-size: 24px">
+                                                <ul style="color: black; font-size: 24px">
                                                     <p>
                                                         Dominio + hosting
                                                     </p>
@@ -483,7 +510,7 @@
                                                         &nbsp;
                                                     </p>
                                                     <p style="font-size: 34px; margin: 34px 0; padding-bottom: 30px">
-                                                        €15 mese
+                                                        €19 mese
                                                     </p>
 
                                                 </ul>
@@ -492,13 +519,13 @@
                                     </div>
 
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
-                                        <div class="mkdf-pt-inner ombra" style="background-color: #fed3fc">
+                                        <div class="mkdf-pt-inner prova" style="border-radius: 25px; background: linear-gradient(#fed3fc, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Base</span>
+                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <span class="mkdf-pt-title" style="color: black; margin-left:110px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Base</span>
                                                 </p>
 
-                                                <ul style="font-size: 24px">
+                                                <ul style="color: black; font-size: 24px">
                                                     <p>
                                                         Dominio + hosting
                                                     </p>
@@ -530,13 +557,13 @@
                                     </div>
 
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
-                                        <div class="mkdf-pt-inner ombra" style="background-color: #d7f1f1">
+                                        <div class="mkdf-pt-inner prova" style="border-radius: 25px; background: linear-gradient(#d7f1f1, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Avanzato</span>
+                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <span class="mkdf-pt-title" style="color: black; margin-left:85px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Avanzato</span>
                                                 </p>
 
-                                                <ul style="font-size: 24px">
+                                                <ul style="color: black; font-size: 24px">
                                                     <p>
                                                         Dominio + hosting
                                                     </p>
@@ -568,13 +595,13 @@
                                     </div>
 
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
-                                        <div class="mkdf-pt-inner ombra" style="background: #f3ff90;">
+                                        <div class="mkdf-pt-inner prova quattro" style="border-radius: 25px; background: linear-gradient(#f3ff90, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0;">
-                                                    <span class="mkdf-pt-title" style="margin-left:15px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Completo</span>
+                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <span class="mkdf-pt-title" style="color: black; margin-left:80px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Completo</span>
                                                 </p>
 
-                                                    <ul style="font-size: 24px">
+                                                    <ul style="color: black; font-size: 24px">
                                                         <p>
                                                             Dominio + hosting
                                                         </p>
@@ -613,4 +640,45 @@
             </div>
         </div>
     </div>
+
+    <div class="mkdf-row-grid-section-wrapper mkdf-content-aligment-center">
+        <div class="mkdf-row-grid-section">
+            <div class="vc_row wpb_row vc_row-fluid vc_custom_1522405812816">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper" style="margin-top: -150px">
+                            <div class="mkdf-section-title-holder  "
+                                 style="text-align: center; ">
+                                <div class="mkdf-st-inner">
+
+                                    <h4 class="mkdf-st-text" style="font-family: 'Microsoft Yi Baiti'!important;">
+                                        <i><b>Il gusto è soggettivo, la qualità no!</b> </i></h4>
+
+                                    <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
+                                        <div class="mkdf-separator"
+                                             style="width: 143px;border-bottom-width: 2px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @stop
+
+@section('fondo')
+<script>
+    var windowWidth = jQuery(window).width();
+    //alert(windowWidth);
+
+    if (windowWidth < 465)
+    {
+        jQuery('#sfere').css('margin-left',1);
+
+    }
+
+</script>
+    @stop

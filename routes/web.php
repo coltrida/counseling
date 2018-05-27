@@ -16,6 +16,7 @@ Route::get('/', 'CounController@index')->name('index');
 Route::view('/chisiamo', 'chisiamo')->name('chisiamo');
 Route::view('/contatti', 'contatti')->name('contatti');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::view('/informativa', 'informativa')->name('informativa');
 
 //Carosello
 Route::view('/gdpr', 'carosello.gdpr')->name('gdpr');

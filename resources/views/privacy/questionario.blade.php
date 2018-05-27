@@ -297,13 +297,13 @@ degli interessi personali su larga scala?
 
                                                         </div>
 
-                                                        <div id="messquest" style="text-align:center!important; height: 50px; padding-top: 8px; margin-top: 60px; border: 1px solid black; display: none">
+                                                        <div id="messquest" style="text-align:center!important; height: 70px; color: black; border-radius: 20px; padding-top: 25px; margin-top: 60px; border: 1px solid black; display: none; background-color: lightgreen">
 
                                                         </div>
 
 
                                                         <p style="text-align:center; margin-top: 60px">
-                                                            <a title="Invia questionario" id="inviaquestionario" href="{{route('sendquestionario')}}" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0">
+                                                            <a title="Invia questionario" id="inviaquestionario" href="{{route('sendquestionario')}}" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0">
                                                                 invia</a>
                                                         </p>
 
@@ -324,7 +324,7 @@ degli interessi personali su larga scala?
 
             </div>
                 <div style="text-align: right; margin-top: 30px">
-                    <button style="background-color: #95b9e0;" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
+                    <button style="background-color: #95b9e0;" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
                 </div>
             </div>
 
@@ -339,6 +339,9 @@ degli interessi personali su larga scala?
         jQuery('#inviaquestionario').on('click', function (ele) {
             ele.preventDefault();
             var urlmail =   jQuery(this).attr('href');
+
+            jQuery('#messquest').fadeIn(1000);
+            jQuery('#messquest').html("Invio in corso... Attendere");
 
             jQuery.ajax(
                 urlmail,
@@ -364,8 +367,9 @@ degli interessi personali su larga scala?
                     },
                     complete : function (resp) {
                         console.log(resp.responseText);
+
                         if(resp.responseText == 1){
-                            jQuery('#messquest').fadeIn(2000);
+                            /*jQuery('#messquest').fadeIn(2000);*/
                             jQuery('#messquest').html("Questionario inviato");
                             jQuery('#messquest').fadeOut(4000);
 

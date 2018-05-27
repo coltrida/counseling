@@ -159,7 +159,7 @@
                                                                                 <figure class="wpb_wrapper vc_figure">
                                                                                     <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                                                         <img style="margin-bottom: 40px" width="216" height="51"
-                                                                                             src="http://anwalt.mikado-themes.com/wp-content/uploads/2018/03/h1-custom-icon-img-1.png"
+                                                                                             src="{{asset('img/firma.png')}}"
                                                                                              class="vc_single_image-img attachment-full"
                                                                                              alt="f"/></div>
                                                                                 </figure>
