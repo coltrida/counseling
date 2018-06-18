@@ -48,6 +48,14 @@ Route::view('/web', 'servizi.siti')->name('web');
 Route::view('/privacy/questionario', 'privacy.questionario')->name('questionario');
 Route::post('/privacy/questionario/send', 'EmailController@questionario')->name('sendquestionario');
 Route::view('/privacy/tabelle', 'privacy.tabelleprivacy')->name('tabelle');
+Route::view('/privacy/news', 'privacy.newsprivacy')->name('news');
+
+//Informative
+/*Route::view('/informative/studioCorsetti', '/informative.studioCorsetti.pdf');*/
+Route::get('/informative/studioCorsetti', function ()
+{
+    return response()->file('informative/studioCorsetti.pdf');
+});
 
 Auth::routes();
 

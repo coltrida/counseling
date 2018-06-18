@@ -79,7 +79,7 @@
 <link rel='stylesheet' id='js_composer_front-css'
       href='{{asset('css/stile9.css')}}'
       type='text/css' media='all'/>
-<script type="text/javascript" src=""></script>
+
 
 
 <script type='text/javascript'>
@@ -96,6 +96,7 @@
 </script>
 <script type="text/javascript" src="{{asset('js/js1.js')}}"></script>
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 
 <script type='text/javascript'>
     var mejsL10n = {
@@ -319,6 +320,13 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+    .text-box{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     .info {
         height: 90px;
         position: fixed!important;
@@ -371,6 +379,19 @@
         font-family: 'Microsoft Yi Baiti'!important;
     }
 
+    .provauno{
+        opacity:0;
+        left: -100px;
+        position: relative;
+        transition: 2s all;
+    }
+
+    .provauno.show{
+        opacity: 1;
+        left: 0;
+    }
+
+
     .cornice{
         border-radius: 20px;
     }
@@ -381,7 +402,11 @@
 
     .cornice:active{
         box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.8), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+        left: 4px;
+        top: 4px;
     }
+
+
 
     @font-face {
         font-family: 'Microsoft Yi Baiti';

@@ -483,9 +483,13 @@
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
                                         <div class="mkdf-pt-inner prova" style="border-radius: 25px; background: linear-gradient(#bbbbbb, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
-                                                    <span class="mkdf-pt-title" style="color: black; margin-left:100px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Minimo</span>
-                                                </p>
+                                                <header style="position: relative">
+                                                    <p class="mkdf-pt-title-holder" style="background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <div class="text-box">
+                                                        <span class="mkdf-pt-title" style="color: black; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Minimo</span>
+                                                    </div>
+                                                    </p>
+                                                </header>
 
                                                 <ul style="color: black; font-size: 24px">
                                                     <p>
@@ -521,9 +525,13 @@
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
                                         <div class="mkdf-pt-inner prova" style="border-radius: 25px; background: linear-gradient(#fed3fc, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
-                                                    <span class="mkdf-pt-title" style="color: black; margin-left:110px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Base</span>
-                                                </p>
+                                                <header style="position: relative">
+                                                    <p class="mkdf-pt-title-holder" style="background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <div class="text-box">
+                                                        <span class="mkdf-pt-title" style="color: black; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Base</span>
+                                                    </div>
+                                                    </p>
+                                                </header>
 
                                                 <ul style="color: black; font-size: 24px">
                                                     <p>
@@ -559,9 +567,13 @@
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
                                         <div class="mkdf-pt-inner prova" style="border-radius: 25px; background: linear-gradient(#d7f1f1, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
-                                                    <span class="mkdf-pt-title" style="color: black; margin-left:85px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Avanzato</span>
-                                                </p>
+                                                <header style="position: relative">
+                                                    <p class="mkdf-pt-title-holder" style="background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <div class="text-box">
+                                                        <span class="mkdf-pt-title" style="color: black; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Avanzato</span>
+                                                    </div>
+                                                    </p>
+                                                </header>
 
                                                 <ul style="color: black; font-size: 24px">
                                                     <p>
@@ -597,10 +609,13 @@
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
                                         <div class="mkdf-pt-inner prova quattro" style="border-radius: 25px; background: linear-gradient(#f3ff90, white);">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="padding-top:20px; background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
-                                                    <span class="mkdf-pt-title" style="color: black; margin-left:80px; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Completo</span>
+                                                <header style="position: relative">
+                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0; border-radius: 25px 25px 0 0; height: 60px">
+                                                    <div class="text-box">
+                                                        <span class="mkdf-pt-title" style="color: black; font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">Completo</span>
+                                                    </div>
                                                 </p>
-
+                                                </header>
                                                     <ul style="color: black; font-size: 24px">
                                                         <p>
                                                             Dominio + hosting

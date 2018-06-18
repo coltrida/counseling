@@ -38,6 +38,18 @@
                                                             <a href="{{route('questionario')}}">Questionario Policy di Gestione</a>
                                                         </li>
 
+                                                        <li style="text-align: center!important; font-size: 28px">
+                                                            <a href="{{route('news')}}">Rassegna stampa e News</a>
+                                                        </li>
+
+                                                        <li style="text-align: center!important; font-size: 28px">
+                                                            <a target="_blank" href="{{asset('pdf/guidaGDPR.pdf')}}" style="color: blue">Guida GDPR</a>
+                                                        </li>
+
+                                                        <li style="text-align: center!important; font-size: 16px; margin-top: -20px">
+                                                            Fonte: www.garanteprivacy.it
+                                                        </li>
+
                                                         <li style="text-align: right">
                                                             <button style="background-color: #95b9e0;" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
                                                         </li>

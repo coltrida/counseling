@@ -15,7 +15,7 @@
                             <div class="mkdf-price-table mkdf-item-space " >
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
-                                        <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                        <li class="mkdf-pt-title-holder" style="background: #95B9E0; font-size: 40px; font-family: 'Microsoft Yi Baiti'!important;">
                                             <span class="mkdf-pt-title">Cosa è il diritto alla protezione dei dati personali?</span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
@@ -26,7 +26,7 @@
                                                 </li>--}}
                                                 <li class="mkdf-pt-content" >
 
-                                                    <ul>
+                                                    <ul style="word-spacing: -5px; font-size: 28px; font-family: 'Microsoft Yi Baiti'!important;">
                                                         <li style="text-align: justify!important;">
                                                             Il diritto alla protezione dei dati personali è un diritto fondamentale dell'individuo tutelato dal Codice in materia di protezione dei dati personali (decreto legislativo 20 giugno 2003, n. 196), oltre che da vari altri atti normativi italiani e internazionali. In particolare, grazie ad esso ogni individuo può pretendere che i propri dati personali siano trattati da terzi solo nel rispetto delle regole e dei principi stabilti dalla legge
 
@@ -47,7 +47,7 @@
                                                         </li>
 
                                                         <li style="text-align: right">
-                                                            <button style="background-color: #95b9e0;" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
+                                                            <button style="background-color: #95b9e0;" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
                                                         </li>
 
                                                     </ul>

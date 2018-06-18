@@ -19,7 +19,7 @@
     <title>Counseling</title>
 
     <meta name="description" content="Counseling - Privacy dati e sicurezza ICT">
-    <meta name="keywords" content="Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati">
+    <meta name="keywords" content="GDPR Arezzo, GDPR consulenza Arezzo, Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati">
 
     <link rel='dns-prefetch' href='//maps.googleapis.com'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
@@ -28,7 +28,7 @@
 
     <script type="text/javascript">
 
-        !function (a, b, c) {
+/*        !function (a, b, c) {
             function d(a, b) {
                 var c = String.fromCharCode;
                 l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
@@ -67,7 +67,7 @@
             }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () {
                 "complete" === b.readyState && c.readyCallback()
             })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
-        }(window, document, window._wpemojiSettings);
+        }(window, document, window._wpemojiSettings);*/
     </script>
     <style type="text/css">
         img.wp-smiley,
@@ -582,7 +582,7 @@
                                                                     } else {
                                                                         revapi2 = tpj("#rev_slider_2_1").show().revolution({
                                                                             sliderType: "standard",
-                                                                            jsFileLocation: "//anwalt.mikado-themes.com/wp-content/plugins/revslider/public/assets/js/",
+                                                                            jsFileLocation: "/slider/",
                                                                             sliderLayout: "fullwidth",
                                                                             dottedOverlay: "none",
                                                                             delay: 7000,
@@ -700,13 +700,13 @@
                                         <div class="vc_row wpb_row vc_row-fluid vc_custom_1520428609185">
                                             <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
                                                 <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
+                                                    <div class="wpb_wrapper provauno">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
                                                                 <a itemprop="url" href="{{route('general')}}" target="_self">
 					    <span class="mkdf-icon-shortcode mkdf-normal    mkdf-icon-medium">
         <span class="mkdf-icon-bckg-holder"></span>
-                    <span style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">G</span>                    </span>
+                    <span  style="font-size: 35px; color: #0077c0; font-weight: 900; text-shadow: 2px 2px #000000;">G</span>                    </span>
                                                                 </a>
                                                             </div>
                                                             <div class="mkdf-iwt-content">
@@ -727,7 +727,7 @@
                                             </div>
                                             <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
                                                 <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
+                                                    <div class="wpb_wrapper provauno">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
                                                                 <a itemprop="url" href="{{route('data')}}" target="_self">
@@ -755,7 +755,7 @@
                                             </div>
                                             <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-3 vc_col-md-offset-1 vc_col-md-5">
                                                 <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
+                                                    <div class="wpb_wrapper provauno">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
                                                                 <a itemprop="url" href="{{route('protection')}}" target="_self">
@@ -782,7 +782,7 @@
                                             </div>
                                             <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-3 vc_col-md-5">
                                                 <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
+                                                    <div class="wpb_wrapper provauno">
                                                         <div class="mkdf-iwt clearfix  mkdf-iwt-icon-top mkdf-iwt-icon-medium ">
                                                             <div class="mkdf-iwt-icon">
                                                                 <a itemprop="url" href="{{route('regulation')}}" target="_self">
@@ -946,10 +946,10 @@
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
-                                                            <div class="mkdf-si-inner">
+                                                            <div class="mkdf-si-inner ">
                                                                <a href="{{route('privacy')}}"> <img  width="800" height="492"
                                                                      src="{{asset('img/privacy.jpg')}}"
-                                                                     class="attachment-full size-full ombra cornice" alt="i"
+                                                                     class="attachment-full size-full ombra cornice prova2" alt="i"
                                                                      srcset="{{asset('img/privacy.jpg')}}"
                                                                      sizes="(max-width: 800px) 100vw, 800px"/>
                                                                </a>
@@ -984,7 +984,7 @@
                                                             <div class="mkdf-si-inner">
                                                                 <a href="{{route('formazione')}}"> <img width="800" height="492"
                                                                                                        src="{{asset('img/Formazione.jpg')}}"
-                                                                                                       class="attachment-full size-full ombra cornice" alt="i"
+                                                                                                       class="attachment-full size-full ombra cornice prova2" alt="i"
                                                                                                        srcset="{{asset('img/Formazione.jpg')}}"
                                                                                                        sizes="(max-width: 800px) 100vw, 800px"/>
                                                                 </a>
@@ -1018,7 +1018,7 @@
                                                             <div class="mkdf-si-inner">
                                                                 <a href="{{route('temporary')}}"> <img width="800" height="492"
                                                                                                         src="{{asset('img/office.jpg')}}"
-                                                                                                        class="attachment-full size-full ombra cornice" alt="i"
+                                                                                                        class="attachment-full size-full ombra cornice prova2" alt="i"
                                                                                                         srcset="{{asset('img/office.jpg')}}"
                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>
                                                                 </a>
@@ -1053,7 +1053,7 @@
                                                                 <a href="{{route('web')}}">
                                                                     <img width="800" height="492"
                                                                                src="{{asset('img/siti.jpg')}}"
-                                                                               class="attachment-full size-full ombra cornice" alt="i"
+                                                                               class="attachment-full size-full ombra cornice prova2" alt="i"
                                                                                srcset="{{asset('img/siti.jpg')}}"
                                                                                sizes="(max-width: 800px) 100vw, 800px"/>
                                                                 </a>
@@ -1087,7 +1087,7 @@
                                                             <div class="mkdf-si-inner">
                                                                 <a href="{{route('equitalia')}}"> <img width="800" height="492"
                                                                           src="{{asset('img/consulenza.jpg')}}"
-                                                                          class="attachment-full size-full ombra cornice" alt="i"
+                                                                          class="attachment-full size-full ombra cornice prova2" alt="i"
                                                                           srcset="{{asset('img/consulenza.jpg')}}"
                                                                           sizes="(max-width: 800px) 100vw, 800px"/>
                                                                 </a>
@@ -1256,6 +1256,23 @@
                                                                             <div class="mkdf-separator"></div>
                                                                         </div>
                                                                         <h6 class="mkdf-testimonial-text">
+                                                                            <a target="_blank" href="{{asset('pdf/dipendenti.pdf')}}" style="color: blue">Rapporto di lavoro - Misure di sicurezza</a>
+                                                                        </h6>
+                                                                        <span class="mkdf-testimonial-author">
+				<span class="mkdf-testimonials-author-name" style="font-family: 'Microsoft Yi Baiti'!important;">Fonte: http://one.wolterskluwer.it/</span>
+							</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mkdf-testimonial-content"
+                                                                     id="mkdf-testimonials-173">
+                                                                    <div class="mkdf-testimonial-text-holder">
+                                                                        <h3 itemprop="name"
+                                                                            class="mkdf-testimonial-title entry-title" style="word-spacing: -5px; font-family: 'Microsoft Yi Baiti'!important;">
+                                                                            Normativa e documentazione</h3>
+                                                                        <div class="mkdf-separator-holder clearfix mkdf-separator-center">
+                                                                            <div class="mkdf-separator"></div>
+                                                                        </div>
+                                                                        <h6 class="mkdf-testimonial-text">
                                                                             <a target="_blank" href="{{asset('pdf/glossario.pdf')}}" style="color: blue">Glossario</a>
                                                                         </h6>
                                                                         <span class="mkdf-testimonial-author">
@@ -1359,6 +1376,17 @@
         }
     }, 1000);
 
+</script>
+
+<script>
+    var controller = new ScrollMagic.Controller();
+
+    var scene = new ScrollMagic.Scene({
+        triggerElement: '.provauno',
+        duration: 700
+    })
+    .setClassToggle('.provauno', 'show')
+    .addTo(controller);
 </script>
 
 </body>

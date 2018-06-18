@@ -15,7 +15,7 @@
                             <div class="mkdf-price-table mkdf-item-space " >
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
-                                        <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                        <li class="mkdf-pt-title-holder" style="background: #95B9E0; font-size: 40px; font-family: 'Microsoft Yi Baiti'!important;">
                                             <span class="mkdf-pt-title">Cosa intendiamo per dati personali?</span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">
@@ -26,7 +26,7 @@
                                                 </li>--}}
                                                 <li class="mkdf-pt-content" >
 
-                                                    <ul>
+                                                    <ul style="word-spacing: -5px; font-size: 28px; font-family: 'Microsoft Yi Baiti'!important;">
                                                         <li style="text-align: justify!important;">
                                                             Sono dati personali le informazioni che identificano o rendono identificabile una persona fisica e che possono fornire dettagli sulle sue caratteristiche, le sue abitudini, il suo stile di vita, le sue relazioni personali, il suo stato di salute, la sua situazione economica, ecc..
 
@@ -50,7 +50,7 @@
                                                         </li>
 
                                                         <li style="text-align: right">
-                                                            <button style="background-color: #95b9e0;" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
+                                                            <button style="background-color: #95b9e0;" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" onclick="goBack()">Go Back</button>
                                                         </li>
 
                                                     </ul>
