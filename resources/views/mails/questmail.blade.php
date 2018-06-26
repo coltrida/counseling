@@ -24,6 +24,9 @@
     <h3 style="color: blue">Siti web</h3>
     <h3>La tua azienda ha uno o più siti web? <span style="color: red"> {{$terza}}</span></h3>
     <br>
+    <h3 style="color: blue">E-mail</h3>
+    <h3>Utilizza e-mail di natura commerciale? (invio di newsletter, promozioni, saldi, offerte speciali, ecc..) <span style="color: red"> {{$terzabis}}</span></h3>
+    <br>
     <h3 style="color: blue">Registro dei trattamenti</h3>
     <h3>L'azienda ha almeno 250 dipendenti? <span style="color: red">  {{$quarta}}</span></h3>
     <h3>Si effettua il trattamento non occasionale di dati personali che ledano i dritti e le libertà dell'interessato?<span style="color: red"> {{$quinta}}</span></h3>

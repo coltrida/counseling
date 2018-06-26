@@ -46,6 +46,7 @@ class EmailController extends Controller
         $prima = $req->input('prima');
         $seconda = $req->input('seconda');
         $terza = $req->input('terza');
+        $terzabis = $req->input('terzabis');
         $quarta = $req->input('quarta');
         $quinta = $req->input('quinta');
         $sesta = $req->input('sesta');
@@ -64,6 +65,7 @@ class EmailController extends Controller
                 'prima' => $prima,
                 'seconda' => $seconda,
                 'terza' => $terza,
+                'terzabis' => $terzabis,
                 'quarta' => $quarta,
                 'quinta' => $quinta,
                 'sesta' => $sesta,
@@ -82,6 +84,7 @@ class EmailController extends Controller
                 'prima' => $prima,
                 'seconda' => $seconda,
                 'terza' => $terza,
+                'terzabis' => $terzabis,
                 'quarta' => $quarta,
                 'quinta' => $quinta,
                 'sesta' => $sesta,

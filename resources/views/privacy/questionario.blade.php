@@ -159,6 +159,23 @@
                                                         <br>
 
                                                         <div class="mkdf-grid-row mkdf-grid-normal-gutter">
+                                                            <div style="text-align: left!important; color: blue">E-mail</div>
+                                                            <div class="mkdf-grid-col-8" style="text-align: left!important;"><span
+                                                                        class="wpcf7-form-control-wrap text">
+                                                                    Utilizza e-mail di natura commerciale? (invio di newsletter, promozioni, saldi, offerte speciali, ecc..)
+                                                                </span></div>
+                                                            <div class="mkdf-grid-col-4" style="text-align: left!important;">
+                                                                <input type="radio" name="terzabis" value="si"/>
+                                                                <label for="prima">si</label>
+
+                                                                <input type="radio" name="terzabis" value="no" />
+                                                                <label for="prima">no</label>
+                                                            </div>
+                                                        </div>
+
+                                                        <br>
+
+                                                        <div class="mkdf-grid-row mkdf-grid-normal-gutter">
                                                             <div style="text-align: left!important; color: blue">Registro dei trattamenti</div>
                                                             <div class="mkdf-grid-col-8" style="text-align: left!important;"><span
                                                                         class="wpcf7-form-control-wrap text">
@@ -358,6 +375,7 @@ degli interessi personali su larga scala?
                         'prima' : jQuery('input[name=prima]:checked').val(),
                         'seconda' : jQuery('input[name=seconda]:checked').val(),
                         'terza' : jQuery('input[name=terza]:checked').val(),
+                        'terzabis' : jQuery('input[name=terzabis]:checked').val(),
                         'quarta' : jQuery('input[name=quarta]:checked').val(),
                         'quinta' : jQuery('input[name=quinta]:checked').val(),
                         'sesta' : jQuery('input[name=sesta]:checked').val(),
