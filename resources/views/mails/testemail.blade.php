@@ -12,6 +12,7 @@
     <h3>Email inviata da: {{$title}}</h3>
     <h4>mail: {{$mailfrom}}</h4>
     <h5>Testo del messaggio: {{$content}}</h5>
+    <h5>{{$consenso}}</h5>
 </div>
 
 </body>

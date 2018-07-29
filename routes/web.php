@@ -51,11 +51,21 @@ Route::view('/privacy/tabelle', 'privacy.tabelleprivacy')->name('tabelle');
 Route::view('/privacy/news', 'privacy.newsprivacy')->name('news');
 
 //Informative
-/*Route::view('/informative/studioCorsetti', '/informative.studioCorsetti.pdf');*/
+/*----------------------------STUDIO CORSETTI------------------------------*/
 Route::get('/informative/studioCorsetti', function ()
-{
-    return response()->file('informative/studioCorsetti.pdf');
-});
+{ return response()->file('informative/studioCorsetti.pdf'); });
+/*-------------------------------TABOR--------------------------------------*/
+Route::get('/informative/tabor', function ()
+{ return response()->file('informative/tabor.pdf'); });
+/*-----------------------------HOTEL DA GIOVANNA----------------------------------*/
+Route::get('/informative/hoteldagiovanna', function ()
+{ return response()->file('informative/hoteldagiovanna.pdf'); });
+/*-------------------------------HOTEL LETIZIA----------------------------------*/
+Route::get('/informative/hotelletizia', function ()
+{ return response()->file('informative/hotelletizia.pdf'); });
+/*-------------------------------TECNOSYSTEM----------------------------------*/
+Route::get('/informative/tecnosystem', function ()
+{ return response()->file('informative/tecnosystem.pdf'); });
 
 Auth::routes();
 

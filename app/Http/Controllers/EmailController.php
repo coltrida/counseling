@@ -17,11 +17,14 @@ class EmailController extends Controller
         $title = $req->input('title');
         $content = $req->input('content');
         $mailfrom = $req->input('mailfrom');
+        $ldate = date('d-m-Y');
+        $consenso= "Ho letto l'Informativa sulla Privacy e acconsento al trattamento dei dati personali. Consenso ottenuto in data ".$ldate;
 
         Mail::send('mails.testemail',
             [
                 'title' => $title,
                 'mailfrom' => $mailfrom,
+                'consenso' => $consenso,
                 'content' => $content
             ], function ($message)
             {
@@ -38,6 +41,8 @@ class EmailController extends Controller
 
     public function questionario(Request $req){
         // dd($req);
+        $ldate = date('d-m-Y');
+        $consenso= "Ho letto l'Informativa sulla Privacy e acconsento al trattamento dei dati personali. Consenso ottenuto in data ".$ldate;
         $azienda = $req->input('azienda');
         $titolare = $req->input('titolare');
         $mail = $req->input('mail');
@@ -57,6 +62,7 @@ class EmailController extends Controller
         $pdf = App::make('dompdf.wrapper');
         $pdf->loadView('mails.allegato',
             [
+                'consenso' => $consenso,
                 'azienda' => $azienda,
                 'titolare' => $titolare,
                 'mail' => $mail,
@@ -76,6 +82,7 @@ class EmailController extends Controller
 
         Mail::send('mails.questmail',
             [
+                'consenso' => $consenso,
                 'azienda' => $azienda,
                 'titolare' => $titolare,
                 'mail' => $mail,
@@ -108,6 +115,9 @@ class EmailController extends Controller
 
     public function sos(Request $req){
         //dd($req);
+        $ldate = date('d-m-Y');
+        $consenso= "Ho letto l'Informativa sulla Privacy e acconsento al trattamento dei dati personali. Consenso ottenuto in data ".$ldate;
+
         $nomesos = $req->input('nomesos');
         $cognomesos = $req->input('cognomesos');
         $telefonosos = $req->input('telefonosos');
@@ -116,6 +126,7 @@ class EmailController extends Controller
 
         Mail::send('mails.sosmail',
             [
+                'consenso' => $consenso,
                 'nomesos' => $nomesos,
                 'cognomesos' => $cognomesos,
                 'telefonosos' => $telefonosos,

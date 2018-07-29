@@ -70,7 +70,7 @@
                                                                 <br><br>
                                                                 Internet consente di promuovere in modo efficace ed efficiente la propria attività e i propri prodotti.
                                                                 <br>
-                                                                Vantaggi:
+
                                                             </h4>
 
                                                         </div>
@@ -83,7 +83,7 @@
                                                                 <p>Description goes here</p>
                                                             </div></a></div>--}}
 
-                                                    <div class="mkdf-row-grid-section-wrapper ">
+                                                    {{--<div class="mkdf-row-grid-section-wrapper ">
                                                         <div class="mkdf-row-grid-section">
                                                             <div class="vc_row wpb_row vc_row-fluid">
                                                                 <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -101,13 +101,13 @@
                                                                                              style="padding: 140px 12%">
                                                                                             <div class="mkdf-single-image-holder   ">
                                                                                                 <div class="mkdf-si-inner item-hover circle effect3 right_to_left">
-                                                                                                    {{--<img width="800" height="534"
+                                                                                                    --}}{{--<img width="800" height="534"
                                                                                                          src="{{asset('img/visibilita.jpeg')}}"
                                                                                                          style="border: 1px solid #0777BB"
                                                                                                          class="attachment-full size-full ombra"
                                                                                                          alt="g"
                                                                                                          srcset="{{asset('img/visibilita.jpeg')}}"
-                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>--}}
+                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>--}}{{--
 
                                                                                                     <a href="#sfere">
                                                                                                         <div class="img" style="width: 300px!important; height: 300px"><img  src="{{asset('img/visibilita.png')}}" alt="img"></div>
@@ -135,13 +135,13 @@
                                                                                              style="padding: 140px 12%">
                                                                                             <div class="mkdf-single-image-holder   ">
                                                                                                 <div class="mkdf-si-inner item-hover circle effect3 left_to_right">
-                                                                                                    {{--<img width="800" height="534"
+                                                                                                    --}}{{--<img width="800" height="534"
                                                                                                          src="{{asset('img/comunicazione.jpeg')}}"
                                                                                                          style="border: 1px solid #0777BB"
                                                                                                          class="attachment-full size-full ombra"
                                                                                                          alt="g"
                                                                                                          srcset="{{asset('img/comunicazione.jpeg')}}"
-                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>--}}
+                                                                                                         sizes="(max-width: 800px) 100vw, 800px"/>--}}{{--
                                                                                                     <a href="#sfere">
                                                                                                         <div class="img" style="width: 300px!important; height: 300px"><img  src="{{asset('img/comunicazione.png')}}" alt="img"></div>
                                                                                                         <div class="info2" style="width: 300px!important; height: 300px">
@@ -162,7 +162,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div>--}}
 
                                                     <div class="mkdf-section-title-holder  "
                                                          style="text-align: center">
@@ -471,7 +471,183 @@
         </div>
     </div>
 
-    <div class="mkdf-row-grid-section-wrapper ">
+    <div class="row" >
+        <div class="col-1-of-2">
+            <div class="card">
+                <!--.card__side + TAB-->
+                <div class="card__side card__side--front">
+                    <!--.card__picture + TAB-->
+                    <div class="card__picture card__picture--1">
+                        &nbsp;
+                    </div>
+                    <!--.card__heading + TAB-->
+                    <h4 class="card__heading">
+                        <!--span.card__heading-span + TAB-->
+                        <span class="card__heading-span card__heading-span--1">Minimo</span>
+                    </h4>
+                    <!--.card__details + TAB-->
+                    <div class="card__details">
+                        <!--ul>li*5 + TAB-->
+                        <ul>
+                            <li>Dominio + hosting</li>
+                            <li>Backup giornaliero</li>
+                            <li></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                    <div class="card__cta">
+                        <!--.card__price-box + TAB-->
+                        <div class="card__price-box">
+                            <!--p.card__price-only + TAB-->
+                            <p class="card__price-only"></p>
+                            <!--p.card_price-value + TAB-->
+                            <p class="card__price-value">€19 mese</p>
+                        </div>
+                        <!--a.btn + TAB-->
+                        {{--<a href="#popup" class="btn btn--white">Book now!</a>--}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-1-of-2">
+            <div class="card">
+                <!--.card__side + TAB-->
+                <div class="card__side card__side--front">
+                    <!--.card__picture + TAB-->
+                    <div class="card__picture card__picture--4">
+                        &nbsp;
+                    </div>
+                    <!--.card__heading + TAB-->
+                    <h4 class="card__heading">
+                        <!--span.card__heading-span + TAB-->
+                        <span class="card__heading-span card__heading-span--4">Base</span>
+                    </h4>
+                    <!--.card__details + TAB-->
+                    <div class="card__details">
+                        <!--ul>li*5 + TAB-->
+                        <ul>
+                            <li>Dominio + hosting</li>
+                            <li>Backup giornaliero</li>
+                            <li>Gestione DB Clienti</li>
+                            <li>1 mail aziendale</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-4">
+                    <div class="card__cta">
+                        <!--.card__price-box + TAB-->
+                        <div class="card__price-box">
+                            <!--p.card__price-only + TAB-->
+                            <p class="card__price-only"></p>
+                            <!--p.card_price-value + TAB-->
+                            <p class="card__price-value">€39 mese</p>
+                        </div>
+                        <!--a.btn + TAB-->
+                        {{--<a href="#popup" class="btn btn--white">Book now!</a>--}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="row">
+
+
+
+
+        <div class="col-1-of-2">
+            <div class="card">
+                <!--.card__side + TAB-->
+                <div class="card__side card__side--front">
+                    <!--.card__picture + TAB-->
+                    <div class="card__picture card__picture--2">
+                        &nbsp;
+                    </div>
+                    <!--.card__heading + TAB-->
+                    <h4 class="card__heading">
+                        <!--span.card__heading-span + TAB-->
+                        <span class="card__heading-span card__heading-span--2">Avanzato</span>
+                    </h4>
+                    <!--.card__details + TAB-->
+                    <div class="card__details">
+                        <!--ul>li*5 + TAB-->
+                        <ul>
+                            <li>Dominio + hosting</li>
+                            <li>Backup giornaliero</li>
+                            <li>Gestione DB Clienti</li>
+                            <li>3 mail aziendale</li>
+                            <li>Versione Mobile</li>
+                            <li>2 modifiche annue</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                    <div class="card__cta">
+                        <!--.card__price-box + TAB-->
+                        <div class="card__price-box">
+                            <!--p.card__price-only + TAB-->
+                            <p class="card__price-only"></p>
+                            <!--p.card_price-value + TAB-->
+                            <p class="card__price-value">€49 mese</p>
+                        </div>
+                        <!--a.btn + TAB-->
+                        {{--<a href="#popup" class="btn btn--white">Book now!</a>--}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-1-of-2">
+            <div class="card">
+                <!--.card__side + TAB-->
+                <div class="card__side card__side--front">
+                    <!--.card__picture + TAB-->
+                    <div class="card__picture card__picture--3">
+                        &nbsp;
+                    </div>
+                    <!--.card__heading + TAB-->
+                    <h4 class="card__heading">
+                        <!--span.card__heading-span + TAB-->
+                        <span class="card__heading-span card__heading-span--3">Completo</span>
+                    </h4>
+                    <!--.card__details + TAB-->
+                    <div class="card__details">
+                        <!--ul>li*5 + TAB-->
+                        <ul>
+                            <li>Dominio + hosting</li>
+                            <li>Backup giornaliero</li>
+                            <li>Gestione DB Clienti</li>
+                            <li>5 mail aziendale</li>
+                            <li>Versione Mobile + App</li>
+                            <li>5 modifiche annue</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                    <div class="card__cta">
+                        <!--.card__price-box + TAB-->
+                        <div class="card__price-box">
+                            <!--p.card__price-only + TAB-->
+                            <p class="card__price-only"></p>
+                            <!--p.card_price-value + TAB-->
+                            <p class="card__price-value">€79 mese</p>
+                        </div>
+                        <!--a.btn + TAB-->
+                        {{--<a href="#popup" class="btn btn--white">Book now!</a>--}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{--<div class="mkdf-row-grid-section-wrapper ">
         <div class="mkdf-row-grid-section">
             <div class="vc_row wpb_row vc_row-fluid vc_custom_1520416413881">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -654,7 +830,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--}}
 
     <div class="mkdf-row-grid-section-wrapper mkdf-content-aligment-center">
         <div class="mkdf-row-grid-section">

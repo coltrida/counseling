@@ -309,7 +309,8 @@ degli interessi personali su larga scala?
                                                             <div style="text-align: justify!important;">
                                                                 Il presente questionario verrà utilizzato al solo fine di formulare un preventivo di massima non vincolante, per l’adeguamento a quanto previsto dal Regolamento UE 2016/679 obbligatorio dal 25.05.2018. I dati indicati verranno trattati in rispetto del D.lgs. 196/2003 e Regolamento UE n. 2016/679
                                                                 <br>Qualora interessati,  lo stesso dovrà essere compilato ed inviato tramite il pulsante sottostante. Dopo averne preso visione vi sarà inviato un preventivo di massima e non vincolante per l’adeguamento al Regolamento UE 2016/679.
-
+                                                                <br><br>
+                                                                <input type="checkbox" id="consenso" name="consenso" required>Acconsento
                                                             </div>
 
                                                         </div>
@@ -320,7 +321,7 @@ degli interessi personali su larga scala?
 
 
                                                         <p style="text-align:center; margin-top: 60px">
-                                                            <a title="Invia questionario" id="inviaquestionario" href="{{route('sendquestionario')}}" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0">
+                                                            <a title="Invia questionario" id="inviaquestionario" href="{{route('sendquestionario')}}" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra not-active">
                                                                 invia</a>
                                                         </p>
 
@@ -387,6 +388,10 @@ degli interessi personali su larga scala?
                         console.log(resp.responseText);
 
                         if(resp.responseText == 1){
+                            jQuery("input[type='text']").val("");
+                            jQuery("input[type='tel']").val("");
+                            jQuery("input[type='radio']").prop('checked', false);
+                            jQuery('#consenso').prop('checked', false);
                             /*jQuery('#messquest').fadeIn(2000);*/
                             jQuery('#messquest').html("Questionario inviato");
                             jQuery('#messquest').fadeOut(4000);
@@ -408,5 +413,17 @@ degli interessi personali su larga scala?
             )
         });
     });
+</script>
+
+<script>
+
+    $("#consenso").change(function() {
+        if(this.checked) {
+            $("#inviaquestionario").removeClass('not-active');
+        }else{
+            $("#inviaquestionario").addClass('not-active');
+        }
+    });
+
 </script>
 @stop

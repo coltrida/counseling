@@ -45,6 +45,65 @@
                                             <ul>
                                                 <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
                                                     <span class="mkdf-pt-title" style="font-size: 30px; font-weight: 700; font-family: 'Microsoft Yi Baiti'!important;">
+                                                        Privacy: a maggio 140 attacchi al giorni, colpite oltre 330mila persone
+                                                    </span>
+                                                </li>
+                                                <li class="mkdf-pt-content-bottom">
+                                                    <ul>
+                                                        {{--<li class="mkdf-pt-price-holder">
+                                                            <span class="mkdf-pt-value">$</span>
+                                                            <span class="mkdf-pt-price">400</span>
+                                                        </li>--}}
+                                                        <li class="mkdf-pt-content">
+
+                                                            <ul>
+                                                                <li style="font-size: 20px; text-align: justify; color: black">
+                                                                    In Italia, nel solo mese di maggio, gli attacchi informatici «hanno toccato la soglia di 140 al giorno. Dal 25 maggio sono aumentate di oltre il 500% le
+                                                                    comunicazioni di data breach al Garante, che hanno interessato, assieme a quelli notificati a partire da marzo, oltre 330.000 persone». Lo ha detto il presidente dell'Autorità garante per la protezione dei dati personali, Antonello Soro, nella relazione annuale al Parlamento.
+
+                                                                    I numery dell’Autorità Garante per la protezione dei dati personali. Nel 2017 l’Authority ha adottato 573 provvedimenti collegiali. E' stato fornito riscontro a circa 6.000 quesiti, reclami e segnalazioni con specifico riferimento ai seguenti settori: marketing telefonico (in costante aumento); credito al consumo; videosorveglianza; concessionari di pubblico servizio; recupero crediti; settore bancario e finanziario; assicurazioni; lavoro; giornalismo; enti locali; sanità e servizi di assistenza sociale. Sono stati decisi 276 ricorsi, riguardanti soprattutto editori (anche televisivi); banche e società finanziari; P.A. e concessionari di pubblici servizi; datori di lavoro pubblici e privati; fornitori telefonici e telematici; marketing. I pareri resi dal Collegio al Governo e al Parlamento sono stati 19 ed hanno riguardato, in larga parte, l'attività di polizia e sicurezza nazionale, i dati sanitari, l'informatizzazione delle banche dati della P.a., il fisco. Le comunicazioni di notizie di reato all'autorità giudiziaria sono state 41, in particolare per mancata adozione di misure minime di sicurezza a protezione dei dati e trattamento illecito. Le violazioni amministrative contestate nel 2017 sono state 589, in larghissima parte concernenti il trattamento di dati senza consenso, la diffusione di dati su internet da parte della P.a., il telemarketing, seguite dall'omessa o inadeguata informativa agli utenti sul trattamento dei loro dati personali, dalla mancata adozione di misure di sicurezza e dall'omessa esibizione di documenti al Garante.
+                                                                    <span style="font-weight: 700; background-color: #fe5043">Le sanzioni amministrative riscosse ammontano a circa 3 milioni 800 mila euro, pari ad un complessivo 15% in più rispetto al 2016.</span>
+                                                                    Sono state effettuate 275 ispezioni.
+                                                                </li>
+
+                                                                <li style="font-size: 18px; text-align: right;">
+                                                                    <p>12 luglio 2018</p>
+                                                                    <p>fonte: www.ilsole24ore.com</p>
+                                                                </li>
+
+                                                            </ul>
+                                                        </li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mkdf-row-grid-section-wrapper "
+         style="background-color:rgba(194,170,128,0.08)">
+        <div class="mkdf-row-grid-section">
+            <div class="vc_row wpb_row vc_row-fluid vc_custom_1520416413881">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="mkdf-pricing-tables clearfix  mkdf-normal-space">
+                                <div class="mkdf-pt-wrapper mkdf-outer-space">
+                                    <div class="mkdf-price-table mkdf-item-space ">
+                                        <div class="mkdf-pt-inner ombra">
+                                            <ul>
+                                                <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                    <span class="mkdf-pt-title" style="font-size: 30px; font-weight: 700; font-family: 'Microsoft Yi Baiti'!important;">
                                                         AMMONTARE SANZIONI 2016
                                                     </span>
                                                 </li>

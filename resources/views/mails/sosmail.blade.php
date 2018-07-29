@@ -16,7 +16,8 @@
     <br>
     <h3 style="color: blue">Per cosa ha contattato</h3>
     <h3>{{$scelta}}</h3>
-
+    <br>
+    <h3>{{$consenso}}</h3>
 
 
 

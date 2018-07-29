@@ -194,7 +194,7 @@
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div class="widget mkdf-contact-form-7-widget ">
                         <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title" style="font-size: 26px!important; font-family: 'Microsoft Yi Baiti'!important;">
-                                Richiedi informazioni
+                                Richiedi informazionii
                             </h5></div>
                         <div role="form" lang="en-US" dir="ltr">
                             <div class="screen-reader-response"></div>
@@ -230,8 +230,13 @@
                                                                                                          placeholder="Messaggio"></textarea></span>
                                     </div>
                                     <div class="mkdf-grid-row">
+                                        <div style="margin-bottom:20px; color: white;border: 1px solid white; padding: 5px">
+
+                                            <input type="checkbox" id="consensofooter" name="consensofooter" required>Ho letto <a href="{{route('informativa')}}" style="font-size: 18px; font-style: italic">l'Informativa</a> sulla Privacy e acconsento al trattamento dei dati personali
+
+                                        </div>
                                         {{--<input class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" type="submit" value="INVIA" style="background-color: #0077c0"/>--}}
-                                        <a title="Invia mail" id="inviamail" href="{{route('mail')}}" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0; font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important;">
+                                        <a title="Invia mail" id="inviamail" href="{{route('mail')}}" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra not-active" style="font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important;">
                                             invia</a>
                                     </div>
                                 </div>
@@ -291,6 +296,7 @@
                     complete : function (resp) {
                         console.log(resp.responseText);
                         if(resp.responseText == 1){
+                            jQuery('#consensofooter').prop('checked', false);
                             jQuery('#mess').fadeIn(2000);
                             jQuery('#mess').html("Messaggio inviato");
                             jQuery('#mess').fadeOut(4000);
@@ -320,4 +326,16 @@
     {
         jQuery('#infofooter').css('margin-left',2);
     }
+</script>
+
+<script>
+
+    $("#consensofooter").change(function() {
+        if(this.checked) {
+            $("#inviamail").removeClass('not-active');
+        }else{
+            $("#inviamail").addClass('not-active');
+        }
+    });
+
 </script>

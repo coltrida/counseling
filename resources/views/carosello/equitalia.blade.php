@@ -200,10 +200,12 @@
                                                                                 <span class="wpcf7-form-control-wrap text">
                                                                                     Valutazione Immobiliare
                                                                                 </span>
+                                                                                <br><br>
+                                                                                <input type="checkbox" id="consenso" name="consenso" required>Ho letto <a href="{{route('informativa')}}" style="font-size: 18px; font-style: italic">l'Informativa</a> sulla Privacy e acconsento al trattamento dei dati personali
                                                                             </div>
 
                                                                             <div class="mkdf-grid-col-8" style="text-align: left!important; margin-top: 30px">
-                                                                                <a title="Invia sos" id="inviasos" href="{{route('sendsos')}}" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #0077c0;">
+                                                                                <a title="Invia sos" id="inviasos" href="{{route('sendsos')}}" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra not-active">
                                                                                     invia</a>
                                                                             </div>
 
@@ -277,6 +279,8 @@
                         complete : function (resp2) {
                             console.log(resp2.responseText);
                             if(resp2.responseText == 1){
+                                jQuery("input[type='text']").val("");
+                                jQuery("input[type='checkbox']").prop('checked', false);
                                 jQuery('#messsos').fadeIn(2000);
                                 jQuery('#messsos').html("Messaggio inviato");
                                 jQuery('#messsos').fadeOut(4000);
@@ -303,5 +307,17 @@
                 )
             });
         });
+    </script>
+
+    <script>
+
+        $("#consenso").change(function() {
+            if(this.checked) {
+                $("#inviasos").removeClass('not-active');
+            }else{
+                $("#inviasos").addClass('not-active');
+            }
+        });
+
     </script>
 @stop

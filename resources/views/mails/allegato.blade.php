@@ -35,7 +35,8 @@
     <br>
     <h3 style="color: blue">Responsabile Protezione Dati (RPD)</h3>
     <h3>Si svolge il trattamento dati per c/terzi in qualità di responsabile esterno? <span style="color: red"> {{$nona}}</span></h3>
-
+    <br>
+    <h3>{{$consenso}}</h3>
 
 </div>
 
