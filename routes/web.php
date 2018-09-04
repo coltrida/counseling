@@ -24,12 +24,12 @@ Route::view('/formazione', 'carosello.formazione')->name('formazione');
 Route::view('/sos', 'carosello.equitalia')->name('equitalia');
 
 //Soluzioni
-Route::view('/soluzione1', 'soluzioni.soluzione1')->name('soluzione1');
+/*Route::view('/soluzione1', 'soluzioni.soluzione1')->name('soluzione1');
 Route::view('/soluzione2', 'soluzioni.soluzione2')->name('soluzione2');
 Route::view('/soluzione3', 'soluzioni.soluzione3')->name('soluzione3');
 Route::view('/soluzione4', 'soluzioni.soluzione4')->name('soluzione4');
 Route::view('/soluzione5', 'soluzioni.soluzione5')->name('soluzione5');
-Route::view('/opzione', 'soluzioni.opzione')->name('opzione');
+Route::view('/opzione', 'soluzioni.opzione')->name('opzione');*/
 
 //GDPR
 Route::view('/general', 'gdpr.general')->name('general');
@@ -40,6 +40,7 @@ Route::view('/regulation', 'gdpr.regulation')->name('regulation');
 //Servizi
 Route::view('/privacy', 'servizi.privacy')->name('privacy');
 Route::view('/formazione', 'servizi.formazione')->name('formazione');
+Route::view('/fatturaElettronica', 'servizi.fatturazione')->name('fatturazione');
 Route::view('/temporary', 'servizi.temporary')->name('temporary');
 Route::post('/sos/send', 'EmailController@sos')->name('sendsos');
 Route::view('/web', 'servizi.siti')->name('web');
@@ -48,9 +49,12 @@ Route::view('/web', 'servizi.siti')->name('web');
 Route::view('/privacy/questionario', 'privacy.questionario')->name('questionario');
 Route::post('/privacy/questionario/send', 'EmailController@questionario')->name('sendquestionario');
 Route::view('/privacy/tabelle', 'privacy.tabelleprivacy')->name('tabelle');
-Route::view('/privacy/news', 'privacy.newsprivacy')->name('news');
+Route::get('/privacy/news', 'NotizieController@lista')->name('news');
+Route::view('/privacy/inseriscinews', 'privacy.inseriscinotizia')->name('inseriscinews');
+Route::post('/privacy/inseriscinews', 'NotizieController@salva')->name('insnews');
 
-//Informative
+// ---------------------------------- Informative ----------------------------------------------------
+
 /*----------------------------STUDIO CORSETTI------------------------------*/
 Route::get('/informative/studioCorsetti', function ()
 { return response()->file('informative/studioCorsetti.pdf'); });
@@ -66,6 +70,9 @@ Route::get('/informative/hotelletizia', function ()
 /*-------------------------------TECNOSYSTEM----------------------------------*/
 Route::get('/informative/tecnosystem', function ()
 { return response()->file('informative/tecnosystem.pdf'); });
+/*-------------------------------MORAES----------------------------------*/
+Route::get('/informative/moraes', function ()
+{ return response()->file('informative/moraes.pdf'); });
 
 Auth::routes();
 

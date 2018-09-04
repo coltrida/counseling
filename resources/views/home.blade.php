@@ -97,7 +97,7 @@
                 <img src="{{asset('img/logo2.png')}}"
                         alt="spinner"/>
 
-                <div class="mkdf-spinner-revealer"><h2 style="font-family: 'Microsoft Yi Baiti'!important;">Loading...</h2></div>
+                <div class="mkdf-spinner-revealer"><h3 style="font-family: 'Microsoft Yi Baiti'!important;">Loading...</h3></div>
             </div>
         </div>
     </div>
@@ -983,10 +983,10 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="mkdf-single-image-holder   ">
                                                             <div class="mkdf-si-inner">
-                                                                <a href="{{route('formazione')}}"> <img width="800" height="492"
-                                                                                                       src="{{asset('img/Formazione.jpg')}}"
+                                                                <a href="{{route('fatturazione')}}"> <img width="800" height="492"
+                                                                                                       src="{{asset('img/fattura.jpg')}}"
                                                                                                        class="attachment-full size-full ombra cornice prova2" alt="i"
-                                                                                                       srcset="{{asset('img/Formazione.jpg')}}"
+                                                                                                       srcset="{{asset('img/fattura.jpg')}}"
                                                                                                        sizes="(max-width: 800px) 100vw, 800px"/>
                                                                 </a>
                                                             </div>
@@ -997,9 +997,9 @@
                                                              style="padding: 0 6%;text-align: center">
                                                             <div class="mkdf-st-inner">
                                                                 <h5 class="mkdf-st-title">
-                                                                    Formazione </h5>
+                                                                    Fattura Elettronica </h5>
                                                                 <p class="mkdf-st-text" style="font-size: 18px!important; font-family: 'Microsoft Yi Baiti'!important; margin-top: 9px">
-                                                                    Adeguata istruzione a chi dovrà trattare i dati  </p>
+                                                                    Verso PA e privati  </p>
                                                             </div>
                                                         </div>
                                                         <div class="mkdf-separator-holder clearfix  mkdf-separator-center "
@@ -1142,11 +1142,9 @@
                                                                             Vi siete adeguati? contattateci </h6>
                                                                     </div>--}}
                                                                     <div >
-                                                                        <div style="font-weight: 900;
-                                                                            font-size: 55px;
-                                                                            word-spacing: -5px;
-                                                                            color: black;"
-                                                                             class="mkdf-st-inner" id="conto">
+                                                                        <div class="mkdf-st-inner" id="conto">
+                                                                            <h3 class="mkdf-st-title" style=" word-spacing: -5px; font-size:62px; font-family: 'Microsoft Yi Baiti'!important;">
+                                                                                Vi siete adeguati al nuovo Regolamento Europeo GDPR?  </h3>
                                                                         </div>
                                                                     </div>
                                                                     <div class="mkdf-separator-holder clearfix  mkdf-separator-center mkdf-separator-normal">
@@ -1154,7 +1152,7 @@
                                                                              style="width: 143px;border-bottom-width: 2px"></div>
                                                                     </div>
                                                                     <h6 class="mkdf-st-text">
-                                                                       <span id="adeguati" style="word-spacing: -5px; font-size: 26px"> </span> <a href="{{route("contatti")}}" style="color: red; font-size: 26px">Contattateci</a> </h6>
+                                                                       <span id="adeguati" style="word-spacing: -5px; font-size: 26px">Per evitare le <b>pesanti</b> sanzioni </span> <a href="{{route("contatti")}}" style="color: red; font-size: 26px">Contattateci</a> </h6>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1338,14 +1336,14 @@
 
 </script>
 
-<script>
+{{--<script>
     // Set the date we're counting down to
     var countDownDate = new Date("May 25, 2018 00:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
 
-        // Get todays date and time
+        Get todays date and time
         var now = new Date().getTime();
 
         // Find the distance between now an the count down date
@@ -1377,7 +1375,7 @@
         }
     }, 1000);
 
-</script>
+</script>--}}
 
 <script>
     var controller = new ScrollMagic.Controller();

@@ -41,7 +41,11 @@
                                                         <li style="text-align: center!important; font-size: 28px">
                                                             <a href="{{route('news')}}">Rassegna stampa e News</a>
                                                         </li>
-
+                                                        @if(isset(Auth::user()->name) && Auth::user()->surname=='Coltrioli')
+                                                            <li style="text-align: center!important; font-size: 28px">
+                                                                <a href="{{route('inseriscinews')}}">inserisci News</a>
+                                                            </li>
+                                                        @endif
                                                         <li style="text-align: center!important; font-size: 28px">
                                                             <a target="_blank" href="{{asset('pdf/guidaGDPR.pdf')}}" style="color: blue">Guida GDPR</a>
                                                         </li>

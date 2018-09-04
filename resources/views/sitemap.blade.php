@@ -1,37 +1,40 @@
 <?php echo '<?xml version="1.0" encoding="UTF-8"?>'; ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.counselingsrl.eu</loc>
+        <loc>https://www.counselingsrl.eu</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/chisiamo</loc>
+        <loc>https://www.counselingsrl.eu/chisiamo</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/contatti</loc>
+        <loc>https://www.counselingsrl.eu/contatti</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/privacy</loc>
+        <loc>https://www.counselingsrl.eu/privacy</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/privacy/tabelle</loc>
+        <loc>https://www.counselingsrl.eu/privacy/tabelle</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/privacy/questionario</loc>
+        <loc>https://www.counselingsrl.eu/privacy/questionario</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/formazione</loc>
+        <loc>https://www.counselingsrl.eu/privacy/news</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/temporary</loc>
+        <loc>https://www.counselingsrl.eu/formazione</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/web</loc>
+        <loc>https://www.counselingsrl.eu/temporary</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/sos</loc>
+        <loc>https://www.counselingsrl.eu/web</loc>
     </url>
     <url>
-        <loc>http://www.counselingsrl.eu/gdpr</loc>
+        <loc>https://www.counselingsrl.eu/sos</loc>
+    </url>
+    <url>
+        <loc>https://www.counselingsrl.eu/gdpr</loc>
     </url>
 
     {{--@foreach($posts as $post)

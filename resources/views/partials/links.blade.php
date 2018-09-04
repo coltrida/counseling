@@ -320,6 +320,21 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+    #conto{
+        font-weight: 900;
+        font-size: 55px;
+        word-spacing: -5px;
+        border-radius: 5px;
+        color: black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all .8s;
+    }
+
+    #conto:hover{
+        box-shadow: 0 8px 12px 0 rgba(255, 51, 44, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transform: scale(1.1);
+    }
+
     .text-box{
         position: absolute;
         top:50%;
@@ -600,6 +615,28 @@
         .card__price-value {
             font-size: 2rem; } }
 
+    #pagine li{
+        display: inline-block;
+        font-size: 2rem;
+        padding: 0 8px 6px 8px;
+        box-shadow: 0 2px 5px black;
+        border-radius: 3px;
+        transition: all .2s;
+    }
+
+    #pagine li:not(:first-child):not(:last-child) {border: 1px solid black;}
+
+    #pagine li:hover{
+        background-color: #8c8c8c;
+        transform: translateY(-2px);
+        color: white;
+    }
+
+    #pagine li:active{
+        background-color: #fff;
+        transform: translateY(0);
+        color: white;
+    }
 
 
     @font-face {

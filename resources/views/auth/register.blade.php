@@ -106,9 +106,13 @@
                             </div>
                         </div>
 
+                        <div class="form-group row" style="margin: 20px 0">
+                            <input type="checkbox" id="consenso" name="consenso" required>Ho letto <a href="{{route('informativa')}}" style="font-size: 18px; font-style: italic">l'Informativa</a> sulla Privacy e acconsento al trattamento dei dati personali
+                        </div>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #95b9e0">
+                                <button id="registra" type="submit" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra not-active" style="background-color: #95b9e0">
                                     {{ __('Register') }}
                                 </button>
                             </div>
@@ -120,3 +124,17 @@
     </div>
 </div>
 @endsection
+
+@section('fondo')
+<script>
+
+    $("#consenso").change(function() {
+        if(this.checked) {
+            $("#registra").removeClass('not-active');
+        }else{
+            $("#registra").addClass('not-active');
+        }
+    });
+
+</script>
+@stop

@@ -103,9 +103,10 @@
                     <div class="mkdf-logo-wrapper" style="margin-top: -20px!important;">
                         <a class=""
                            href="{{route('index')}}">
-                            <img style="width: 300px;"
+                            <h1><img style="width: 300px; margin-top: -20px"
                                  src="{{asset('img/logo4.png')}}"
-                                 alt="logo"/>
+                                 alt="www.counselingsrl.eu"/>
+                            </h1>
                         </a>
                     </div>
 
@@ -136,6 +137,12 @@
                                 <div class="second">
                                     <div class="inner">
                                         <ul>
+                                            <li id="nav-menu-item-1420"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                <a href="{{route('fatturazione')}}"
+                                                   class=""><span class="item_outer"><span class="item_text"
+                                                                                           style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fattura Elettronica</span></span></a>
+                                            </li>
                                             <li id="nav-menu-item-1420"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                 <a href="{{route('privacy')}}"
@@ -213,6 +220,18 @@
                                                         @csrf
                                                     </form>
                                                 </li>
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="http://portale.bluenext.it"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Portale Servizi B2B<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                                </li>
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="https://login.sonoincloud.it/cas-web/login?service=http%3A%2F%2Fdef.sonoincloud.it%2Fdef%2F"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fatture Online<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                                </li>
 
                                             </ul>
                                         </div>
@@ -257,9 +276,9 @@
                         <div class="mkdf-logo-wrapper">
                             <a class=""
                                href="{{route('index')}}">
-                                <img style="width: 200px;"
+                                <h2><img style="width: 200px; margin-top: -20px"
                                      src="{{asset('img/logo2.png')}}"
-                                     alt="logo"/>
+                                     alt="Privacy dati, GDPR, sicurezza ICT e siti Web"/></h2>
                             </a>
                         </div>
 
@@ -293,6 +312,13 @@
                                     <div class="second">
                                         <div class="inner">
                                             <ul>
+                                                <li id="sticky-nav-menu-item-1420"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="{{route('fatturazione')}}"
+                                                       class=""><span class="item_outer"><span
+                                                                    class="item_text"
+                                                                    style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fattura Elettronica</span><span
+                                                                    class="plus"></span></span></a></li>
                                                 <li id="sticky-nav-menu-item-1420"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a href="{{route('privacy')}}"
@@ -373,6 +399,18 @@
                                                           style="display: none;">
                                                         @csrf
                                                     </form>
+                                                </li>
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="http://portale.bluenext.it"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Portale Servizi B2B<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                                </li>
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="https://login.sonoincloud.it/cas-web/login?service=http%3A%2F%2Fdef.sonoincloud.it%2Fdef%2F"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fatture Online<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
                                                 </li>
 
                                             </ul>
@@ -492,6 +530,12 @@
                         <ul class="sub_menu">
                             <li id="mobile-menu-item-3104"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                        href="{{route('fatturazione')}}"
+                                        class=""><span
+                                            style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Fattura Elettronica</span></a>
+                            </li>
+                            <li id="mobile-menu-item-3104"
+                                class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                         href="{{route('privacy')}}"
                                         class=""><span
                                             style="font-size: 22px!important; font-family: 'Microsoft Yi Baiti'!important; ">Privacy</span></a>
@@ -531,27 +575,27 @@
                         <ul class="sub_menu">
                             <li id="mobile-menu-item-3122"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="{{route('soluzione1')}}"
+                                        href="#"
                                         class=""><span>Soluzione1</span></a></li>
                             <li id="mobile-menu-item-3123"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="{{route('soluzione2')}}"
+                                        href="#"
                                         class=""><span>Soluzione2</span></a></li>
                             <li id="mobile-menu-item-3124"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="{{route('soluzione3')}}"
+                                        href="#"
                                         class=""><span>Soluzione3</span></a></li>
                             <li id="mobile-menu-item-3124"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="{{route('soluzione4')}}"
+                                        href="#"
                                         class=""><span>Soluzione4</span></a></li>
                             <li id="mobile-menu-item-3124"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="{{route('soluzione5')}}"
+                                        href="#"
                                         class=""><span>Soluzione5</span></a></li>
                             <li id="mobile-menu-item-3124"
                                 class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                        href="{{route('opzione')}}"
+                                        href="#"
                                         class=""><span>Opzione</span></a></li>
 
                         </ul>
@@ -606,6 +650,18 @@
                                           style="display: none;">
                                         @csrf
                                     </form>
+                                </li>
+                                <li id="nav-menu-item-1450"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                    <a target="_blank" href="http://portale.bluenext.it"
+                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Portale Servizi B2B<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                </li>
+                                <li id="nav-menu-item-1450"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                    <a target="_blank" href="https://login.sonoincloud.it/cas-web/login?service=http%3A%2F%2Fdef.sonoincloud.it%2Fdef%2F"
+                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fatture Online<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
                                 </li>
                             </ul>
                         </li>
