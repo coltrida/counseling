@@ -19,7 +19,7 @@
     <title>Counseling</title>
 
     <meta name="description" content="Counseling - Privacy dati e sicurezza ICT">
-    <meta name="keywords" content="GDPR Arezzo, GDPR consulenza Arezzo, Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati">
+    <meta name="keywords" content="GDPR Arezzo, GDPR consulenza Arezzo, Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati, Fattura Elettronica">
 
     <link rel='dns-prefetch' href='//maps.googleapis.com'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
@@ -279,6 +279,134 @@
 
                                                                 </li>
                                                                 <!-- SLIDE  -->
+                                                                <li data-index="rs-3" data-transition="slideremoveleft"
+                                                                    data-slotamount="default" data-hideafterloop="0"
+                                                                    data-hideslideonmobile="off" data-easein="default"
+                                                                    data-easeout="default" data-masterspeed="default"
+                                                                    data-thumb="{{asset('img/fatture.jpg')}}"
+                                                                    data-rotate="0" data-saveperformance="off"
+                                                                    data-title="Slide" data-param1="" data-param2=""
+                                                                    data-param3="" data-param4="" data-param5=""
+                                                                    data-param6="" data-param7="" data-param8=""
+                                                                    data-param9="" data-param10="" data-description="">
+                                                                    <!-- MAIN IMAGE -->
+                                                                    <img src="{{asset('img/fatture.jpg')}}"
+                                                                         alt="i" title="terza"
+                                                                         width="1920" height="790"
+                                                                         data-bgposition="center center"
+                                                                         data-bgfit="cover" data-bgrepeat="no-repeat"
+                                                                         data-bgparallax="8" class="rev-slidebg"
+                                                                         data-no-retina>
+                                                                    <!-- LAYERS -->
+
+                                                                    <!-- LAYER NR. 6 -->
+                                                                    <div class="tp-caption   tp-resizeme"
+                                                                         id="slide-5-layer-1"
+                                                                         data-x="['left','left','left','left']"
+                                                                         data-hoffset="['0','0','0','15']"
+                                                                         data-y="['middle','middle','middle','middle']"
+                                                                         data-voffset="['-143','-131','-127','-203']"
+                                                                         data-width="none"
+                                                                         data-height="none"
+                                                                         data-whitespace="nowrap"
+                                                                         data-visibility="['on','on','on','off']"
+
+                                                                         data-type="image"
+                                                                         data-responsive_offset="on"
+
+                                                                         data-frames='[{"delay":700,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Circ.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"nothing"}]'
+                                                                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                         data-paddingtop="[0,0,0,0]"
+                                                                         data-paddingright="[0,0,0,0]"
+                                                                         data-paddingbottom="[0,0,0,0]"
+                                                                         data-paddingleft="[0,0,0,0]"
+
+                                                                         style="z-index: 5;">
+                                                                    </div>
+
+                                                                    <!-- LAYER NR. 7 -->
+                                                                    <div class="tp-caption   tp-resizeme"
+                                                                         id="slide-5-layer-2"
+                                                                         data-x="['left','left','left','left']"
+                                                                         data-hoffset="['0','0','0','15']"
+                                                                         data-y="['middle','middle','middle','middle']"
+                                                                         data-voffset="['-52','-51','-48','-112']"
+                                                                         data-fontsize="['80','70','60','45']"
+                                                                         data-lineheight="['110','90','80','55']"
+                                                                         data-width="['none','none','none','303']"
+                                                                         data-height="['none','none','none','111']"
+                                                                         data-whitespace="['nowrap','nowrap','nowrap','normal']"
+
+                                                                         data-type="text"
+                                                                         data-responsive_offset="on"
+
+                                                                         data-frames='[{"delay":900,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Circ.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                         data-paddingtop="[0,0,0,0]"
+                                                                         data-paddingright="[0,0,0,0]"
+                                                                         data-paddingbottom="[0,0,0,0]"
+                                                                         data-paddingleft="[0,0,0,0]"
+
+                                                                         style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
+                                                                        <span id="tit2" style="font-family: 'Microsoft Yi Baiti'!important; font-size: 48px">FATTURA ELETTRONICA</span>
+                                                                    </div>
+
+                                                                    <!-- LAYER NR. 8 -->
+                                                                    <div class="tp-caption   tp-resizeme"
+                                                                         id="slide-5-layer-3"
+                                                                         data-x="['left','left','left','left']"
+                                                                         data-hoffset="['0','0','0','15']"
+                                                                         data-y="['middle','middle','middle','middle']"
+                                                                         data-voffset="['43','36','37','10']"
+                                                                         data-fontsize="['21','21','16','16']"
+                                                                         data-lineheight="['30','30','26','26']"
+                                                                         data-width="['689','689','489','270']"
+                                                                         data-height="['61','61','64','none']"
+                                                                         data-whitespace="normal"
+
+                                                                         data-type="text"
+                                                                         data-responsive_offset="on"
+
+                                                                         data-frames='[{"delay":1100,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Circ.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                         data-paddingtop="[0,0,0,0]"
+                                                                         data-paddingright="[0,0,0,0]"
+                                                                         data-paddingbottom="[0,0,0,0]"
+                                                                         data-paddingleft="[0,0,0,0]"
+
+                                                                         style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
+                                                                        Fattura Elettronica e Conservazione Sostitutiva
+                                                                    </div>
+
+                                                                    <!-- LAYER NR. 9 -->
+                                                                    <div class="tp-caption  "
+                                                                         id="slide-5-layer-4"
+                                                                         data-x="['left','left','left','left']"
+                                                                         data-hoffset="['0','0','0','15']"
+                                                                         data-y="['middle','middle','middle','middle']"
+                                                                         data-voffset="['142','128','122','122']"
+                                                                         data-width="none"
+                                                                         data-height="none"
+                                                                         data-whitespace="nowrap"
+
+                                                                         data-type="text"
+                                                                         data-responsive_offset="on"
+                                                                         data-responsive="off"
+                                                                         data-frames='[{"delay":1300,"speed":800,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Circ.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                                                                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                                                                         data-paddingtop="[0,0,0,0]"
+                                                                         data-paddingright="[0,0,0,0]"
+                                                                         data-paddingbottom="[0,0,0,0]"
+                                                                         data-paddingleft="[0,0,0,0]"
+
+                                                                         style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
+                                                                        <a itemprop="url" href="{{route('fatturazione')}}" target="_self"
+                                                                           class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="background-color: #95b9e0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                                                            <span class="mkdf-btn-text">Approfondisci</span>
+                                                                        </a></div>
+
+                                                                </li>
+                                                                <!-- SLIDE  -->
                                                                 <li data-index="rs-5" data-transition="slideremoveleft"
                                                                     data-slotamount="default" data-hideafterloop="0"
                                                                     data-hideslideonmobile="off" data-easein="default"
@@ -375,7 +503,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 7; min-width: 689px; max-width: 689px; max-width: 61px; max-width: 61px; white-space: normal; font-size: 21px; line-height: 30px; font-weight: 300; color: #4e4e4e; letter-spacing: 0px;font-family:Open Sans;">
-                                                                         Adeguata istruzione a chi dovrà trattare i dati
+                                                                        Adeguata istruzione a chi dovrà trattare i dati
                                                                     </div>
 
                                                                     <!-- LAYER NR. 9 -->

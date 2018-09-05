@@ -19,7 +19,7 @@
     <title>@yield('titolo')</title>
 
     <meta name="description" content="Counseling - Privacy dati e sicurezza ICT">
-    <meta name="keywords" content="GDPR Arezzo, GDPR consulenza Arezzo, Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati">
+    <meta name="keywords" content="GDPR Arezzo, GDPR consulenza Arezzo, Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati, Fattura Elettronica">
 
     <link rel='dns-prefetch' href='//maps.googleapis.com'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
