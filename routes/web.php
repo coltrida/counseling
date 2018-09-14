@@ -23,14 +23,6 @@ Route::view('/gdpr', 'carosello.gdpr')->name('gdpr');
 Route::view('/formazione', 'carosello.formazione')->name('formazione');
 Route::view('/sos', 'carosello.equitalia')->name('equitalia');
 
-//Soluzioni
-/*Route::view('/soluzione1', 'soluzioni.soluzione1')->name('soluzione1');
-Route::view('/soluzione2', 'soluzioni.soluzione2')->name('soluzione2');
-Route::view('/soluzione3', 'soluzioni.soluzione3')->name('soluzione3');
-Route::view('/soluzione4', 'soluzioni.soluzione4')->name('soluzione4');
-Route::view('/soluzione5', 'soluzioni.soluzione5')->name('soluzione5');
-Route::view('/opzione', 'soluzioni.opzione')->name('opzione');*/
-
 //GDPR
 Route::view('/general', 'gdpr.general')->name('general');
 Route::view('/data', 'gdpr.data')->name('data');
@@ -73,6 +65,18 @@ Route::get('/informative/tecnosystem', function ()
 /*-------------------------------MORAES----------------------------------*/
 Route::get('/informative/moraes', function ()
 { return response()->file('informative/moraes.pdf'); });
+/*-------------------------------BELLAVISTA----------------------------------*/
+Route::get('/informative/bellavista', function ()
+{ return response()->file('informative/bellavista.pdf'); });
+/*-------------------------------NENCETTI----------------------------------*/
+Route::get('/informative/nencetti', function ()
+{ return response()->file('informative/nencetti.pdf'); });
+/*-------------------------------SARACENO----------------------------------*/
+Route::get('/informative/saraceno', function ()
+{ return response()->file('informative/saraceno.pdf'); });
+/*-------------------------------DOLCEVITA----------------------------------*/
+Route::get('/informative/dolcevita', function ()
+{ return response()->file('informative/dolcevita.pdf'); });
 
 Auth::routes();
 
