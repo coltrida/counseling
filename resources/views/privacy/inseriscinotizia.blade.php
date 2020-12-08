@@ -44,7 +44,7 @@
                                         <div class="mkdf-price-table mkdf-item-space ">
                                             <div class="mkdf-pt-inner ombra">
                                                 <ul>
-                                                    <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                                    <li class="mkdf-pt-title-holder">
                                                     <span class="mkdf-pt-title" style="font-size: 30px; font-weight: 700; font-family: 'Microsoft Yi Baiti'!important;">
                                                         <input type="text" style="width: 80%;
                                                         background-color: white;

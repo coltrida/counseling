@@ -505,7 +505,7 @@
     .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
     .card__side--back-4 {
-        background-image: linear-gradient(to right bottom, #dce00b, #aaad01); }
+        background-image: linear-gradient(to right bottom, #e0d157, #fbf200); }
     .card:hover .card__side--front {
         -webkit-transform: rotateY(-180deg);
         transform: rotateY(-180deg); }
@@ -529,7 +529,7 @@
     .card__picture--3 {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
     .card__picture--4 {
-        background-image: linear-gradient(to right bottom, #dce00b, #aaad01), url(../img/nat-7.jpg); }
+        background-image: linear-gradient(to right bottom, #e0d157, #fbf200), url(../img/nat-7.jpg); }
     .card__heading {
         font-size: 1.8rem;
         font-weight: 300;

@@ -1,7 +1,8 @@
-<footer class="mkdf-page-footer ">
+<footer class="mkdf-page-footer " id="contid">
     <div class="mkdf-footer-top-holder">
         <div class="mkdf-footer-top-inner mkdf-full-width">
             <div class="mkdf-grid-row mkdf-footer-top-alignment-left">
+
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div id="media_image-4" class="widget mkdf-footer-column-1 widget_media_image"><img
                                 width="371" height="59"
@@ -182,19 +183,97 @@
                         </div>
                     </div>--}}
                 </div>
-                <div class="mkdf-column-content mkdf-grid-col-3">
 
+                <div class="mkdf-column-content mkdf-grid-col-3">
+                    <div class="widget mkdf-blog-list-widget">
+                        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title" style="font-family: 'Microsoft Yi Baiti'!important; font-size: 30px!important;">I nostri Partner</h5></div>
+                        <div class="mkdf-blog-list-holder mkdf-bl-minimal mkdf-bl-one-column mkdf-normal-space mkdf-bl-pag-no-pagination   "
+                             data-type=minimal data-number-of-posts=4 data-number-of-columns=1
+                             data-space-between-items=normal data-category=advertisements data-orderby=date
+                             data-order=DESC data-image-size=thumbnail data-title-tag=p data-excerpt-length=40
+                             data-post-info-section=yes data-post-info-image=yes data-post-info-image-zoom=no
+                             data-post-info-image-shader=no data-post-info-author=yes data-post-info-date=yes
+                             data-post-info-category=yes data-post-info-comments=no data-post-info-like=no
+                             data-post-info-share=no data-pagination-type=no-pagination data-max-num-pages=1
+                             data-next-page=2>
+                            <div class="mkdf-bl-wrapper mkdf-outer-space">
+                                <ul class="mkdf-blog-list">
+                                    <li class="mkdf-bl-item mkdf-item-space clearfix">
+                                        <div class="mkdf-bli-inner">
+                                            <div class="mkdf-bli-content">
+
+                                                <p itemprop="name" class="entry-title mkdf-post-title">
+                                                    <a itemprop="url"
+                                                       href="#"
+                                                       title="Studio Corsetti">
+                                                        <img
+                                                                width="270" height="59"
+                                                                src="{{asset('img/logocorsetti.gif')}}"
+                                                                class="image wp-image-3317  attachment-full size-full" alt="i"
+                                                                style="border-radius: 5px"/>
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mkdf-bl-item mkdf-item-space clearfix">
+                                        <div class="mkdf-bli-inner">
+                                            <div class="mkdf-bli-content">
+
+                                                <p itemprop="name" class="entry-title mkdf-post-title">
+                                                    <a itemprop="url"
+                                                       href="https://www.servicestop.ro/" target="_blank"
+                                                       title="Top Services">
+                                                        <img
+                                                                width="270" height="59"
+                                                                src="{{asset('img/servicestop.png')}}"
+                                                                class="image wp-image-3317  attachment-full size-full" alt="i"
+                                                                style="border-radius: 5px"
+                                                        />
+                                                    </a>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    {{--<li class="mkdf-bl-item mkdf-item-space clearfix">
+                                        <div class="mkdf-bli-inner">
+                                            <div class="mkdf-bli-content">
+
+                                                <p itemprop="name" class="entry-title mkdf-post-title">
+                                                    <a itemprop="url"
+                                                       href="http://anwalt.mikado-themes.com/how-to-deal-with-law-school-stress/"
+                                                       title="How to deal with law school stress">
+                                                        How to deal with law school stress </a>
+                                                </p>
+                                                <div itemprop="dateCreated"
+                                                     class="mkdf-post-info-date entry-date published updated">
+                                                    <a itemprop="url" href="http://anwalt.mikado-themes.com/2018/03/">
+
+                                                        March 9, 2018 </a>
+                                                    <meta itemprop="interactionCount" content="UserComments: 0"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>--}}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div id="nav_menu-2" class="widget mkdf-footer-column-3 widget_nav_menu">
                         <div id="mess" style="display: none; border: 1px solid white; text-align: center"></div>
 
                     </div>
                 </div>
+
                 <div class="mkdf-column-content mkdf-grid-col-3">
                     <div class="widget mkdf-contact-form-7-widget ">
-                        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title" style="font-size: 26px!important; font-family: 'Microsoft Yi Baiti'!important;">
-                                Richiedi informazionii
+                        <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title" style="font-size: 30px!important; font-family: 'Microsoft Yi Baiti'!important;">
+                                Richiedi informazioni
                             </h5></div>
                         <div role="form" lang="en-US" dir="ltr">
                             <div class="screen-reader-response"></div>
@@ -223,7 +302,7 @@
                                     <div class="mkdf-grid-row">
                                                 <span ><textarea style="font-size: 18px" required name="content"
                                                                                                          cols="40"
-                                                                                                         rows="5"
+                                                                                                         rows="2"
                                                                                                          id="testofrom"
                                                                  class="wpcf7-form-control wpcf7-textarea"
                                                                                                          aria-invalid="false"
@@ -275,67 +354,3 @@
 
 </footer>
 
-<script>
-    jQuery('document').ready(function () {
-
-        jQuery('#inviamail').on('click', function (ele) {
-            ele.preventDefault();
-            var urlmail =   jQuery(this).attr('href');
-
-            jQuery.ajax(
-                urlmail,
-                {
-                    method: 'POST',
-                    dataType: 'json',
-                    data : {
-                        '_token' : jQuery('#_token').val(),
-                        'title' : jQuery('#nomefrom').val(),
-                        'mailfrom' : jQuery('#indirizzofrom').val(),
-                        'content' : jQuery('#testofrom').val()
-                    },
-                    complete : function (resp) {
-                        console.log(resp.responseText);
-                        if(resp.responseText == 1){
-                            jQuery('#consensofooter').prop('checked', false);
-                            jQuery('#mess').fadeIn(2000);
-                            jQuery('#mess').html("Messaggio inviato");
-                            jQuery('#mess').fadeOut(4000);
-                            jQuery('#testofrom').val("").attr("required", false);
-                            jQuery('#indirizzofrom').val("").attr("required", false);
-                            jQuery('#nomefrom').val("").attr("required", false);
-                        } else {
-                            var cc = JSON.parse(resp.responseText);
-                            if(cc.errors.content){
-                                jQuery('#mess').html(cc.errors.content + " <br> messaggio non inviato");
-                            }
-                            if(cc.errors.mailfrom){
-                                jQuery('#mess').html(cc.errors.mailfrom + " <br> messaggio non inviato");
-                            }
-                            jQuery('#mess').css("height", 80);
-                            jQuery('#mess').fadeIn(2000);
-                            jQuery('#mess').fadeOut(3000);
-                        }
-                    }
-                }
-            )
-        });
-    });
-
-    var windowWidth = jQuery(window).width();
-    if (windowWidth < 650)
-    {
-        jQuery('#infofooter').css('margin-left',2);
-    }
-</script>
-
-<script>
-
-    $("#consensofooter").change(function() {
-        if(this.checked) {
-            $("#inviamail").removeClass('not-active');
-        }else{
-            $("#inviamail").addClass('not-active');
-        }
-    });
-
-</script>

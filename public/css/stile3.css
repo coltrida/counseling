@@ -265,12 +265,12 @@ blockquote cite {
 }
 
 ::selection {
-    background: #aa9166;
+    background: #0177C1;
     color: #fff
 }
 
 ::-moz-selection {
-    background: #aa9166;
+    background: #0177C1;
     color: #fff
 }
 
@@ -13386,11 +13386,11 @@ body .pp_overlay {
 }
 
 .mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-inner.mkdf-grid {
-    padding: 104px 0 56px
+    padding: 50px 0 16px
 }
 
 .mkdf-page-footer .mkdf-footer-top-holder .mkdf-footer-top-inner.mkdf-full-width {
-    padding: 104px 120px 56px
+    padding: 50px 120px 16px
 }
 
 .mkdf-page-footer .mkdf-footer-top-holder .widget .mkdf-widget-title-holder {
@@ -13913,7 +13913,7 @@ body .pp_overlay {
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    background-color: #aa9166;
+    background-color: #0177C1;
     padding: 15px 0 18px
 }
 
@@ -15392,7 +15392,7 @@ nav.mkdf-fullscreen-menu > ul > li > a {
     height: 100%;
     min-height: 100%;
     padding: 69px 64px 40px;
-    background-color: #aa9166;
+    background-color: #20d34c;
     text-align: left;
     overflow: hidden;
     visibility: hidden;
@@ -17576,7 +17576,7 @@ nav.mkdf-fullscreen-menu > ul > li > a {
 
 .mkdf-btn.mkdf-btn-solid {
     color: #fff;
-    background-color: #aa9166;
+    background-color: #0177C1;
     border: 1px solid transparent
 }
 
@@ -17585,11 +17585,11 @@ nav.mkdf-fullscreen-menu > ul > li > a {
 }
 
 .mkdf-btn.mkdf-btn-solid:not(.mkdf-btn-custom-hover-bg):hover {
-    background-color: #6c5835 !important
+    background-color: #15abc1 !important
 }
 
 .mkdf-btn.mkdf-btn-solid:not(.mkdf-btn-custom-border-hover):hover {
-    border-color: #6c5835 !important
+    border-color: #15abc1 !important
 }
 
 .mkdf-btn.mkdf-btn-outline {
@@ -19547,7 +19547,7 @@ nav.mkdf-fullscreen-menu > ul > li > a {
 
 .mkdf-price-table .mkdf-pt-inner ul li.mkdf-pt-title-holder {
     position: relative;
-    background-color: #aa9166;
+    background-color: #0177C1;
     color: #fff;
     padding: 43px 0 46px
 }

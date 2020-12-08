@@ -20,7 +20,7 @@
                 <label for="email" class="" style="font-size: 30px">{{ __('E-Mail') }}</label>
 
                 <div class="">
-                    <input id="email" style="border-color:darkgray; border-radius: 5px; color: black; font-size: 20px; width: 250px" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
+                    <input id="email" style="border-color:darkgray; background-color: whitesmoke; border-radius: 5px; color: black; font-size: 20px; width: 250px" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
 
                     @if ($errors->has('email'))
                         <span class="invalid-feedback">
@@ -33,7 +33,7 @@
                 <label for="password" class="" style="font-size: 30px">{{ __('Password') }}</label>
 
                 <div class="">
-                    <input id="password" style="border-color:darkgray; border-radius: 5px; color: black; font-size: 20px; width:250px" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+                    <input id="password" style="border-color:darkgray; background-color: whitesmoke;  border-radius: 5px; color: black; font-size: 20px; width:250px" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
 
                     @if ($errors->has('password'))
                         <span class="invalid-feedback">
@@ -55,7 +55,7 @@
 
 
                 <div class="">
-                    <button type="submit" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="background-color: #95b9e0">
+                    <button type="submit" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra">
                         {{ __('Login') }}
                     </button>
                     <br><br>
@@ -79,7 +79,7 @@
         <div class="mkdf-widget-title-holder"><h5 class="mkdf-widget-title">Non Sei ancora Registrato?</h5></div>
         <div class="textwidget">
             <p>
-                <a href="{{ route('register') }}" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="padding: 10px; border-radius: 5px; background-color: #95b9e0; text-align: center">
+                <a href="{{ route('register') }}" class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra" style="padding: 10px; border-radius: 5px; text-align: center">
                     Registrati per accedere ai servizi riservati
                 </a>
             </p>
@@ -205,6 +205,19 @@
                                             <ul>
                                                 <li id="nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="http://portale.bluenext.it"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Portale Servizi B2B<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                                </li>
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="https://login.sonoincloud.it/cas-web/login?service=http%3A%2F%2Fdef.sonoincloud.it%2Fdef%2F"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fatture Online<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                                </li>
+
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();"
                                                        href="{{ route('logout') }}" class="">
@@ -219,18 +232,6 @@
                                                           style="display: none;">
                                                         @csrf
                                                     </form>
-                                                </li>
-                                                <li id="nav-menu-item-1450"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a target="_blank" href="http://portale.bluenext.it"
-                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
-                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Portale Servizi B2B<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
-                                                </li>
-                                                <li id="nav-menu-item-1450"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a target="_blank" href="https://login.sonoincloud.it/cas-web/login?service=http%3A%2F%2Fdef.sonoincloud.it%2Fdef%2F"
-                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
-                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fatture Online<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
                                                 </li>
 
                                             </ul>
@@ -383,6 +384,21 @@
                                     <div class="second">
                                         <div class="inner">
                                             <ul>
+
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="http://portale.bluenext.it"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Portale Servizi B2B<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                                </li>
+
+                                                <li id="nav-menu-item-1450"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a target="_blank" href="https://login.sonoincloud.it/cas-web/login?service=http%3A%2F%2Fdef.sonoincloud.it%2Fdef%2F"
+                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
+                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fatture Online<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
+                                                </li>
+
                                                 <li id="nav-menu-item-1450"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                     <a onclick="event.preventDefault();
@@ -399,18 +415,6 @@
                                                           style="display: none;">
                                                         @csrf
                                                     </form>
-                                                </li>
-                                                <li id="nav-menu-item-1450"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a target="_blank" href="http://portale.bluenext.it"
-                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
-                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Portale Servizi B2B<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
-                                                </li>
-                                                <li id="nav-menu-item-1450"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                    <a target="_blank" href="https://login.sonoincloud.it/cas-web/login?service=http%3A%2F%2Fdef.sonoincloud.it%2Fdef%2F"
-                                                       class=""><span class="item_outer" style="padding: 0;"><span class="item_text"
-                                                                                                                   style="font-size: 20px!important; font-family: 'Microsoft Yi Baiti'!important;">Fatture Online<i style="margin-left: 5px" class="fas fa-arrow-alt-circle-right"></i></span></span></a>
                                                 </li>
 
                                             </ul>

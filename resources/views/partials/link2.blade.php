@@ -59,3 +59,68 @@
 </script>
 
 <script type="text/javascript" src="{{asset('js/js6.js')}}"></script>
+
+<script>
+    jQuery('document').ready(function () {
+
+        jQuery('#inviamail').on('click', function (ele) {
+            ele.preventDefault();
+            var urlmail =   jQuery(this).attr('href');
+
+            jQuery.ajax(
+                urlmail,
+                {
+                    method: 'POST',
+                    dataType: 'json',
+                    data : {
+                        '_token' : jQuery('#_token').val(),
+                        'title' : jQuery('#nomefrom').val(),
+                        'mailfrom' : jQuery('#indirizzofrom').val(),
+                        'content' : jQuery('#testofrom').val()
+                    },
+                    complete : function (resp) {
+                        console.log(resp.responseText);
+                        if(resp.responseText == 1){
+                            jQuery('#consensofooter').prop('checked', false);
+                            jQuery('#mess').fadeIn(2000);
+                            jQuery('#mess').html("Messaggio inviato");
+                            jQuery('#mess').fadeOut(4000);
+                            jQuery('#testofrom').val("").attr("required", false);
+                            jQuery('#indirizzofrom').val("").attr("required", false);
+                            jQuery('#nomefrom').val("").attr("required", false);
+                        } else {
+                            var cc = JSON.parse(resp.responseText);
+                            if(cc.errors.content){
+                                jQuery('#mess').html(cc.errors.content + " <br> messaggio non inviato");
+                            }
+                            if(cc.errors.mailfrom){
+                                jQuery('#mess').html(cc.errors.mailfrom + " <br> messaggio non inviato");
+                            }
+                            jQuery('#mess').css("height", 80);
+                            jQuery('#mess').fadeIn(2000);
+                            jQuery('#mess').fadeOut(3000);
+                        }
+                    }
+                }
+            )
+        });
+    });
+
+    var windowWidth = jQuery(window).width();
+    if (windowWidth < 650)
+    {
+        jQuery('#infofooter').css('margin-left',2);
+    }
+</script>
+
+<script>
+
+    $("#consensofooter").change(function() {
+        if(this.checked) {
+            $("#inviamail").removeClass('not-active');
+        }else{
+            $("#inviamail").addClass('not-active');
+        }
+    });
+
+</script>

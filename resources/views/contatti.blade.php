@@ -64,7 +64,7 @@
                                         </div>
                                         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-offset-0 vc_col-lg-4 vc_col-md-offset-0 vc_col-md-6 vc_col-sm-offset-0">
                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper ombra" style=" padding-left: 10px; background-color: #0777BB">
+                                                <div class="wpb_wrapper ombra" style=" padding-left: 10px; background-color: #0777BB; border-radius: 5px">
                                                     <div class="wpb_text_column wpb_content_element ">
                                                         <div class="wpb_wrapper">
                                                             <h5>
@@ -154,4 +154,5 @@
 
         </div> <!-- close div.content_inner -->
     </div>
+
     @stop

@@ -15,7 +15,7 @@
                             <div class="mkdf-price-table mkdf-item-space " >
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
-                                        <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                        <li class="mkdf-pt-title-holder">
                                             <span class="mkdf-pt-title">Soluzione nr.2</span>
                                         </li>
                                         <li class="mkdf-pt-content-bottom">

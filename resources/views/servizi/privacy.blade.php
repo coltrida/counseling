@@ -15,7 +15,7 @@
                             <div class="mkdf-price-table mkdf-item-space " >
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
-                                        <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                        <li class="mkdf-pt-title-holder">
                                             <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">
                                                 Privacy
                                             </span>
@@ -41,7 +41,7 @@
                                                         <li style="text-align: center!important; font-size: 28px">
                                                             <a href="{{route('news')}}">Rassegna stampa e News</a>
                                                         </li>
-                                                        @if(isset(Auth::user()->name) && Auth::user()->surname=='Coltrioli')
+                                                        @if(isset(Auth::user()->name) && Auth::user()->surname=='Corsetti')
                                                             <li style="text-align: center!important; font-size: 28px">
                                                                 <a href="{{route('inseriscinews')}}">inserisci News</a>
                                                             </li>

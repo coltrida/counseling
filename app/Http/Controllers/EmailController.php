@@ -113,6 +113,112 @@ class EmailController extends Controller
         //return Redirect::to(URL::previous() . "#cont");
     }
 
+    public function questcorsetti(Request $req){
+    // dd($req);
+    $ldate = date('d-m-Y');
+    $consenso= "Ho letto l'Informativa sulla Privacy e acconsento al trattamento dei dati personali. Consenso ottenuto in data ".$ldate;
+    $cliente = $req->input('cliente');
+    $indirizzo = $req->input('indirizzo');
+    $mail = $req->input('mail');
+    $pec = $req->input('pec');
+    $telefono = $req->input('telefono');
+    $fax = $req->input('fax');
+    $cell = $req->input('cell');
+    $riferimento = $req->input('riferimento');
+    $rifmail = $req->input('rifmail');
+    $riftel = $req->input('riftel');
+
+    $pdf = App::make('dompdf.wrapper');
+    $pdf->loadView('mails.allegatocorsetti',
+        [
+            'consenso' => $consenso,
+            'cliente' => $cliente,
+            'indirizzo' => $indirizzo,
+            'mail' => $mail,
+            'pec' => $pec,
+            'telefono' => $telefono,
+            'fax' => $fax,
+            'cell' => $cell,
+            'rifmail' => $rifmail,
+            'riftel' => $riftel,
+            'riferimento' => $riferimento
+        ])->save("questCorsetti/$cliente.pdf");
+
+    Mail::send('mails.questmailcorsetti',
+        [
+            'consenso' => $consenso,
+            'cliente' => $cliente,
+            'indirizzo' => $indirizzo,
+            'mail' => $mail,
+            'pec' => $pec,
+            'telefono' => $telefono,
+            'fax' => $fax,
+            'cell' => $cell,
+            'rifmail' => $rifmail,
+            'riftel' => $riftel,
+            'riferimento' => $riferimento
+        ], function ($message) use ($cliente)
+        {
+            $subject = "AGGIORNAMENTO ANAGRAFICHE STUDIO PER FATTURAZIONE ELETTRONICA";
+            $message->from('info@counselingsrl.eu', "Counselingsrl");
+            /*$message->to('info@counselingsrl.eu');*/
+            $message->to('ale.corsetti@gmail.com');
+            $message->subject($subject);
+            $message->attach("questCorsetti/$cliente.pdf");
+        });
+
+    //return response()->json(['message' => 'Request completed']);
+    return 1;
+    //return Redirect::to(URL::previous() . "#cont");
+}
+
+    public function questfattura(Request $req){
+        // dd($req);
+        $ldate = date('d-m-Y');
+        $consenso= "Ho letto l'Informativa sulla Privacy e acconsento al trattamento dei dati personali. Consenso ottenuto in data ".$ldate;
+        $azienda = $req->input('azienda');
+        $mail = $req->input('mail');
+        $fattive = $req->input('fattive');
+        $fpassive = $req->input('fpassive');
+        $software = $req->input('software');
+        $outsourcing = $req->input('outsourcing');
+
+        $pdf = App::make('dompdf.wrapper');
+        $pdf->loadView('mails.allegatofattura',
+            [
+                'consenso' => $consenso,
+                'azienda' => $azienda,
+                'mail' => $mail,
+                'fattive' => $fattive,
+                'fpassive' => $fpassive,
+                'software' => $software,
+                'outsourcing' => $outsourcing
+            ])->save("questFatture/$azienda.pdf");
+
+        Mail::send('mails.questmailfattura',
+            [
+                'consenso' => $consenso,
+                'azienda' => $azienda,
+                'mail' => $mail,
+                'fattive' => $fattive,
+                'fpassive' => $fpassive,
+                'software' => $software,
+                'outsourcing' => $outsourcing
+            ], function ($message) use ($azienda)
+            {
+                $subject = "Questionario Fatturazione Elettronica";
+                $message->from('info@counselingsrl.eu', "Counselingsrl");
+                /*$message->to('info@counselingsrl.eu');*/
+                $message->to('ale.corsetti@gmail.com');
+                $message->subject($subject);
+                $message->attach("questFatture/$azienda.pdf");
+            });
+
+        //return response()->json(['message' => 'Request completed']);
+        return 1;
+        //return Redirect::to(URL::previous() . "#cont");
+    }
+
     public function sos(Request $req){
         //dd($req);
         $ldate = date('d-m-Y');

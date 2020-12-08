@@ -15,7 +15,7 @@
                             <div class="mkdf-price-table mkdf-item-space " >
                                 <div class="mkdf-pt-inner ombra">
                                     <ul>
-                                        <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                        <li class="mkdf-pt-title-holder">
                                             <span class="mkdf-pt-title" style="font-size: 35px; font-family: 'Microsoft Yi Baiti'!important;">
                                                 Informativa ai sensi dell’art. 13 del Regolamento europeo 679/2016 e consenso
                                             </span>
@@ -181,7 +181,7 @@
                                 <div class="mkdf-price-table mkdf-item-space " >
                                     <div class="mkdf-pt-inner ombra">
                                         <ul>
-                                            <li class="mkdf-pt-title-holder" style="background: #95B9E0;">
+                                            <li class="mkdf-pt-title-holder">
                                             <span class="mkdf-pt-title" style="font-size: 35px; font-family: 'Microsoft Yi Baiti'!important;">
                                                 Informativa ex art. 13 Codice Privacy (D.lg. n. 196/03) per l’uso dei cookie
                                             </span>

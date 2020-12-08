@@ -403,13 +403,13 @@
                                 <div class="mkdf-pt-wrapper mkdf-outer-space">
 
                                     <div class="mkdf-item-space wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
-                                        <div class="mkdf-pt-inner prova" style="background-color: #f3f2fc; border-radius: 25px;">
+                                        <div class="mkdf-pt-inner prova" style="background-color: #0177C1; border-radius: 25px;">
                                             <ul>
-                                                <p class="mkdf-pt-title-holder" style="background: #95B9E0; border-radius: 25px 25px 0 0;">
+                                                <p class="mkdf-pt-title-holder" style="border-radius: 25px 25px 0 0;">
                                                     <span class="mkdf-pt-title" style="font-size: 45px; font-family: 'Microsoft Yi Baiti'!important;">&nbsp;</span>
                                                 </p>
 
-                                                <ul style="color: black; font-size: 24px; text-align: center">
+                                                <ul style="color: white; font-size: 24px; text-align: center">
                                                     <p>
                                                         1 pagina = a partire da €200
                                                     </p>

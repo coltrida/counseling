@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use App\Http\Controllers\Controller;
+use function dd;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -54,6 +55,7 @@ class RegisterController extends Controller
             'ditta' => 'required|string|max:255',
             'piva' => 'required|string|max:11|unique:users',
             'email' => 'required|string|email|max:255|unique:users',
+            'logo' => 'mimes:jpg,jpeg,png,gif',
             'password' => 'required|string|min:6|confirmed',
         ]);
     }
@@ -66,12 +68,26 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $fileNamedb = '';
+        if($data->hasFile('logo')){
+            dd($data->file('cv'));
+            $file = $data->file('cv');
+            if(!$file->isValid()){
+                return false;
+            }
+            $fileName = $data['piva'].'.'.$file->extension();
+
+            $file->storeAs('loghi', $fileName);
+            $fileNamedb = 'loghi/'.$fileName;
+        }
+
         return User::create([
             'name' => $data['name'],
             'surname' => $data['surname'],
             'ditta' => $data['ditta'],
             'piva' => $data['piva'],
             'email' => $data['email'],
+            'logo' => $fileNamedb,
             'password' => Hash::make($data['password']),
         ]);
     }

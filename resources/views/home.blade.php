@@ -19,7 +19,7 @@
     <title>Counseling</title>
 
     <meta name="description" content="Counseling - Privacy dati e sicurezza ICT">
-    <meta name="keywords" content="GDPR Arezzo, GDPR consulenza Arezzo, Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati, Fattura Elettronica">
+    <meta name="keywords" content="GDPR Arezzo, GDPR consulenza Arezzo, Counseling, Counselingsrl, Counselingsrl.eu, GDPR, General Data Protection Regulation, Privacy, Arezzo, Toscana, Hardware, Software, Sicuerzza, ICT, Dati, Fattura Elettronica, Fattura Elettronica Arezzo">
 
     <link rel='dns-prefetch' href='//maps.googleapis.com'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
@@ -216,7 +216,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit1" style="font-size: 48px; font-family: 'Microsoft Yi Baiti'!important;">GDPR</span>
+                                                                        <span id="tit1" style="font-weight: 900; font-size: 52px; font-family: 'Microsoft Yi Baiti'!important;">GDPR</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 3 -->
@@ -270,7 +270,7 @@
                                                                          style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
                                                                         <a itemprop="url" href="{{route('gdpr')}}" target="_self"
                                                                            class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid ombra"
-                                                                           style="background-color: #95b9e0;
+                                                                           style="
                                                                             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                                                                                 ">
                                                                             <span class="mkdf-btn-text">Approfondisci</span>
@@ -348,7 +348,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit2" style="font-family: 'Microsoft Yi Baiti'!important; font-size: 48px">FATTURA ELETTRONICA</span>
+                                                                        <span id="tit2" style="font-weight: 900; font-family: 'Microsoft Yi Baiti'!important; font-size: 52px">FATTURA ELETTRONICA</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 8 -->
@@ -401,7 +401,7 @@
 
                                                                          style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
                                                                         <a itemprop="url" href="{{route('fatturazione')}}" target="_self"
-                                                                           class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="background-color: #95b9e0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                                                           class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                                                             <span class="mkdf-btn-text">Approfondisci</span>
                                                                         </a></div>
 
@@ -476,7 +476,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit2" style="font-family: 'Microsoft Yi Baiti'!important; font-size: 48px">FORMAZIONE</span>
+                                                                        <span id="tit4" style="font-weight: 900; font-family: 'Microsoft Yi Baiti'!important; font-size: 52px">FORMAZIONE</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 8 -->
@@ -529,7 +529,7 @@
 
                                                                          style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
                                                                         <a itemprop="url" href="{{route('formazione')}}" target="_self"
-                                                                           class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="background-color: #95b9e0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                                                           class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                                                             <span class="mkdf-btn-text">Approfondisci</span>
                                                                         </a></div>
 
@@ -604,7 +604,7 @@
                                                                          data-paddingleft="[0,0,0,0]"
 
                                                                          style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 110px; font-weight: 400; color: #0077c0; letter-spacing: 0px;font-family:Lustria;">
-                                                                        <span id="tit3" style="font-family: 'Microsoft Yi Baiti'!important; font-size: 48px">SOS Indebitati</span>
+                                                                        <span id="tit3" style="font-weight: 900; font-family: 'Microsoft Yi Baiti'!important; font-size: 52px">SOS Indebitati</span>
                                                                     </div>
 
                                                                     <!-- LAYER NR. 13 -->
@@ -657,7 +657,7 @@
 
                                                                          style="z-index: 8; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #000000; letter-spacing: 0px;">
                                                                         <a itemprop="url" href="{{route('equitalia')}}" target="_self"
-                                                                           class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="background-color: #95b9e0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                                                           class="cornice mkdf-btn mkdf-btn-medium mkdf-btn-solid" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                                                                             <span class="mkdf-btn-text">Approfondisci</span>
                                                                         </a></div>
 
@@ -940,7 +940,7 @@
                                     </div>
                                 </div>
                                 <div class="vc_row wpb_row vc_row-fluid call-us vc_custom_1522659030108 mkdf-content-aligment-center"
-                                     style="background-color:#95B9E0">
+                                     style="background-color:#0177C1">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner ">
                                             <div class="wpb_wrapper">
@@ -1446,6 +1446,7 @@
         jQuery('#conto').css('font-size',30);
         jQuery('#tit2').css('font-size',34);
         jQuery('#tit3').css('font-size',34);
+        jQuery('#tit4').css('font-size',34);
         jQuery('.mkdf-testimonial-title').css('font-size',24);
         jQuery('.mkdf-testimonial-author').css('font-size',14);
         jQuery('.mezzo1').css('font-size',30);

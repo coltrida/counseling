@@ -32,7 +32,7 @@ Route::view('/regulation', 'gdpr.regulation')->name('regulation');
 //Servizi
 Route::view('/privacy', 'servizi.privacy')->name('privacy');
 Route::view('/formazione', 'servizi.formazione')->name('formazione');
-Route::view('/fatturaElettronica', 'servizi.fatturazione')->name('fatturazione');
+
 Route::view('/temporary', 'servizi.temporary')->name('temporary');
 Route::post('/sos/send', 'EmailController@sos')->name('sendsos');
 Route::view('/web', 'servizi.siti')->name('web');
@@ -44,6 +44,23 @@ Route::view('/privacy/tabelle', 'privacy.tabelleprivacy')->name('tabelle');
 Route::get('/privacy/news', 'NotizieController@lista')->name('news');
 Route::view('/privacy/inseriscinews', 'privacy.inseriscinotizia')->name('inseriscinews');
 Route::post('/privacy/inseriscinews', 'NotizieController@salva')->name('insnews');
+
+//Fatturazione Elettronica
+Route::get('/fattura', 'FatturaController@index')->name('fatturazione');
+Route::get('/fattura/info', 'FatturaController@info')->name('fatturarazione.info');
+Route::get('/fattura/date', 'FatturaController@date')->name('fatturarazione.date');
+Route::get('/fattura/nostra', 'FatturaController@nostra')->name('fatturarazione.nostra');
+Route::get('/fattura/benefici', 'FatturaController@benefici')->name('fatturarazione.benefici');
+Route::get('/fattura/questionari/studiocorsetti', 'FatturaController@questionariostudiocorsetti');
+Route::post('/fattura/questionari/studiocorsetti/send', 'EmailController@questcorsetti')->name('sendquestcorsetti');
+Route::get('/fattura/questionari', 'FatturaController@questionario' )->name('fatturarazione.questionario');
+Route::post('/fattura/questionari/send', 'EmailController@questfattura')->name('fatturarazione.inviaquestionario');
+
+//Presite
+Route::get('/presite/dolcevita', 'PresiteController@dolcevita');
+
+
+
 
 // ---------------------------------- Informative ----------------------------------------------------
 
@@ -77,6 +94,24 @@ Route::get('/informative/saraceno', function ()
 /*-------------------------------DOLCEVITA----------------------------------*/
 Route::get('/informative/dolcevita', function ()
 { return response()->file('informative/dolcevita.pdf'); });
+/*-------------------------------ARKADIA----------------------------------*/
+Route::get('/informative/arkadia', function ()
+{ return response()->file('informative/arkadia.pdf'); });
+/*-------------------------------SOTTOLEMURA----------------------------------*/
+Route::get('/informative/sottolemura', function ()
+{ return response()->file('informative/sottolemura.pdf'); });
+/*-------------------------------BOSELLI----------------------------------*/
+Route::get('/informative/boselli', function ()
+{ return response()->file('informative/boselli.pdf'); });
+/*-------------------------------GIMAX----------------------------------*/
+Route::get('/informative/gimax', function ()
+{ return response()->file('informative/gimax.pdf'); });
+/*-------------------------------TCMONTEVARCHI----------------------------------*/
+Route::get('/informative/tcmontevarchi', function ()
+{ return response()->file('informative/tcmontevarchi.pdf'); });
+/*-------------------------------FOREVER GOLD----------------------------------*/
+Route::get('/informative/forevergold', function ()
+{ return response()->file('informative/forevergold.pdf'); });
 
 Auth::routes();
 

@@ -11,7 +11,7 @@
                 {{--<div class="card-header">{{ __('Register') }}</div>--}}
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
                         @csrf
 
                         <div class="form-group row" style="margin: 0">
@@ -103,6 +103,15 @@
 
                             <div class="vc_col-md-8">
                                 <input id="password-confirm" style="border-color:darkgray; border-radius: 5px; color: black; font-size: 20px" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row" style="margin: 0">
+                            <label for="logo" class="vc_col-sm-4 vc_col-form-label text-md-right" style="font-size: 30px">{{ __('LOGO') }}</label>
+
+                            <div class="vc_col-md-8">
+                                <input id="logo" style="border-color:darkgray; background-color: #1a4a72; border-radius: 5px; color: darkgray; font-size: 14px" type="file"  name="logo">
+
                             </div>
                         </div>
 
